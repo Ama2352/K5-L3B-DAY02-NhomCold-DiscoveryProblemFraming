@@ -158,7 +158,7 @@ Tôi đã xác nhận lựa chọn top 3, quy trình và số liệu từ trải
 | Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
-| Kiểm chứng / research | | |
+| Kiểm chứng / research | Tôi dùng AI hỗ trợ triển khai CP4 theo card #1 của Quyên: lập 6 giả định, chuẩn bị 10 câu hỏi về vụ đã xảy ra và research Tractable, Qapter, CCC qua 4 trang chính thức. Chưa phỏng vấn người thật. | Hoàn thiện mục 3 báo cáo nhóm và hướng dẫn phỏng vấn; phân biệt ước tính 20–40 phút với baseline đo thực tế; thu hẹp vào dự toán có người duyệt và chưa chốt Agent. |
 | Quy trình nhóm | | |
 | Problem Statement | | |
 | Mức can thiệp AI | | |
@@ -174,7 +174,7 @@ Tôi đã xác nhận lựa chọn top 3, quy trình và số liệu từ trải
 | CP2 Problem Card — chọn và cụ thể hóa top 3 | Tôi nhờ AI đề xuất top 3 từ danh sách đã có, hỗ trợ trình bày card và quy trình nháp để tôi xem xét lựa chọn. | AI giúp đưa mỗi vấn đề về actor, tình huống, các bước thực hiện, impact và cách đo; làm rõ ba hướng: tổng hợp tiến độ, phân công khối lượng và bàn giao công việc phụ thuộc. | Đề xuất top 3 chưa thay thế được việc tôi chọn theo trải nghiệm. Các bước trong quy trình nháp cũng chưa có thời gian đo riêng để chứng minh bước nào nghẽn nhất. | Tôi chọn #1, #2 và #5; chọn card #1 để pitch vì phạm vi một lần tổng hợp tiến độ gọn và có thể theo dõi thời gian, lượt hỏi lại. Tôi giữ bước nghẽn ở card #1–#2 dưới dạng cần kiểm tra, không tự thêm số phút cho các bước chưa đo. |
 | CP2 Problem Card — phản biện số đo và nguyên nhân | Tôi dùng AI rà lại cách diễn giải baseline, bottleneck và impact của ba card, rồi hoàn thiện bảng phản biện để nêu rõ từng điểm đã xử lý. | AI giúp phân biệt 20 phút tổng hợp với thời gian riêng của bước hỏi lại; 2 đầu việc chuyển người với 2 lần phân công lại; một ngày trễ bàn giao với một ngày giờ công bị mất. | Chỉ nhìn chênh lệch 6 giờ và 2 giờ dễ kết luận quá sớm rằng phân công không công bằng. Chỉ nhìn việc trễ hạn cũng không đủ để quy kết thành viên thiếu trách nhiệm. | Tôi dùng đúng đơn vị “đầu việc phải chuyển người vì quá tải” ở card #2, bổ sung độ khó và khả năng nhận việc khi đánh giá tải. Ở card #3, tôi ghi riêng độ trễ bàn giao lần đầu, số lượt bổ sung và thời điểm đủ đầu vào; không quy đổi thời gian chờ thành giờ công bị mất. |
 | CP2 Problem Card — kiểm tra có thật sự cần AI | Tôi dùng AI phản biện giả thuyết can thiệp, đối chiếu với cách sửa quy trình và dùng Rule trước khi cân nhắc Workflow hoặc Agent. | AI giúp chỉ ra các phương án có thể thử trước: mẫu cập nhật tiến độ, thống nhất công sức và khả năng nhận việc, tiêu chí bàn giao cùng hạn nội bộ. | Nêu được việc AI có thể hỗ trợ không có nghĩa đã chứng minh AI cần thiết. Hiện chưa có kết quả thử phương án No AI để kết luận nó không đủ. | Tôi ghi No AI là hướng xem xét trước ở cả ba card. Chỉ cân nhắc Workflow cho card #1 khi thông tin đã đủ nhưng tổng hợp vẫn tốn công; Rule có thể cảnh báo tải ở card #2 hoặc nhắc mốc ở card #3. Tôi giữ quyền xác nhận cho con người, không để AI tự giao việc hoặc chấm trách nhiệm. |
-| CP4 Research | Chưa ghi nhận sử dụng AI cho CP4 trong bản báo cáo hiện tại. | Chưa có kết quả research để ghi nhận. | Chưa có nguồn đã mở và kiểm tra; không dùng các gợi ý ở CP2 làm bằng chứng research. | Chưa bổ sung công cụ, đường dẫn hoặc kết luận nghiên cứu khi chưa thực hiện và kiểm nguồn. |
+| CP4 Research | Tôi yêu cầu AI đọc card #1 của Quyên, lập assumption map, mở nguồn chính thức của Tractable, Qapter, CCC và chuẩn bị câu hỏi phỏng vấn về quy trình giám định xe. | AI hỗ trợ kiểm tra 4 trang của 3 nhà cung cấp, gắn sản phẩm với từng bước; phát hiện hướng dẫn phỏng vấn cũ đang hỏi deadline và chuyển về đúng bài toán xe. | Research cũ kết luận chưa có bảng giá Việt Nam và dữ liệu giá là khoảng trống thật dù chưa đủ bằng chứng. Tài liệu quảng bá cũng không chứng minh hiệu quả trên hồ sơ của nhóm. | Bản cập nhật ghi độ phủ Việt Nam là chưa xác minh, 20–40 phút là ước tính cần đo; giữ số phỏng vấn thực tế là 0, tách thao tác khỏi chờ và ưu tiên thử checklist + bảng giá trước AI. |
 | CP5 Quy trình | Chưa ghi nhận sử dụng AI cho quy trình nhóm ở CP5. Việc hỗ trợ quy trình nháp cá nhân đã ghi riêng tại CP2. | Chưa có quy trình trước/sau của nhóm để đánh giá hỗ trợ của AI. | Quy trình nháp cá nhân chưa có thời gian từng bước; không thể coi đó là quy trình nhóm đã kiểm chứng. | Giữ rõ phạm vi của ba sơ đồ hiện có là CP2; chưa ghi nhận chúng như kết quả CP5. |
 | CP5–6 Problem Statement | Chưa ghi nhận sử dụng AI phản biện Problem Statement v0/v1 của nhóm. | Chưa có bản v0/v1 đã điền để phản biện. | Chưa thể đánh giá metric và boundary của Problem Statement khi nhóm chưa ghi nội dung. | Chưa chuyển các card cá nhân thành Problem Statement hoặc ghi nhận quyết định thay nhóm. |
 | CP6 Mức can thiệp / quyết định | Chưa ghi nhận sử dụng AI cho quyết định cuối của nhóm. Các so sánh mức can thiệp hiện có là giả thuyết ở CP2. | CP2 đã có phương án No AI và điều kiện cân nhắc Rule/Workflow để đưa ra thảo luận. | Chưa có kiểm chứng CP4 và đánh giá bốn rủi ro để làm căn cứ chốt mức can thiệp hoặc Go / Not Yet / No-Go. | Giữ các lựa chọn ở trạng thái sơ bộ; chưa ghi một quyết định cuối khi nhóm chưa chốt và chưa có căn cứ trong báo cáo. |
@@ -193,6 +193,8 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Điểm đáng chú ý từ research CP4 là đã có sản phẩm hỗ trợ đánh giá hư hỏng và tạo dự toán từ ảnh. Cảm nhận “Agent” trong card ban đầu vì thế chưa đủ làm căn cứ chọn giải pháp. Tôi rút ra rằng cần xác định bước thực sự tốn thời gian, công cụ đang dùng và quyền tiếp cận ảnh, mã phụ tùng cùng nguồn giá trước. Bản cập nhật sửa nhận định “chưa phủ Việt Nam” thành “chưa xác minh”: không thấy thông tin trên trang sản phẩm không chứng minh thị trường chưa được hỗ trợ. Hiện chưa có phỏng vấn nên tôi chưa kết luận nhu cầu hoặc mức giảm thời gian đã được kiểm chứng. Bước tiếp theo là hỏi về vụ gần nhất và đo từng bước trên hồ sơ được phép dùng.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
@@ -203,4 +205,6 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- [Problem Card #1 — Nguyễn Thảo Quyên](2A202603895_NguyenThaoQuyen.md).
+- [CP4 trong báo cáo nhóm](../team/group_report.md) và [hướng dẫn phỏng vấn](../assets/cp4-interview-guide.md).
+- [Tractable](https://tractable.ai/), [Qapter Intelligent Estimating](https://www.claims.solera.com/products/intelligent-estimating/), [Qapter Technology](https://www.qapter.com/technology/), [CCC Data + AI](https://www.cccis.com/our-technology/ai) — AI hỗ trợ mở và kiểm ngày 09/11/2026; chưa phải kết quả thử độc lập.

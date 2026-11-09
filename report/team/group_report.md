@@ -2,14 +2,16 @@
 
 > Bản chung của nhóm NhomCold.
 >
+> **Phạm vi cập nhật 09/11/2026:** CP4 đã chuyển sang Problem Card #1 của Nguyễn Thảo Quyên về giám định xe. CP3 và CP5–CP6 bên dưới còn là bản đề tài deadline cũ, chưa phải kết quả của bài toán xe. Research CP4 đã thực hiện; phỏng vấn người thật chưa thực hiện.
+>
 > ⚠️ **Trước khi nộp:** (1) các dòng pitch của thành viên khác do chính họ điền; (2) mục 3.2 chỉ điền dữ liệu từ người thật đã hỏi — bịa phỏng vấn/survey thì C7 = 0 cả nhóm; (3) thay mọi `[ĐO THẬT]` / `___` bằng số thật. Xóa khối ghi chú này khi xong.
 
 ## 1. Thông tin nhóm
 
 - Tên nhóm: NhomCold
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): Học viên K5 mất ~20 phút mỗi ngày lướt LMS, Discord/Zalo, email và README để biết chắc còn bài nào phải nộp và hạn lúc nào, vì thông báo đổi hạn/đổi yêu cầu nằm rải rác và trôi trong chat.
-- Quyết định cuối: **Go — phạm vi No AI + Rule** (bước AI đọc chat: Not Yet)
+- Candidate problem triển khai CP4: Nhân viên giám định/bồi thường bảo hiểm ô tô cần xác định hư hỏng nhìn thấy, đối chiếu phụ tùng và nguồn giá để lập dự toán ban đầu có thể kiểm tra. Mức 20–40 phút/vụ là ước tính chưa đo; nguyên nhân và bottleneck cần kiểm chứng (Problem Card #1 — [2A202603895_NguyenThaoQuyen.md](../individual/2A202603895_NguyenThaoQuyen.md)).
+- Quyết định cuối cho bài toán xe: **Chưa chốt CP6**. CP4 đề xuất **Not Yet cho thử AI trên hồ sơ thật**, chờ kiểm chứng dữ liệu, thời gian và quyền sử dụng.
 
 ---
 
@@ -83,62 +85,82 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 
+**Bài toán:** Problem Card #1 — Xác định hư hỏng và ước lượng chi phí sửa chữa của [Nguyễn Thảo Quyên](../individual/2A202603895_NguyenThaoQuyen.md). **Người tổng hợp:** Mai Danh Hiếu — 2A202603948. **Ngày research:** 09/11/2026.
+
+**Trạng thái bằng chứng:** đã đọc card và research 3 nhà cung cấp qua 4 trang chính thức; chưa có biên bản phỏng vấn, survey hoặc hồ sơ thực tế được cung cấp. Mức 20–40 phút/vụ là ước tính trong card, chưa phải baseline đã đo. Card dùng con số này cho cả bước 3–5 và sơ đồ toàn quy trình nên cần làm rõ phạm vi. Khoảng 5–7 ngày ở CP1 là thời gian toàn hồ sơ, không được dùng thay thời gian thao tác giám định ban đầu.
+
 ### 3.1. Assumption Map
 
-| # | Giả định | Loại | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
-|---:|---|---|---:|---:|---|
-| 1 | Học viên khác cũng mất ≥ 10 phút/ngày để kiểm tra deadline | Value | 5 | 2 | ✅ |
-| 2 | Có thông báo đổi hạn/yêu cầu **chỉ** xuất hiện trong chat, không có trên LMS | Value | 5 | 1 | ✅ |
-| 3 | Đã từng có học viên nộp trễ/sót vì không biết hạn đúng | Value | 4 | 2 | ✅ |
-| 4 | LMS của khóa cho phép export/đăng ký lịch (iCal) | Feasibility | 4 | 2 | ✅ (research) |
-| 5 | Coach sẵn sàng đăng thông báo theo mẫu cố định ở 1 kênh | Viability | 4 | 1 | ✅ (hỏi coach) |
-| 6 | Học viên chịu mở Google Calendar thay vì hỏi bạn | Usability | 3 | 2 | — |
+Thang điểm: quan trọng 5 = nếu sai phải đổi hướng; bằng chứng 1 = chưa có dữ liệu trực tiếp, 2 = có nguồn gián tiếp, 3 = có dữ liệu trực tiếp nhỏ, 4–5 = đã kiểm tra lặp lại. Điểm là đánh giá sơ bộ phục vụ ưu tiên, không phải kết quả đo.
 
-Giả định nhóm kiểm chứng trong buổi này: #2 (có deadline chỉ nằm trong chat không) — nếu sai, chỉ cần đăng ký lịch LMS là xong, không cần gì thêm.
+| # | Giả định cần kiểm chứng | Loại | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+|---:|---|---|---:|---:|---|
+| A1 | Bước xác định hư hỏng, đối chiếu phụ tùng và tra giá thực sự chiếm phần lớn thời gian thao tác ban đầu; 20–40 phút là mức thường gặp. | Value | 5 | 1 | Ưu tiên 1: hỏi 2 giám định viên và ghi giờ từng bước trên 5 hồ sơ được phép dùng. |
+| A2 | Chuẩn hóa danh mục, nguồn giá và biểu mẫu vẫn chưa đủ giảm công sức hoặc sai khác giữa người lập dự toán. | Value | 5 | 1 | Ưu tiên 1: xem cách làm hiện tại và thử checklist + bảng tính trên cùng 5 hồ sơ trước khi chọn AI. |
+| A3 | Có quyền dùng bộ ảnh, thông tin xe, kết quả giám định và giá phụ tùng/công còn hiệu lực để đối chiếu dự toán. | Feasibility | 5 | 1 | Ưu tiên 1: xin xác nhận quyền sử dụng và kiểm tra trường dữ liệu trên hồ sơ đã ẩn danh. |
+| A4 | Ảnh đầu vào đủ để hỗ trợ nhận diện hư hỏng nhìn thấy; trường hợp thiếu góc chụp hoặc nghi hư hỏng ẩn có thể chuyển giám định trực tiếp. | Feasibility | 5 | 2 | Ưu tiên 2: chuyên viên phân loại ảnh đủ/thiếu thông tin; research chỉ chứng minh có sản phẩm, chưa chứng minh độ chính xác trên dữ liệu nhóm. |
+| A5 | Giám định viên có thể kiểm tra nguồn, sửa hoặc từ chối từng dòng dự toán mà không mất thời gian hơn cách hiện tại. | Usability | 4 | 1 | Ưu tiên 2: quan sát 2 người xử lý bản nháp, đo cả thời gian sửa và lỗi còn sót. |
+| A6 | Đơn vị cho phép xử lý dữ liệu theo cách đề xuất, chấp nhận chi phí và chỉ dùng kết quả như dự toán có người duyệt. | Viability | 5 | 1 | Ưu tiên 1: hỏi người phụ trách dữ liệu/quản lý; chưa gửi ảnh hồ sơ cho dịch vụ ngoài khi chưa được phép. |
+
+**Trọng tâm kiểm chứng:** A1–A3 và A6. Nếu phần chờ bổ sung hồ sơ/phê duyệt mới gây chậm, cần đổi bottleneck; nếu checklist và bảng giá đã đủ thì không có căn cứ tăng mức can thiệp lên AI. A4–A5 chỉ thử tiếp khi có dữ liệu và quyền dùng.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn `[2–3 bạn học nhóm khác]` + đếm log Discord lớp `[+ survey nếu có]`. Câu hỏi theo The Mom Test: [cp4-interview-guide.md](../assets/cp4-interview-guide.md).
+**Cách đã thực hiện:** rà soát tài liệu nội bộ và nghiên cứu tài liệu sản phẩm công khai. **Phỏng vấn thực tế: chưa thực hiện trong phạm vi dữ liệu hiện có; số người đã hỏi được ghi nhận: 0.** Không coi tài liệu nhà cung cấp là phỏng vấn người dùng.
 
-Interview snapshot #1 (thêm bảng cho mỗi người):
+**Đối tượng và cách kiểm chứng tiếp theo:** 2 giám định viên/nhân viên bồi thường đã xử lý hồ sơ ô tô và 1 người lập báo giá tại garage, ngoài nhóm; phỏng vấn 10–15 phút/người về vụ gần nhất. Xem 5 hồ sơ đã ẩn danh nếu được cho phép. Hướng dẫn và biểu mẫu ghi nhận: [cp4-interview-guide.md](../assets/cp4-interview-guide.md).
+
+**Snapshot — trạng thái thu thập hiện tại:**
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | `[ví dụ: học viên L3B, nhóm khác, đi làm full-time]` |
-| Câu nói đáng nhớ nhất (nguyên văn) | `[nguyên văn]` |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Chưa có người được phỏng vấn; đối tượng dự kiến là giám định viên, nhân viên bồi thường và người lập báo giá garage. |
+| Khi nào, hỏi bằng cách nào | Chưa có buổi phỏng vấn được ghi nhận; nghiên cứu tài liệu được thực hiện ngày 09/11/2026. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Chưa có lời nói nguyên văn từ người thật. |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Chưa có hồ sơ cụ thể; card chỉ mô tả tình huống tiếp nhận ảnh xe tai nạn và lập dự toán. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Card đề xuất checklist, danh mục và bảng giá chuẩn hóa; chưa xác nhận đây là cách đang được người dùng thực hiện. |
+| Mất bao lâu, bao lần? | 20–40 phút/vụ là ước tính của card; chưa có tần suất hoặc log tách từng bước và thời gian chờ. |
+| Insight / opportunity rút ra | Cần xác định bước nghẽn thực tế trước khi chọn mô hình; dữ liệu giá và quyền sử dụng hồ sơ là các điều kiện phải kiểm tra, chưa phải nguyên nhân đã chứng minh. |
 
-Đếm log (bằng chứng hành vi, không phải ý kiến):
+**Tổng hợp bằng chứng:**
 
-| Chỉ số | Cách đếm | Kết quả |
-|---|---|---|
-| Số thông báo về hạn/cách nộp trong 2 tuần | Tìm trên Discord lớp các từ "deadline", "hạn", "gia hạn", "nộp" | ___ |
-| Trong đó, số thông báo **không** có trên LMS | Đối chiếu từng cái với LMS | ___ |
-| Số câu hỏi lại của học viên về hạn/cách nộp | Đếm các tin hỏi trùng | ___ |
+| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác / giới hạn |
+|---|---|---|---|
+| Problem Card #1 của Quyên | 1 card; không tính là mẫu phỏng vấn | Có actor, chuỗi 7 bước và ước tính 20–40 phút để đặt giả định kiểm chứng. | Chưa có nguồn đo; phạm vi số phút chưa nhất quán; cảm nhận “Agent” chưa được so sánh với cách đơn giản hơn. |
+| Research chính thức tại mục 3.3 | 3 nhà cung cấp / 4 trang | Có sản phẩm hỗ trợ đánh giá hư hỏng và lập dự toán từ ảnh. | Phản bác giả định phải tự xây toàn bộ; chưa chứng minh hiệu quả, độ phủ giá hoặc quyền truy cập tại đơn vị ở Việt Nam. |
+| Phỏng vấn / survey / hồ sơ đã ẩn danh | 0 người / 0 hồ sơ đã thu thập | Chưa có tín hiệu trực tiếp xác nhận nhu cầu hoặc baseline. | Chưa có phản bác từ người dùng; không thay bằng một câu trả lời giả định. |
 
-Tổng hợp:
+**Tiêu chí kiểm chứng được đặt trước, chưa phải kết quả:**
 
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
-|---|---:|---|---|
-| Phỏng vấn | ___ | | `[bắt buộc ghi ít nhất 1 tín hiệu phản bác, ví dụ: "mình chỉ xem LMS là đủ"]` |
-| Log Discord | ___ tin | | |
+- Xác nhận sơ bộ A1 nếu ít nhất 2/3 người kể được vụ cụ thể có khó khăn tại bước 3–5 và log cho thấy đây là cụm bước chiếm nhiều thời gian thao tác nhất. Với mẫu nhỏ chỉ dùng để định hướng, không suy rộng toàn ngành.
+- Bác bỏ hoặc thu hẹp A1 nếu phần lớn chậm trễ nằm ở chờ hồ sơ, chờ garage hoặc phê duyệt. Tách thời gian thao tác khỏi thời gian từ tiếp nhận đến phản hồi.
+- Thử checklist + bảng giá + công thức trước: nếu giảm ít nhất 30% trung vị thời gian thao tác trên 5 hồ sơ, không tăng lỗi sau người duyệt, ưu tiên tiếp tục No AI/Rule. Đây là ngưỡng thử nghiệm đề xuất.
+- Nếu chưa được phép dùng hồ sơ hoặc không đối chiếu được mã phụ tùng/nguồn giá/ngày hiệu lực, dừng thử AI trên hồ sơ thật và bổ sung điều kiện dữ liệu.
+- Không kết luận độ chính xác hoặc mức giảm chi phí khi chưa có tập đối chiếu và kết quả thực nghiệm.
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** `[điền theo kết quả thật. Ví dụ hướng: nếu đa số deadline đã có trên LMS → thu hẹp problem thành "thông báo ĐỔI hạn/yêu cầu trong chat không được cập nhật vào nguồn chính"]`
+**Điều chỉnh problem sau research — chưa phải sau phỏng vấn:**
+
+> Khi tiếp nhận ảnh xe tai nạn và thông tin xe để đánh giá ban đầu, nhân viên giám định/bồi thường cần xác định các bộ phận hư hỏng nhìn thấy, đối chiếu phụ tùng và nguồn giá còn hiệu lực để lập dự toán có thể kiểm tra trước khi chuyển người có thẩm quyền xác nhận. Nhóm cần đo riêng bước nhận diện, tra mã, tra giá và tổng hợp để xác định bottleneck, thay vì mặc định toàn bộ bước 3–5 đều nghẽn hoặc mặc định cần Agent.
+
+Phạm vi ban đầu giới hạn ở dự toán hỗ trợ đối với hư hỏng nhìn thấy. Không suy luận “không hư hỏng” từ ảnh không đủ, không tự quyết sửa/thay khi thiếu cơ sở và không đồng nhất chi phí sửa chữa dự kiến với số tiền được duyệt bồi thường. Thiếu dữ liệu thì yêu cầu bổ sung hoặc chuyển chuyên viên.
 
 ### 3.3. Research giải pháp đã có
 
-*(Mọi link dưới đây đã được mở và kiểm nội dung ngày 09/11/2026.)*
+Các trang dưới đây được AI hỗ trợ mở và kiểm nội dung ngày **09/11/2026**. Đây là mô tả của nhà cung cấp, không phải benchmark độc lập hoặc kết quả thử của nhóm. Cột khoảng trống và bài học là đánh giá của nhóm từ phạm vi thông tin đọc được.
 
-| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
+| Công cụ / case / pattern | Link chính thức | Giải bước nào trong quy trình? | Điểm mạnh được nguồn mô tả | Khoảng trống / rủi ro cần kiểm chứng | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| Moodle — Calendar export (đăng ký lịch LMS vào Google Calendar/Outlook qua URL) | https://docs.moodle.org/en/Calendar_export | Bước 1 + 5: deadline chính thức tự vào lịch cá nhân | Không cần AI, có sẵn, tự đồng bộ khi đăng ký bằng URL | Docs ghi Google Calendar có thể mất "vài giờ" mới cập nhật; không bắt được thông báo chỉ có trong chat; cần kiểm LMS của khóa có bật tính năng này | **Rule có sẵn đã giải phần lớn deadline chính thức** — không nên tự xây |
-| Todoist — Quick Add (nhận diện ngày giờ từ ngôn ngữ tự nhiên) | https://www.todoist.com/help/articles/use-task-quick-add-in-todoist-va4Lhpzz | Bước 5: ghi deadline nhanh bằng câu tự nhiên ("tomorrow at 4 PM") | Giảm thời gian ghi chép thủ công | Người dùng vẫn phải tự đọc chat và tự gõ; không biết tin nào là thông báo | Phần "ghi" không phải bottleneck; bottleneck là "tìm" |
-| Google Calendar — sự kiện tự tạo từ Gmail | https://support.google.com/calendar/answer/6084018 | Pattern: trích sự kiện từ văn bản tự do thành lịch | Chứng minh pattern "trích sự kiện từ tin nhắn" đã có ở quy mô lớn | Chỉ hỗ trợ vé, đặt chỗ, xác nhận đăng ký — **không** áp dụng cho thông báo khóa học; mặc định tắt ở một số khu vực | Trích sự kiện tự động chỉ tin được khi định dạng ổn định → gợi ý chuẩn hóa mẫu thông báo trước |
+| Tractable — đánh giá hư hỏng bằng ảnh | [Tractable](https://tractable.ai/) | Bước 2–3: phân tích ảnh và đánh giá hư hỏng. | Có đánh giá kèm mức độ chắc chắn, xét chất lượng ảnh và khả năng quan sát; cung cấp API tích hợp. | Trang đã đọc chưa đủ xác nhận độ chính xác trên ảnh của nhóm, giá dịch vụ hoặc dữ liệu phụ tùng/công tại Việt Nam. | Bản nháp cần thể hiện trường hợp không chắc chắn; không tự xây mô hình chỉ vì đã có ý tưởng nhận diện ảnh. |
+| Solera — Qapter Intelligent Estimating | [Sản phẩm](https://www.claims.solera.com/products/intelligent-estimating/), [Công nghệ](https://www.qapter.com/technology/) | Bước 2–6: đánh giá ảnh, nhận diện hư hỏng và tạo dự toán theo từng dòng. | Có đề xuất phương pháp sửa chữa và phản hồi chất lượng ảnh để yêu cầu chụp lại. | Chưa xác nhận quyền truy cập, điều kiện tích hợp và độ phủ giá tại garage mục tiêu; không lấy tốc độ quảng bá làm target đã kiểm chứng. | Kiểm chất lượng ảnh phải đứng trước lập dự toán; nguồn giá và người duyệt cần kiểm tra riêng. |
+| CCC — Data + AI cho bảo hiểm và sửa chữa | [CCC Data + AI](https://www.cccis.com/our-technology/ai) | Bước 3 và 6: computer vision hỗ trợ đánh giá, điền trước dòng dự toán từ ảnh hư hỏng. | Hỗ trợ khởi tạo dự toán trong quy trình làm việc thay vì yêu cầu người dùng nhập lại toàn bộ. | Trang tổng quan chưa chứng minh phù hợp với dòng xe, nguồn giá, hệ thống hoặc chi phí của đơn vị mục tiêu. | Có thể thử bản nháp cho chuyên viên sửa; việc một hãng có Agent không chứng minh bài toán của nhóm cần Agent. |
+
+**Kết luận research:** đã có các sản phẩm hỗ trợ nhiều bước của chuỗi ảnh → đánh giá hư hỏng → dự toán. Chưa đủ căn cứ kết luận “không có sản phẩm phủ Việt Nam” hoặc “dữ liệu giá chắc chắn là bottleneck”. Trước khi xây mới, cần kiểm tra công cụ đơn vị đang dùng, dữ liệu được phép tiếp cận và hiệu quả của checklist + bảng giá + công thức. Nếu các bước cố định nhưng còn cần hiểu ảnh, Workflow có người duyệt là một giả thuyết để thử; chưa có căn cứ chọn Agent.
+
+**Kết luận CP4:** research hoàn thành; kiểm chứng trực tiếp chưa hoàn thành. Đề xuất **Not Yet cho thử nghiệm AI trên hồ sơ thật** cho đến khi A1, A3 và A6 được kiểm tra. Đây là kết luận tại CP4, chưa thay cho quyết định CP6 của nhóm.
 
 ---
+
+
 
 ## 4. Quy trình trước/sau (CP5)
 
@@ -330,6 +352,16 @@ Không bắt buộc với mức No AI/Rule. Ghi chú để giải thích boundar
 - Chưa xác minh LMS của khóa là Moodle hay nền tảng khác; nếu khác, cần tìm tính năng export lịch tương đương.
 
 ## 10. Tài liệu tham khảo
+
+Nguồn CP4 giám định xe, AI hỗ trợ mở và kiểm ngày 09/11/2026:
+
+- [Tractable](https://tractable.ai/).
+- [Solera Qapter Intelligent Estimating](https://www.claims.solera.com/products/intelligent-estimating/).
+- [Qapter Technology](https://www.qapter.com/technology/).
+- [CCC Data + AI](https://www.cccis.com/our-technology/ai).
+- [Card #1 của Nguyễn Thảo Quyên](../individual/2A202603895_NguyenThaoQuyen.md) và [kế hoạch phỏng vấn CP4](../assets/cp4-interview-guide.md).
+
+Nguồn của đề tài deadline cũ (CP3, CP5–CP6), chưa áp dụng cho CP4 mới:
 
 - Moodle Docs — Calendar export: https://docs.moodle.org/en/Calendar_export
 - Todoist Help — Use Task Quick Add: https://www.todoist.com/help/articles/use-task-quick-add-in-todoist-va4Lhpzz
