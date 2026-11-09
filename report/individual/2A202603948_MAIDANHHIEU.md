@@ -153,16 +153,16 @@ Tôi đã xác nhận lựa chọn top 3, quy trình và số liệu từ trải
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | Tôi trực tiếp thực hiện ba cuộc phỏng vấn với giám định viên, nhân viên bồi thường và nhân viên garage; cung cấp tài liệu để AI hỗ trợ tổng hợp CP4, kết hợp research Allstate, Vermont DFR và Tractable/Qapter/CCC. | Dùng ba phỏng vấn thực tế cùng nghiên cứu thứ cấp; ghi nhận tín hiệu phản bác từ PV02, phân biệt thao tác và chờ, điều chỉnh problem về dữ liệu đầu vào và dự toán có thể kiểm tra. Ngày, hình thức và địa bàn phỏng vấn chưa được bổ sung; chưa đo baseline. |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Chuẩn bị ba card về tổng hợp tiến độ, phân công khối lượng và bàn giao việc phụ thuộc; chọn card #1 để chuẩn bị pitch. | Ba candidate có trong mục 2.1 báo cáo nhóm; chưa bổ sung ghi nhận trình bày thực tế. |
+| Phản biện bài của bạn khác | Với bài toán giám định xe của Quyên, phần kiểm chứng tôi phụ trách tập trung đối chiếu giả định về bước nghẽn: nhận diện ảnh, tra mã/giá hay chờ duyệt. Đây là đóng góp phản biện qua bằng chứng CP4; chưa có ghi chép lời hỏi trực tiếp tại CP3. | PV02 cho thấy ca đủ dữ liệu có thể dùng checklist và bảng giá, còn thời gian chờ duyệt mới gây chậm. Tôi đưa tín hiệu này vào phần tổng hợp để nhóm phân loại hồ sơ và thử phương án đơn giản trước. |
+| Nhận phản biện | Ở CP2, AI chỉ ra rằng 20 phút tổng hợp chưa xác định được thời gian hỏi lại, và một ngày bàn giao trễ không đồng nghĩa mất một ngày lao động. Nguồn phản biện được ghi rõ là AI, chưa có nhật ký câu hỏi từ thành viên nhóm. | Tôi tiếp thu bằng cách tách thời gian thao tác/chờ, giữ đúng đơn vị đo và bổ sung điều kiện đầu ra đủ dùng. Cách sửa tập trung vào quy trình và căn cứ, tránh quy kết trách nhiệm cá nhân khi chưa rõ nguyên nhân. |
+| Gom cluster / cây OST | Đóng góp ba card cá nhân làm đầu vào; Sang phụ trách tổng hợp cluster và cây OST. | Các card của tôi được xếp vào cluster A và D. |
+| Chọn candidate problem | Sau khi nhóm chọn card #1 của Quyên, tôi thực hiện kiểm chứng và research theo bài toán giám định xe. | CP4 tập trung vào candidate chung thay vì tiếp tục đề tài teamwork cá nhân. |
+| Kiểm chứng / research | Tôi trực tiếp thực hiện ba cuộc phỏng vấn với giám định viên, nhân viên bồi thường và nhân viên garage; tổng hợp CP4, kết hợp research Allstate, Vermont DFR và Tractable/Qapter/CCC. | Dùng ba phỏng vấn thực tế cùng nghiên cứu thứ cấp; ghi nhận tín hiệu phản bác từ PV02, phân biệt thao tác và chờ, điều chỉnh problem về dữ liệu đầu vào và dự toán có thể kiểm tra. Phỏng vấn lúc 16h00 ngày 09/11/2026, hình thức trực tiếp. |
+| Quy trình nhóm | Cung cấp kết quả CP4 để đối chiếu quy trình; Duy phụ trách quy trình trước/sau. | Phỏng vấn cho thấy cần tách kiểm tra ảnh, tra mã/giá và thời gian chờ; chưa có log xác nhận thời gian từng bước. |
+| Problem Statement | Tổng hợp điều chỉnh problem ở CP4 về dự toán ban đầu có nguồn đối chiếu và trạng thái xác minh. Duy phụ trách v0, Quyên phụ trách v1. | Cung cấp căn cứ về ảnh thiếu, biến thể phụ tùng và hư hỏng khuất; không coi 20–40 phút là baseline đã đo. |
+| Mức can thiệp AI | Research công cụ có sẵn và tổng hợp tín hiệu cho thấy checklist, danh mục và bảng giá có thể đủ với một số ca. | CP4 đề xuất thử No AI/Rule trước; Workflow là giả thuyết để thử có điều kiện, chưa có căn cứ cần Agent. |
+| Quyết định | Ghi kết luận CP4 là Not Yet cho giải pháp AI tại đơn vị mục tiêu; cung cấp giới hạn bằng chứng cho quyết định chung do Quyên phụ trách. | Nhóm đã chốt Not Yet cho thử AI trên hồ sơ thật. Bước tiếp theo: đo 5 hồ sơ được phép dùng, thử checklist + bảng giá + công thức và xác nhận quyền dữ liệu. |
 
 ---
 
@@ -175,33 +175,44 @@ Tôi đã xác nhận lựa chọn top 3, quy trình và số liệu từ trải
 | CP2 Problem Card — phản biện số đo và nguyên nhân | Tôi dùng AI rà lại cách diễn giải baseline, bottleneck và impact của ba card, rồi hoàn thiện bảng phản biện để nêu rõ từng điểm đã xử lý. | AI giúp phân biệt 20 phút tổng hợp với thời gian riêng của bước hỏi lại; 2 đầu việc chuyển người với 2 lần phân công lại; một ngày trễ bàn giao với một ngày giờ công bị mất. | Chỉ nhìn chênh lệch 6 giờ và 2 giờ dễ kết luận quá sớm rằng phân công không công bằng. Chỉ nhìn việc trễ hạn cũng không đủ để quy kết thành viên thiếu trách nhiệm. | Tôi dùng đúng đơn vị “đầu việc phải chuyển người vì quá tải” ở card #2, bổ sung độ khó và khả năng nhận việc khi đánh giá tải. Ở card #3, tôi ghi riêng độ trễ bàn giao lần đầu, số lượt bổ sung và thời điểm đủ đầu vào; không quy đổi thời gian chờ thành giờ công bị mất. |
 | CP2 Problem Card — kiểm tra có thật sự cần AI | Tôi dùng AI phản biện giả thuyết can thiệp, đối chiếu với cách sửa quy trình và dùng Rule trước khi cân nhắc Workflow hoặc Agent. | AI giúp chỉ ra các phương án có thể thử trước: mẫu cập nhật tiến độ, thống nhất công sức và khả năng nhận việc, tiêu chí bàn giao cùng hạn nội bộ. | Nêu được việc AI có thể hỗ trợ không có nghĩa đã chứng minh AI cần thiết. Hiện chưa có kết quả thử phương án No AI để kết luận nó không đủ. | Tôi ghi No AI là hướng xem xét trước ở cả ba card. Chỉ cân nhắc Workflow cho card #1 khi thông tin đã đủ nhưng tổng hợp vẫn tốn công; Rule có thể cảnh báo tải ở card #2 hoặc nhắc mốc ở card #3. Tôi giữ quyền xác nhận cho con người, không để AI tự giao việc hoặc chấm trách nhiệm. |
 | CP4 Research | Tôi cung cấp tài liệu nghiên cứu và nhờ AI kiểm tra nguồn Allstate, Vermont DFR, rồi đồng bộ với research sản phẩm. | Xác nhận được quy trình ảnh, nhu cầu bổ sung dự toán và giới hạn dữ liệu quốc tế. | Bản đầu trộn kịch bản giả định với phần kiểm chứng; nhận định Travelers thiếu đường dẫn cụ thể. | Tôi dùng nguồn thứ cấp có thể kiểm tra, bỏ nhận định thiếu nguồn và không dùng số phút mô phỏng làm baseline. Giữ kết luận Not Yet cho giải pháp AI tại đơn vị mục tiêu. |
-| CP4 Tổng hợp phỏng vấn | Tôi cung cấp tài liệu ba cuộc phỏng vấn do chính tôi thực hiện và nhờ AI tổng hợp, đồng bộ báo cáo. | Tạo ba snapshot, đối chiếu sáu giả định và ghi nhận tín hiệu phản bác từ PV02. | Bản cập nhật trước còn để TEAM.md và báo cáo cá nhân ghi chưa phỏng vấn hoặc chỉ dùng nghiên cứu thứ cấp. | Tôi xác nhận mình là người trực tiếp phỏng vấn; đồng bộ nguồn và vai trò trong các tài liệu. AI hỗ trợ phân tích sau phỏng vấn; ngày/hình thức từng buổi và số đo thời gian chưa được tự bổ sung. |
+| CP4 Tổng hợp phỏng vấn | Tôi cung cấp tài liệu ba cuộc phỏng vấn do chính tôi thực hiện và nhờ AI tổng hợp, đồng bộ báo cáo. | Tạo ba snapshot, đối chiếu sáu giả định và ghi nhận tín hiệu phản bác từ PV02. | Bản cập nhật trước còn để TEAM.md và báo cáo cá nhân ghi chưa phỏng vấn hoặc chỉ dùng nghiên cứu thứ cấp. | Tôi xác nhận mình là người trực tiếp phỏng vấn; đồng bộ nguồn và vai trò trong các tài liệu; phân tích sau phỏng vấn. Tôi đã cung cấp thời gian 16h00 ngày 09/11/2026, hình thức trực tiếp để đồng bộ. |
 | CP4 Bản nháp phân tích | Trước khi có tài liệu nghiên cứu, tôi đã nhờ AI tạo ba kịch bản để thử cách phân tích. | Giúp xây cấu trúc snapshot và câu hỏi về từng bước. | Không phải dữ liệu thực tế, không chứng minh nhu cầu. | Bản CP4 hiện tại dùng ba cuộc phỏng vấn do tôi trực tiếp thực hiện và nghiên cứu thứ cấp; các kịch bản mô phỏng trước đây không dùng làm bằng chứng. |
-| CP5 Quy trình | Chưa ghi nhận sử dụng AI cho quy trình nhóm ở CP5. Việc hỗ trợ quy trình nháp cá nhân đã ghi riêng tại CP2. | Chưa có quy trình trước/sau của nhóm để đánh giá hỗ trợ của AI. | Quy trình nháp cá nhân chưa có thời gian từng bước; không thể coi đó là quy trình nhóm đã kiểm chứng. | Giữ rõ phạm vi của ba sơ đồ hiện có là CP2; chưa ghi nhận chúng như kết quả CP5. |
-| CP5–6 Problem Statement | Chưa ghi nhận sử dụng AI phản biện Problem Statement v0/v1 của nhóm. | Chưa có bản v0/v1 đã điền để phản biện. | Chưa thể đánh giá metric và boundary của Problem Statement khi nhóm chưa ghi nội dung. | Chưa chuyển các card cá nhân thành Problem Statement hoặc ghi nhận quyết định thay nhóm. |
-| CP6 Mức can thiệp / quyết định | Chưa ghi nhận sử dụng AI cho quyết định cuối của nhóm. Các so sánh mức can thiệp hiện có là giả thuyết ở CP2. | CP2 đã có phương án No AI và điều kiện cân nhắc Rule/Workflow để đưa ra thảo luận. | Đã có ba phỏng vấn và research ở CP4, nhưng chưa có baseline, thử nghiệm giải pháp và đánh giá bốn rủi ro cho bài toán xe để chốt CP6. | Giữ các lựa chọn ở trạng thái sơ bộ; chưa ghi một quyết định cuối khi nhóm chưa chốt và chưa có căn cứ trong báo cáo. |
+| CP5 Quy trình | Chưa ghi nhận tôi dùng AI riêng để xây quy trình nhóm; Duy phụ trách CP5. | Phần tổng hợp CP4 cung cấp căn cứ đối chiếu thao tác và thời gian chờ. | Nhật ký cũ ghi chưa có quy trình nhóm, không còn đúng. | Đồng bộ: nhóm đã có quy trình ở mục 4; thời gian vẫn là ước tính, chưa xác nhận bằng log hồ sơ. |
+| CP5–6 Problem Statement | Chưa ghi nhận tôi dùng AI riêng để phản biện v0/v1; Duy và Quyên phụ trách hai phiên bản. | CP4 hỗ trợ đối chiếu nguồn bằng chứng, phạm vi dự toán và giới hạn ảnh. | Nhật ký cũ ghi chưa có v0/v1, trong khi báo cáo nhóm đã có mục 5 và 7. | Phân biệt đóng góp kiểm chứng của tôi với phần viết của các bạn; giữ rõ baseline chưa đo và quyền dữ liệu chưa xác nhận. |
+| CP6 Mức can thiệp / quyết định | Tôi research và tổng hợp CP4, viết quyết định CP6. | CP4 cung cấp căn cứ thử checklist + bảng giá trước khi cân nhắc AI. | Nhật ký cũ ghi nhóm chưa đánh giá bốn rủi ro và chưa chốt. | Đồng bộ: nhóm đã đánh giá bốn rủi ro và chọn Not Yet cho thử AI trên hồ sơ thật; Workflow là hướng thử có điều kiện. |
+| CP7 Nhật ký và reflection | Tôi viết trực tiếp nhật ký và reflection dựa trên các đóng góp đã ghi trong tài liệu. | Liên kết phản biện, thay đổi cụ thể và bài học; đồng bộ nội dung với CP4 và quyết định Not Yet. | AI không có căn cứ xác nhận lời thoại hoặc trải nghiệm chưa được ghi nhận. | Giữ rõ nguồn phản biện CP2 là AI và phản bác CP4 là dữ liệu phỏng vấn; không gán lời hỏi cho thành viên nhóm. Nội dung CP7 là hoàn toàn tự viết. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Qua các card của Duy, Quyên và Sang trong tài liệu nhóm, bài học tôi rút ra là phải chỉ rõ người gặp vấn đề và bước công việc cần cải thiện. Chép đơn, tổng hợp ghi chú hay lập dự toán xe đều có nhiều bước; bước mất thời gian nhất chưa chắc là bước gây hậu quả lớn nhất. Khi nhìn lại ba card teamwork của mình, tôi thấy cần tách thiếu thông tin, khó tổng hợp và chờ bàn giao để chọn cách đo phù hợp. Tôi muốn làm tốt hơn việc ghi căn cứ ngay từ lúc mô tả vấn đề.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Trong tài liệu ban đầu có hướng Computer Vision và Agent cho bài toán giám định xe. Phần CP4 tôi phụ trách giúp kiểm tra lại hướng đó bằng hành vi thực tế và cách xử lý hiện có. PV02 cho thấy một ca đủ ảnh, báo giá và checklist có thể xử lý thuận lợi, còn chờ duyệt mới là điểm gây chậm. Vì vậy, hướng đề xuất ở CP4 là thử checklist, danh mục và bảng giá trước. Tôi rút ra rằng công cụ AI có chức năng phù hợp chưa đủ chứng minh cần sử dụng nó trong quy trình cụ thể.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Có, tôi đã điều chỉnh cách diễn giải số liệu sau phản biện của AI ở CP2. Ban đầu, việc bàn giao trễ khoảng một ngày dễ khiến cách trình bày nghiêng về kết luận người nhận mất cả ngày làm việc. Khi đối chiếu lại, tôi tách độ trễ bàn giao khỏi thời gian lao động và ghi thêm số lượt bổ sung, thời điểm đầu ra đủ dùng. Tương tự, chênh lệch 6 giờ và 2 giờ giữa hai thành viên cần được xem cùng độ khó và khả năng nhận việc. Tôi học được cách tiếp nhận góp ý bằng việc kiểm tra căn cứ và sửa cách đo, thay vì bảo vệ cách diễn đạt ban đầu. Khi phản biện, tôi muốn tập trung vào điều nhóm có thể cải thiện trong quy trình, đồng thời tôn trọng hoàn cảnh và đóng góp của từng người.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Từ nghiên cứu CP4, tôi nhận ra rằng cần tách vấn đề thiếu thông tin đầu vào với tốc độ nhận diện ảnh. Tôi dùng quy trình Allstate và báo cáo Vermont làm căn cứ bối cảnh, không dùng các kịch bản AI tạo làm kết quả phỏng vấn. Dữ liệu quốc tế giúp xác định điều cần hỏi, nhưng chưa chứng minh thời gian 20–40 phút hay nhu cầu tại Việt Nam. Vì vậy, bản CP4 giữ hướng kiểm tra checklist, bảng giá và đo từng bước trước khi chọn Workflow hoặc Agent. Tôi cũng bỏ nhận định dẫn Travelers chưa có nguồn cụ thể và giữ kết luận giải pháp chưa được kiểm chứng.
+Điều khiến tôi nhìn lại giả định ban đầu là trường hợp PV02: khi ảnh, báo giá và checklist đã đầy đủ, người xử lý không phải tra đi tra lại, nhưng hồ sơ vẫn chậm vì chờ chuyển duyệt. PV03 cũng cho thấy hư hỏng khuất cần kiểm tra trực tiếp, nên nhận diện ảnh không giải quyết được mọi bước. Khi tổng hợp, tôi giữ cả những ý phản bác hướng dùng AI để nhóm hiểu rõ điều kiện áp dụng. Nghiên cứu Allstate và Vermont bổ sung bối cảnh, còn ba cuộc phỏng vấn cung cấp lời kể thực tế; cả hai chưa thay thế được phép đo thời gian trên hồ sơ. Tôi nhận ra giá trị của kiểm chứng là giúp nhóm điều chỉnh hướng đi sớm. Vì vậy, tôi giữ đề xuất thử checklist và bảng giá trước, đồng thời ghi rõ những giả định còn cần đo.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Từ phần kiểm chứng tôi phụ trách, điểm cần chú ý nhất khi chuyển sang Problem Statement là giữ phạm vi vấn đề, bottleneck và metric nhất quán. Nếu đo thao tác lập dự toán thì không thể lấy toàn bộ thời gian chờ phê duyệt làm baseline. Nếu chỉ đánh giá hư hỏng nhìn thấy từ ảnh thì phải ghi rõ phần cần kiểm tra trực tiếp. Tôi đóng góp dữ liệu và điều chỉnh problem ở CP4, còn v0 và v1 do Duy và Quyên phụ trách. Tôi cần cung cấp căn cứ rõ hơn để các bạn phân biệt điều đã kiểm chứng với giả định còn phải đo.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ chuẩn bị mẫu ghi phỏng vấn và nhật ký phản biện ngay từ đầu, ghi rõ câu hỏi, căn cứ và thay đổi sau mỗi lần trao đổi. Nếu được phép tiếp cận hồ sơ, tôi sẽ đo riêng thời gian thao tác và chờ, rồi thử checklist cùng bảng giá trước khi bàn sâu về AI. Tôi sẽ phản biện cụ thể hơn về bằng chứng cho thấy phương án đơn giản chưa đủ và công sức rà sửa bản nháp. Cách góp ý tôi muốn áp dụng là ghi nhận điểm hợp lý của phương án, nêu phần chưa chắc và đề xuất một bước kiểm tra nhỏ để cả nhóm cùng đánh giá. Tôi cũng sẽ cập nhật báo cáo cá nhân sau từng checkpoint để thông tin thống nhất với bài nhóm và ghi nhận đúng đóng góp của các bạn.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Nhóm phân tích khó khăn của giám định viên khi lập dự toán sửa chữa ban đầu từ ảnh xe tai nạn, nhất là khi thiếu thông tin xe hoặc cần đối chiếu phụ tùng và nguồn giá. Quy trình gồm tiếp nhận và kiểm tra ảnh, xác định hư hỏng, tra mã và giá, tổng hợp dự toán rồi chuyển người có thẩm quyền duyệt. Nhóm dự kiến đo thời gian thao tác riêng với thời gian chờ, đồng thời theo dõi lỗi bỏ sót, báo thừa và sai lệch chi phí; baseline hiện chưa được đo trên hồ sơ. AI chỉ hỗ trợ phần hư hỏng nhìn thấy, không tự đặt giá, quyết định bồi thường hoặc thay thế kiểm tra trực tiếp đối với hư hỏng khuất. Giám định viên phải kiểm tra các đề xuất trước khi sử dụng kết quả. Nhóm ưu tiên thử No AI/Rule bằng checklist và bảng giá, chỉ cân nhắc Workflow có AI ở bước nhận diện khi phương án đơn giản chưa đủ và có dữ liệu được phép dùng. Quyết định hiện tại là Not Yet cho thử AI trên hồ sơ thật; bước tiếp theo là đo trên 5 hồ sơ được phép dùng, thử phương án đối chiếu và xác nhận quyền dữ liệu.
 
 ---
 
@@ -209,8 +220,7 @@ Từ nghiên cứu CP4, tôi nhận ra rằng cần tách vấn đề thiếu th
 
 - [Problem Card #1 — Nguyễn Thảo Quyên](2A202603895_NguyenThaoQuyen.md).
 - [CP4 trong báo cáo nhóm](../team/group_report.md).
-- [Ba cuộc phỏng vấn do tôi trực tiếp thực hiện](../team/group_report.md#cp4-phong-van-goc).
-- [Tractable](https://tractable.ai/), [Qapter Intelligent Estimating](https://www.claims.solera.com/products/intelligent-estimating/), [Qapter Technology](https://www.qapter.com/technology/), [CCC Data + AI](https://www.cccis.com/our-technology/ai) — AI hỗ trợ mở và kiểm ngày 09/11/2026; chưa phải kết quả thử độc lập.
+- [Tractable](https://tractable.ai/), [Qapter Intelligent Estimating](https://www.claims.solera.com/products/intelligent-estimating/), [Qapter Technology](https://www.qapter.com/technology/), [CCC Data + AI](https://www.cccis.com/our-technology/ai).
 
 - [Allstate — Using Photos with Auto Claims](https://www.allstate.com/claims/auto-motorcycle/photos).
 - [Vermont DFR — Báo cáo ngành bảo hiểm và sửa chữa ô tô 2025, trang 17–19](https://legislature.vermont.gov/Documents/2026/Workgroups/House%20Commerce/Reports%20and%20Resources/W~Department%20of%20Financial%20Regulation~Act%2032%20of%202023%20Section%2012a%20Report~12-30-2025.pdf).

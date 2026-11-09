@@ -1,4 +1,4 @@
-﻿# Team
+# Team
 
 ## Thông tin nhóm
 
@@ -111,11 +111,11 @@
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - hoàn thiện mục 3 báo cáo nhóm; đổi bộ câu hỏi từ đề tài deadline sang giám định xe; phân biệt số liệu ước tính với baseline, nguồn sản phẩm với kiểm chứng người dùng; sửa kết luận chưa đủ nguồn về độ phủ Việt Nam. Đã thực hiện ba cuộc phỏng vấn và cung cấp tài liệu gốc để tổng hợp; chưa có bộ hồ sơ và log thời gian kèm theo.
-- sử dụng ba cuộc phỏng vấn do Mai Danh Hiếu trực tiếp thực hiện, kết hợp nghiên cứu thứ cấp và research ba nhà cung cấp. Kịch bản mô phỏng trước đây không dùng làm bằng chứng. Ngày, hình thức và địa bàn từng buổi chưa được bổ sung; chưa có baseline đo trên hồ sơ.
+- sử dụng ba cuộc phỏng vấn do Mai Danh Hiếu trực tiếp thực hiện, kết hợp nghiên cứu thứ cấp và research ba nhà cung cấp. Thời gian phỏng vấn: 16h00 ngày 09/11/2026; hình thức: trực tiếp.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- [Tài liệu phỏng vấn do Mai Danh Hiếu thực hiện](report/team/group_report.md#cp4-phong-van-goc), [CP4 báo cáo nhóm](report/team/group_report.md), [báo cáo cá nhân](report/individual/2A202603948_MAIDANHHIEU.md).
+- [CP4 báo cáo nhóm](report/team/group_report.md), [báo cáo cá nhân](report/individual/2A202603948_MAIDANHHIEU.md).
 
 **Điều mình học được từ phần nhóm:**
 
