@@ -21,11 +21,11 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
 | 1 | Tốn thời gian | Khi khách inbox đồng ý mua, chủ shop muốn có ngay thông tin đơn (tên, SĐT, địa chỉ, sản phẩm, size) trong file quản lý, để tạo vận đơn mà không phải đọc lại cả cuộc chat | Chủ shop, khách | ~1 phút chép tay/đơn × 200 đơn/ngày |
-| 2 | Lặp lại | Khi nhiều khách hỏi cùng câu "giá bao nhiêu, còn size M không, ship bao lâu", chủ shop muốn trả lời nhanh mà vẫn đúng, để khách không bỏ đi | Chủ shop, khách | 40% tin nhắn là câu hỏi lặp lại ` |
+| 2 | Lặp lại | Khi nhiều khách hỏi cùng câu "giá bao nhiêu, còn size M không, ship bao lâu", chủ shop muốn trả lời nhanh mà vẫn đúng, để khách không bỏ đi | Chủ shop, khách | 40% tin nhắn là câu hỏi lặp lại  |
 | 3 | Pain từ người khác | Khi tôi nhắn hỏi mua hàng qua Facebook, tôi muốn được trả lời trong vài phút, để quyết định mua luôn thay vì sang shop khác | Người mua (chính tôi) | Lần gần nhất tôi chờ 3 giờ mới được trả lời và đã mua chỗ khác |
 | 4 | Cần đọc, tổng hợp nhiều thông tin | Khi bán cùng lúc trên Facebook, Zalo và Shopee, chủ shop muốn biết tổng số đơn và tồn kho thật, để không bán quá số hàng đang có | Chủ shop | 20 lần/tháng phải xin lỗi khách vì hết hàng sau khi đã chốt |
-| 5 | Pain từ người khác | Khi giao hàng thất bại vì sai SĐT/địa chỉ, chủ shop muốn biết sớm trước khi gửi, để không mất phí ship 2 chiều | Chủ shop, đơn vị vận chuyển | 14 đơn hoàn/tháng do sai thông tin ; mỗi đơn hoàn mất phí ship chiều về |
-| 6 | Lặp lại | Khi có sản phẩm mới, chủ shop muốn đăng lên nhiều kênh với mô tả phù hợp từng nơi, để không mất cả buổi tối đăng bài | Chủ shop | ~20 phút/sản phẩm × 5 kênh |
+| 5 | Pain từ người khác | Khi giao hàng thất bại vì sai SĐT/địa chỉ, chủ shop muốn biết sớm trước khi gửi, để không mất phí ship 2 chiều | Chủ shop, đơn vị vận chuyển | 8 đơn hoàn/tháng do sai thông tin ; mỗi đơn hoàn mất phí ship chiều về |
+| 6 | Lặp lại | Khi có sản phẩm mới, chủ shop muốn đăng lên nhiều kênh với mô tả phù hợp từng nơi, để không mất cả buổi tối đăng bài | Chủ shop | ~18 phút/sản phẩm × 5 kênh |
 | 7 | Tốn thời gian | Khi cuối ngày đối soát, chủ shop muốn khớp tiền COD về với danh sách đơn, để biết đơn nào chưa thu tiền | Chủ shop | ~30 phút/ngày |
 | 8 | Pain từ người khác | Khi nhận đánh giá 1–2 sao trên sàn, chủ shop muốn phản hồi sớm, để không ảnh hưởng điểm shop | Chủ shop, khách | 10 đánh giá xấu/tháng |
 
@@ -48,12 +48,12 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Trường | Nội dung |
 |---|---|
 | Job Story | Khi khách inbox đồng ý mua, chủ shop muốn có ngay thông tin đơn đầy đủ và đúng trong file quản lý, để tạo vận đơn mà không phải đọc lại cả cuộc chat |
-| Actor | Chủ shop nhỏ (1–3 người), bán thời trang/mỹ phẩm qua Facebook Page và Zalo, ~20–50 tin nhắn/ngày `[xác nhận khi phỏng vấn]` |
+| Actor | Chủ shop nhỏ (1–3 người), bán thời trang/mỹ phẩm qua Facebook Page và Zalo, ~20–50 tin nhắn/ngày |
 | Thời điểm / bối cảnh | Buổi tối (giờ khách nhắn nhiều nhất) và sau mỗi buổi livestream |
 | Quy trình hiện tại (3–7 bước) | 1. Mở inbox, lọc tin chưa đọc · 2. Trả lời câu hỏi giá/size/ship · 3. Kiểm tồn kho trong Sheet · 4. Xin tên, SĐT, địa chỉ · 5. Chép thông tin đơn sang Sheet/phần mềm vận chuyển · 6. Tạo vận đơn, gửi mã cho khách |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5: đọc lại đoạn chat, chép từng trường sang Sheet, ~1 phút/đơn, dễ chép sai SĐT/địa chỉ `[ĐO THẬT]` |
-| Impact (nếu không giải thì sao) | ~___ phút/ngày; ___ đơn hoàn/tháng do sai thông tin (mất phí ship 2 chiều) |
-| Success metric (baseline → target) | Thời gian từ "khách đồng ý mua" đến "đơn có trong Sheet": ~1 phút → ≤ 20 giây/đơn; đơn hoàn do sai thông tin: ___ → 0 |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5: đọc lại đoạn chat, chép từng trường sang Sheet, ~1 phút/đơn, dễ chép sai SĐT/địa chỉ |
+| Impact (nếu không giải thì sao) | ~200 phút/ngày; 8 đơn hoàn/tháng do sai thông tin (mất phí ship 2 chiều) |
+| Success metric (baseline → target) | Thời gian từ "khách đồng ý mua" đến "đơn có trong Sheet": ~1 phút → ≤ 20 giây/đơn; đơn hoàn do sai thông tin: 8 → 0 |
 | Phương án không dùng AI | Mẫu tin "xác nhận đơn" khách tự điền theo khuôn (Tên / SĐT / Địa chỉ / Sản phẩm / Size), hoặc gửi link Google Form |
 | Giả thuyết về AI (nếu có) | AI đọc đoạn chat tự do, trích các trường đơn hàng thành 1 dòng; chủ shop duyệt rồi mới lưu |
 | Cảm nhận nhanh | Rule hoặc Workflow |
@@ -77,8 +77,8 @@ HIỆN TẠI — 1 đơn, ~6 phút [ĐO THẬT]
 | Thời điểm / bối cảnh | Khi có món bán chạy hoặc sau livestream |
 | Quy trình hiện tại (3–7 bước) | 1. Chốt đơn trên kênh A · 2. Nhớ trừ kho trong Sheet · 3. Cập nhật số lượng trên Shopee · 4. Khi khách kênh B hỏi, kiểm lại Sheet |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2–3: cập nhật tay sau mỗi đơn (~2 phút), hay quên khi đông khách |
-| Impact (nếu không giải thì sao) | ___ lần/tháng hủy đơn vì hết hàng `[hỏi người bán]` |
-| Success metric (baseline → target) | Số đơn hủy vì hết hàng: ___ → 0/tháng |
+| Impact (nếu không giải thì sao) | 20 lần/tháng hủy đơn vì hết hàng |
+| Success metric (baseline → target) | Số đơn hủy vì hết hàng: 20 → 0/tháng |
 | Phương án không dùng AI | Phần mềm quản lý bán hàng đa kênh đồng bộ kho |
 | Giả thuyết về AI (nếu có) | Không cần — bài toán đúng/sai rõ |
 | Cảm nhận nhanh | Rule |
@@ -98,8 +98,8 @@ Quy trình nháp hiện tại:
 | Actor | Chủ shop |
 | Thời điểm / bối cảnh | Mỗi lần nhập hàng mới (~1–2 lần/tuần) |
 | Quy trình hiện tại (3–7 bước) | 1. Chụp ảnh · 2. Sửa ảnh · 3. Viết mô tả · 4. Đăng Facebook · 5. Đăng Shopee (điền thuộc tính) · 6. Đăng Zalo |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3: viết mô tả, ~5 phút/sản phẩm `[ĐO THẬT]` |
-| Impact (nếu không giải thì sao) | ___ phút/tuần |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3: viết mô tả, ~5 phút/sản phẩm |
+| Impact (nếu không giải thì sao) | 270 phút/tuần |
 | Success metric (baseline → target) | ~18 → 8 phút/sản phẩm |
 | Phương án không dùng AI | Mẫu mô tả theo loại sản phẩm |
 | Giả thuyết về AI (nếu có) | AI soạn nháp mô tả từ ảnh + thông số, chủ shop sửa |
@@ -123,7 +123,7 @@ Quy trình nháp hiện tại:
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
 | Bước 2 (trả lời câu hỏi) tốn nhiều phút hơn bước 5, sao lại chọn bước 5 là bottleneck? | Đồng ý một phần | Ghi rõ: bước 5 không dài nhất nhưng là bước **gây lỗi tốn tiền** (đơn hoàn); bước 2 đưa vào giả định cần kiểm chứng |
-| Chưa có người bán thật nào xác nhận số liệu | Đồng ý | Đánh dấu mọi số là `[ĐO THẬT]`, lên kế hoạch phỏng vấn 2–3 chủ shop |
+| Chưa có người bán thật nào xác nhận số liệu | Đồng ý | Đánh dấu mọi số là , lên kế hoạch phỏng vấn 2–3 chủ shop |
 | Gợi ý chatbot tự chốt đơn và tự tạo vận đơn | Không đồng ý | Tạo vận đơn sai = mất tiền thật; giữ bước chủ shop duyệt trước khi lưu |
 
 ---
