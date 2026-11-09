@@ -38,7 +38,15 @@
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- Báo cáo cá nhân có scan và ba card về chép đơn từ inbox, tồn kho đa kênh và đăng sản phẩm.
+- **CP5 — Quy trình trước/sau (phụ trách chính):**
+  - Vẽ quy trình hiện tại 7 bước bằng Mermaid, kèm bảng actor / input / output / thời gian từng bước. Xác định bottleneck ở bước 3–5 (xác định hư hỏng, tra mã phụ tùng, tìm giá), chiếm 20–40 trong tổng 40–60 phút/vụ.
+  - Thiết kế quy trình tương lai, tách rõ bước nào Rule (checklist ảnh, lấy thông tin xe, tra bảng giá), bước nào AI (đề xuất bộ phận hư hỏng), bước nào con người (giám định viên kiểm tra, chốt giá, cấp thẩm quyền duyệt).
+  - Xác định boundary: AI không quyết định mức bồi thường, không từ chối hồ sơ, không kết luận gian lận, không tự gửi kết quả, không tự đặt giá. Liệt kê các trường hợp bắt buộc chuyển giám định trực tiếp và 3 tầng phương án quay về khi AI sai.
+  - Lập bảng before/after: thời gian thao tác 40–60' → ~17–20'/vụ, số bước thủ công 7/7 → 3/7, kèm rủi ro mới phát sinh.
+- **CP5 — Problem Statement v0:**
+  - Viết đủ 6 trường. 3 success metric có baseline, target và cách đo: thời gian bước 3–5, độ khớp danh sách hư hỏng so với giám định cuối, sai lệch chi phí sơ bộ.
+  - Đưa AI phản biện và ghi lại 6 lỗ hổng để nhóm xử lý ở v1.
+
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
