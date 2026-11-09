@@ -156,7 +156,7 @@ Quy trình nháp hiện tại:
 | CP5 Quy trình | Chuyển mô tả quy trình giám định xe sang sơ đồ Mermaid, tách bước Rule / AI / con người | Dựng nhanh sơ đồ và bảng before/after; gợi ý checklist ảnh bắt buộc là bước Rule không cần AI | Màu sơ đồ (nền hồng nhạt) gần như không đọc được ở chế độ tối của GitHub; số phút từng bước chỉ là ước tính, không có nguồn | Yêu cầu đổi màu nền đậm + chữ trắng; đánh dấu các số chưa đo để thay bằng số phỏng vấn |
 | CP5–6 Problem Statement | Nhờ AI chỉ ra lỗ hổng Problem Statement v0 (không viết lại) | Chỉ ra 6 lỗ hổng, đáng giá nhất: metric độ khớp cần tập hồ sơ đã đóng mà nhóm chưa chắc có; ảnh không thấy hư hỏng ẩn | Một số lỗ hổng trùng nhau (#1 và #5 đều về baseline); chưa nói gì về rủi ro ảnh bị chỉnh sửa / gian lận | `[ghi nhóm đồng ý lỗ hổng nào, sửa gì ở v1]` |
 | CP6 Mức can thiệp / quyết định |  |  |  |  |
-| Toàn bài | Dùng AI (Claude Code) để soạn khung cho CP1–CP2 và CP5, sau đó tự điền số liệu và sửa lại | Tiết kiệm thời gian định dạng bảng, kiểm link research | Bản nháp đầu tiên của nhóm chép gần nguyên bài mẫu — AI phát hiện ra, nhưng sau đó AI cũng tự viết khá nhiều nội dung thay tôi | `[ghi rõ phần nào bạn tự viết/sửa lại bằng nhận định của mình]` |
+| Toàn bài | Dùng AI để soạn khung cho CP1–CP2 và CP5, sau đó tự điền số liệu và sửa lại | Tiết kiệm thời gian định dạng bảng, kiểm link research | Bản nháp đầu tiên của nhóm chép gần nguyên bài mẫu — AI phát hiện ra, nhưng sau đó AI cũng tự viết khá nhiều nội dung thay tôi |  |
 
 ---
 
