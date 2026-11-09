@@ -169,6 +169,7 @@ Mỗi bạn có cách nhìn nhận pain point khác nhau tùy lĩnh vực và tr
 Một vấn đề nghe có vẻ đơn giản nhưng có thể gây ảnh hưởng lớn nếu xảy ra thường xuyên.
 
 Học cách đánh giá problem dựa trên Actor, tần suất, mức độ ảnh hưởng, bottleneck và khả năng đo lường.
+
 **6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 Liên hệ với việc ban đầu bạn từng nghĩ đến chatbot AI bán hàng 24/7.
 
@@ -177,6 +178,7 @@ Nhận ra chatbot là một giải pháp, chưa mô tả rõ vấn đề thực 
 Cách nhóm phân biệt problem và solution thông qua Job Story, quy trình hiện tại và bottleneck.
 
 Bài học: cần hiểu vấn đề trước khi lựa chọn công nghệ.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 Lấy ví dụ về Problem Card #1.
 
@@ -187,6 +189,7 @@ Sau phản biện, nhận ra bước trả lời câu hỏi lặp lại có th�
 Điều chỉnh nhận định: phân biệt bước tốn nhiều thời gian nhất với bước gây hậu quả nghiêm trọng nhất.
 
 Bài học về việc tiếp nhận phản biện và không bảo vệ ý tưởng chỉ vì đó là ý tưởng của mình.
+
 **6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
