@@ -162,21 +162,55 @@ Quy trình nháp hiện tại:
 
 ## 6. Reflection (CP7)
 
-> Tự viết, tối thiểu 200 từ cho 6.1–6.6. Không dùng AI viết thay (RUBRIC C4 = 0 nếu vi phạm).
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Mỗi bạn có cách nhìn nhận pain point khác nhau tùy lĩnh vực và trải nghiệm.
 
+Một vấn đề nghe có vẻ đơn giản nhưng có thể gây ảnh hưởng lớn nếu xảy ra thường xuyên.
+
+Học cách đánh giá problem dựa trên Actor, tần suất, mức độ ảnh hưởng, bottleneck và khả năng đo lường.
 **6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-*(Gợi ý tự soi: lúc đầu có nghĩ ngay tới "chatbot bán hàng" không?)*
+Liên hệ với việc ban đầu bạn từng nghĩ đến chatbot AI bán hàng 24/7.
 
+Nhận ra chatbot là một giải pháp, chưa mô tả rõ vấn đề thực tế mà chủ shop gặp phải.
+
+Cách nhóm phân biệt problem và solution thông qua Job Story, quy trình hiện tại và bottleneck.
+
+Bài học: cần hiểu vấn đề trước khi lựa chọn công nghệ.
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Lấy ví dụ về Problem Card #1.
 
+Ban đầu chọn bước chép đơn là bottleneck vì dễ gây sai thông tin và hoàn hàng.
+
+Sau phản biện, nhận ra bước trả lời câu hỏi lặp lại có thời gian xử lý dài hơn.
+
+Điều chỉnh nhận định: phân biệt bước tốn nhiều thời gian nhất với bước gây hậu quả nghiêm trọng nhất.
+
+Bài học về việc tiếp nhận phản biện và không bảo vệ ý tưởng chỉ vì đó là ý tưởng của mình.
 **6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó xác định chính xác bottleneck và impact.
 
+Phân biệt số liệu ước tính với số liệu đã được kiểm chứng.
+
+Xây dựng Success Metrics có baseline, target và cách đo cụ thể.
+
+Xác định Boundary: AI được làm gì, không được làm gì và khi nào cần HITL.
+
+Liên hệ với 6 lỗ hổng mà AI đã chỉ ra trong Problem Statement v0.
+
+Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Không thay đổi hướng nghiên cứu nhiều lần nếu chưa đánh giá kỹ problem ban đầu.
 
+Tiến hành kiểm chứng với người dùng sớm hơn thay vì dựa nhiều vào giả định.
+
+Yêu cầu nguồn dữ liệu cụ thể cho từng con số trong Problem Statement.
+
+Phản biện kỹ hơn về tính khả thi của việc thu thập dữ liệu ảnh, hồ sơ đã đóng và bảng giá phụ tùng.
+
+Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
 **6.7. Hiểu bài:** *(tự viết 5–8 câu, không nhìn tài liệu: problem → quy trình → metric → boundary → mức can thiệp → quyết định)*
 
 ---
