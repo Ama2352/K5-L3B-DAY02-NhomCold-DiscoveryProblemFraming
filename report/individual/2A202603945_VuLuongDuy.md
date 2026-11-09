@@ -48,7 +48,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Trường | Nội dung |
 |---|---|
 | Job Story | Khi khách inbox đồng ý mua, chủ shop muốn có ngay thông tin đơn đầy đủ và đúng trong file quản lý, để tạo vận đơn mà không phải đọc lại cả cuộc chat |
-| Actor | Chủ shop nhỏ (1–3 người), bán thời trang/mỹ phẩm qua Facebook Page và Zalo, ~20–50 tin nhắn/ngày |
+| Actor | Chủ shop nhỏ (1–3 người), bán thời trang/mỹ phẩm qua Facebook Page và Zalo, ~200 đơn/ngày |
 | Thời điểm / bối cảnh | Buổi tối (giờ khách nhắn nhiều nhất) và sau mỗi buổi livestream |
 | Quy trình hiện tại (3–7 bước) | 1. Mở inbox, lọc tin chưa đọc · 2. Trả lời câu hỏi giá/size/ship · 3. Kiểm tồn kho trong Sheet · 4. Xin tên, SĐT, địa chỉ · 5. Chép thông tin đơn sang Sheet/phần mềm vận chuyển · 6. Tạo vận đơn, gửi mã cho khách |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5: đọc lại đoạn chat, chép từng trường sang Sheet, ~1 phút/đơn, dễ chép sai SĐT/địa chỉ |
@@ -61,7 +61,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — 1 đơn, ~6 phút [ĐO THẬT]
+HIỆN TẠI — 1 đơn, ~6 phút
 
 [1 Mở inbox: 0.5'] → [2 Trả lời giá/size/ship: 2'] → [3 Kiểm kho: 0.5']
 → [4 Xin thông tin giao hàng: 1.5'] → [5 Chép đơn sang Sheet: 1'] ← BOTTLENECK (dễ sai)
@@ -123,27 +123,27 @@ Quy trình nháp hiện tại:
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
 | Bước 2 (trả lời câu hỏi) tốn nhiều phút hơn bước 5, sao lại chọn bước 5 là bottleneck? | Đồng ý một phần | Ghi rõ: bước 5 không dài nhất nhưng là bước **gây lỗi tốn tiền** (đơn hoàn); bước 2 đưa vào giả định cần kiểm chứng |
-| Chưa có người bán thật nào xác nhận số liệu | Đồng ý | Đánh dấu mọi số là , lên kế hoạch phỏng vấn 2–3 chủ shop |
+| Chưa có người bán thật nào xác nhận số liệu | Đồng ý | Hỏi lại người bán để thay số ước tính bằng số thật (200 đơn/ngày, 8 đơn hoàn/tháng…) |
 | Gợi ý chatbot tự chốt đơn và tự tạo vận đơn | Không đồng ý | Tạo vận đơn sai = mất tiền thật; giữ bước chủ shop duyệt trước khi lưu |
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-> Tự điền bằng việc thật bạn đã làm trong buổi lab.
+> `[...]` = bạn tự điền bằng việc thật trong buổi lab (ai hỏi gì, nhóm sửa gì).
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch card #1 "Chốt đơn từ inbox" (bán hàng online), kèm câu hỏi: "Bottleneck thật là bước chép đơn hay bước trả lời câu hỏi lặp lại?" | Card không được chọn; nhóm hội tụ về card giám định tổn thất xe. `[ghi lý do nhóm không chọn card của bạn]` |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: `[ví dụ: hỏi bạn pitch card giám định xe — "20–40 phút/vụ là số đo thật hay ước tính? Ảnh có thấy được hư hỏng bên trong không?"]` | `[nhóm/bạn đó đã sửa gì sau câu hỏi]` |
+| Nhận phản biện | Câu hỏi tôi nhận được: `[ai hỏi, hỏi gì về card chốt đơn]` | Tôi đã sửa gì: `[...]` |
+| Gom cluster / cây OST | `[...]` | `[...]` |
+| Chọn candidate problem | `[bạn đã chấm/thảo luận gì khi chọn]`; trước đó tôi tự đổi hướng 2 lần (theo dõi deadline → bán hàng online) vì bản đầu bám quá sát bài mẫu "báo cáo tuần PM" | Nhóm chọn: xác định hư hỏng và ước lượng chi phí sửa xe |
+| Kiểm chứng / research | Soạn bộ 11 câu hỏi phỏng vấn giám định viên theo The Mom Test (`report/assets/cp4-interview-guide.md`), mỗi câu gắn với một số liệu còn thiếu ở Problem Statement | `[đã phỏng vấn ai, được số liệu gì]` |
+| Quy trình nhóm | Phụ trách CP5: vẽ quy trình hiện tại (7 bước, bottleneck bước 3–5) và tương lai (Rule / AI / con người), bảng before/after | Thời gian thao tác kỳ vọng 40–60' → ~17–20'/vụ; có điều kiện bắt buộc chuyển giám định trực tiếp và phương án quay về |
+| Problem Statement | Viết Problem Statement v0 với 3 metric (thời gian bước 3–5, độ khớp danh sách hư hỏng, sai lệch chi phí); đưa AI phản biện và ghi 6 lỗ hổng | Lỗ hổng "chưa chắc có dữ liệu hồ sơ đã đóng để đo metric" trở thành giả định phải kiểm chứng |
+| Mức can thiệp AI | Chỉ ra mâu thuẫn: card ghi cảm nhận "Agent" nhưng quy trình tương lai thực chất là Workflow (AI chỉ làm 1 bước cố định) | `[kết luận của nhóm ở CP6]` |
+| Quyết định | `[...]` | `[...]` |
 
 ---
 
@@ -154,9 +154,10 @@ Quy trình nháp hiện tại:
 | CP1 Scan | Gợi ý thêm problem sau khi tự scan | Gợi ý đối soát COD, đánh giá xấu | Đưa ý "chatbot bán hàng 24/7" — solution trá hình | Bỏ ý đó |
 | CP2 Problem Card | Đóng vai "PM hoài nghi" phản biện card #1 | Chỉ ra bước 2 tốn nhiều phút hơn bước 5 | Đề xuất chatbot tự tạo vận đơn | Giữ bước chủ shop duyệt |
 | CP4 Research | Gợi ý công cụ có sẵn | Gợi ý Pancake, trả lời tự động của Meta, Shopee | Đưa link trang trợ giúp Meta bị lỗi 404 | Tự mở từng link, chỉ giữ link đã kiểm |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP5 Quy trình | Chuyển mô tả quy trình giám định xe sang sơ đồ Mermaid, tách bước Rule / AI / con người | Dựng nhanh sơ đồ và bảng before/after; gợi ý checklist ảnh bắt buộc là bước Rule không cần AI | Màu sơ đồ (nền hồng nhạt) gần như không đọc được ở chế độ tối của GitHub; số phút từng bước chỉ là ước tính, không có nguồn | Yêu cầu đổi màu nền đậm + chữ trắng; đánh dấu các số chưa đo để thay bằng số phỏng vấn |
+| CP5–6 Problem Statement | Nhờ AI chỉ ra lỗ hổng Problem Statement v0 (không viết lại) | Chỉ ra 6 lỗ hổng, đáng giá nhất: metric độ khớp cần tập hồ sơ đã đóng mà nhóm chưa chắc có; ảnh không thấy hư hỏng ẩn | Một số lỗ hổng trùng nhau (#1 và #5 đều về baseline); chưa nói gì về rủi ro ảnh bị chỉnh sửa / gian lận | `[ghi nhóm đồng ý lỗ hổng nào, sửa gì ở v1]` |
+| CP6 Mức can thiệp / quyết định | `[...]` | `[...]` | `[...]` | `[...]` |
+| Toàn bài | Dùng AI (Claude Code) để soạn khung cho CP1–CP2 và CP5, sau đó tự điền số liệu và sửa lại | Tiết kiệm thời gian định dạng bảng, kiểm link research | Bản nháp đầu tiên của nhóm chép gần nguyên bài mẫu — AI phát hiện ra, nhưng sau đó AI cũng tự viết khá nhiều nội dung thay tôi | `[ghi rõ phần nào bạn tự viết/sửa lại bằng nhận định của mình]` |
 
 ---
 
