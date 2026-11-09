@@ -154,7 +154,7 @@ Quy trình nháp hiện tại:
 | CP2 Problem Card | Đóng vai "PM hoài nghi" phản biện card #1 | Chỉ ra bước 2 tốn nhiều phút hơn bước 5 | Đề xuất chatbot tự tạo vận đơn | Giữ bước chủ shop duyệt |
 | CP4 Research |  |  |  |  |
 | CP5 Quy trình | Chuyển mô tả quy trình giám định xe sang sơ đồ Mermaid, tách bước Rule / AI / con người | Dựng nhanh sơ đồ và bảng before/after; gợi ý checklist ảnh bắt buộc là bước Rule không cần AI | Màu sơ đồ (nền hồng nhạt) gần như không đọc được ở chế độ tối của GitHub; số phút từng bước chỉ là ước tính, không có nguồn | Yêu cầu đổi màu nền đậm + chữ trắng; đánh dấu các số chưa đo để thay bằng số phỏng vấn |
-| CP5–6 Problem Statement |  |  |
+| CP5–6 Problem Statement |  |  |  |  |
 | CP6 Mức can thiệp / quyết định |  |  |  |  |
 
 
@@ -171,8 +171,6 @@ Một vấn đề nghe có vẻ đơn giản nhưng có thể gây ảnh hưởn
 Học cách đánh giá problem dựa trên Actor, tần suất, mức độ ảnh hưởng, bottleneck và khả năng đo lường.
 
 **6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-Liên hệ với việc ban đầu bạn từng nghĩ đến chatbot AI bán hàng 24/7.
-
 Nhận ra chatbot là một giải pháp, chưa mô tả rõ vấn đề thực tế mà chủ shop gặp phải.
 
 Cách nhóm phân biệt problem và solution thông qua Job Story, quy trình hiện tại và bottleneck.
@@ -180,8 +178,6 @@ Cách nhóm phân biệt problem và solution thông qua Job Story, quy trình h
 Bài học: cần hiểu vấn đề trước khi lựa chọn công nghệ.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-Lấy ví dụ về Problem Card #1.
-
 Ban đầu chọn bước chép đơn là bottleneck vì dễ gây sai thông tin và hoàn hàng.
 
 Sau phản biện, nhận ra bước trả lời câu hỏi lặp lại có thời gian xử lý dài hơn.
@@ -203,8 +199,6 @@ Xây dựng Success Metrics có baseline, target và cách đo cụ thể.
 
 Xác định Boundary: AI được làm gì, không được làm gì và khi nào cần HITL.
 
-Liên hệ với 6 lỗ hổng mà AI đã chỉ ra trong Problem Statement v0.
-
 Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
@@ -216,7 +210,6 @@ Yêu cầu nguồn dữ liệu cụ thể cho từng con số trong Problem Stat
 
 Phản biện kỹ hơn về tính khả thi của việc thu thập dữ liệu ảnh, hồ sơ đã đóng và bảng giá phụ tùng.
 
-Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
 **6.7. Hiểu bài:** 
 Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn nhằm tiết kiệm thời gian và tăng tính nhất quán. AI chỉ đề xuất bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule; mọi kết quả đều do giám định viên xác nhận. Nhóm chọn Workflow vì quy trình có các bước cố định. Do mới có 3 phỏng vấn, chưa đo thời gian thực tế và chưa tiếp cận dữ liệu hồ sơ, nhóm quyết định Not Yet. Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ để đánh giá nhu cầu sử dụng AI.
 
