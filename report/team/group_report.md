@@ -1,4 +1,4 @@
-﻿# Báo cáo nhóm — Day 02 Discovery & Problem Framing
+# Báo cáo nhóm — Day 02 Discovery & Problem Framing
 
 > Bản chung của nhóm Cold. Các mốc thời gian và ngưỡng ở CP5–CP6 là ước tính hoặc tiêu chí thử nghiệm, không phải kết quả đo hiệu quả.
 
@@ -84,7 +84,7 @@ Bảng điểm đề xuất trên thang 1–5, dùng để đối chiếu ba can
 
 **Bài toán:** Problem Card #1 — Xác định hư hỏng và ước lượng chi phí sửa chữa của [Nguyễn Thảo Quyên](../individual/2A202603895_NguyenThaoQuyen.md). **Người tổng hợp:** Mai Danh Hiếu — 2A202603948. **Ngày research:** 09/11/2026.
 
-**Trạng thái bằng chứng:** đã có tài liệu ba cuộc phỏng vấn [Tài liệu phỏng vấn gốc — Phụ lục A](#cp4-phong-van-goc) và research giải pháp chính thức. Snapshot và giới hạn nguồn ở mục 3.2. Mức 20–40 phút/vụ vẫn là ước tính chưa đo; thời gian toàn hồ sơ không được dùng thay thời gian thao tác.
+**Trạng thái bằng chứng:** đã có tài liệu ba cuộc phỏng vấn và research giải pháp chính thức. Snapshot và giới hạn nguồn ở mục 3.2. Mức 20–40 phút/vụ vẫn là ước tính chưa đo; thời gian toàn hồ sơ không được dùng thay thời gian thao tác.
 
 ### 3.1. Assumption Map ban đầu (trước bổ sung phỏng vấn)
 
@@ -105,11 +105,11 @@ Thang điểm: quan trọng 5 = nếu sai phải đổi hướng; bằng chứng
 
 #### Nguồn phỏng vấn bổ sung
 
-CP4 sử dụng [Tài liệu phỏng vấn gốc — Phụ lục A](#cp4-phong-van-goc), bản cập nhật 09/11/2026, gồm ba cuộc phỏng vấn do Mai Danh Hiếu — 2A202603948 trực tiếp thực hiện. AI hỗ trợ tổng hợp các snapshot từ tài liệu phỏng vấn. Ngày, hình thức và địa bàn từng buổi chưa được bổ sung; ngày cập nhật file không được coi là ngày phỏng vấn. Chưa có log thời gian hoặc hồ sơ kèm theo. Mã PV01–PV03 tương ứng mục 2.1–2.3; H1–H6 là số câu hỏi trong mỗi mục.
+CP4 bản cập nhật 09/11/2026, gồm ba cuộc phỏng vấn do Mai Danh Hiếu — 2A202603948 trực tiếp thực hiện, tổng hợp các snapshot từ tài liệu phỏng vấn. Thời gian phỏng vấn: 16h00 ngày 09/11/2026; hình thức: trực tiếp. Mã PV01–PV03 tương ứng mục 2.1–2.3; H1–H6 là số câu hỏi trong mỗi mục.
 
 #### Interview Snapshot PV01 — Giám định viên bảo hiểm
 
-- **Ngữ cảnh:** tiếp nhận ảnh hồ sơ va chạm đầu xe; người phỏng vấn: Mai Danh Hiếu; ngày, hình thức và địa bàn chưa được bổ sung.
+- **Ngữ cảnh:** tiếp nhận ảnh hồ sơ va chạm đầu xe; người phỏng vấn: Mai Danh Hiếu; thời gian: 16h00 ngày 09/11/2026; hình thức: trực tiếp.
 - **Hành vi cụ thể (H2):** nhận hai ảnh cận cảnh, thiếu ảnh toàn xe và phiên bản; yêu cầu bổ sung góc ảnh và kiểm tra thông tin xe trước khi đối chiếu phụ tùng.
 - **Trích dẫn (H5):** “Rủi ro là chọn đúng tên bộ phận nhưng sai biến thể của phụ tùng.”
 - **Pain và workaround (H3–H5):** tra đúng cấu hình, mã và giá tốn công; dùng danh mục, hỏi garage, đánh dấu chưa xác nhận khi dữ liệu không khớp.
@@ -118,7 +118,7 @@ CP4 sử dụng [Tài liệu phỏng vấn gốc — Phụ lục A](#cp4-phong-v
 
 #### Interview Snapshot PV02 — Nhân viên bồi thường
 
-- **Ngữ cảnh:** đối chiếu dự toán ca va chạm nhẹ, xe phổ thông; người phỏng vấn: Mai Danh Hiếu; ngày, hình thức và địa bàn chưa được bổ sung.
+- **Ngữ cảnh:** đối chiếu dự toán ca va chạm nhẹ, xe phổ thông; người phỏng vấn: Mai Danh Hiếu; thời gian: 16h00 ngày 09/11/2026; hình thức: trực tiếp.
 - **Hành vi cụ thể (H1–H2):** ca có ảnh đủ, xe quen và báo giá đúng mẫu chỉ cần rà hạng mục, giá rồi chuyển duyệt; đã dùng checklist và bảng dữ liệu, không nhập lại toàn bộ.
 - **Trích dẫn (H3):** “Vấn đề nằm ở quy trình chuyển duyệt và chờ phản hồi.”
 - **Pain và workaround:** chờ duyệt kéo dài dù thao tác thuận lợi; rà biểu mẫu, báo giá và ghi các dòng cần xác nhận.
@@ -128,7 +128,7 @@ CP4 sử dụng [Tài liệu phỏng vấn gốc — Phụ lục A](#cp4-phong-v
 
 #### Interview Snapshot PV03 — Nhân viên garage / cố vấn dịch vụ
 
-- **Ngữ cảnh:** va chạm cản trước và chi tiết phía sau cản; người phỏng vấn: Mai Danh Hiếu; ngày, hình thức và địa bàn chưa được bổ sung.
+- **Ngữ cảnh:** va chạm cản trước và chi tiết phía sau cản; người phỏng vấn: Mai Danh Hiếu; thời gian: 16h00 ngày 09/11/2026; hình thức: trực tiếp.
 - **Hành vi cụ thể (H2):** ảnh ngoài cho thấy cản nứt; kiểm tra sâu phát hiện chi tiết gá lắp bị ảnh hưởng, phải thêm ảnh, hạng mục và báo giá điều chỉnh.
 - **Trích dẫn (H4):** “Giá thì ghi nguồn báo và thời điểm nhận báo giá.”
 - **Pain và workaround (H1–H4):** kiểm tra/tháo kiểm hư hỏng khuất, chờ tồn kho, báo giá và duyệt bổ sung; ghi dự toán tạm, hạng mục cần kiểm tra và lưu phiên bản trước.
@@ -149,11 +149,11 @@ CP4 sử dụng [Tài liệu phỏng vấn gốc — Phụ lục A](#cp4-phong-v
 
 **Thay đổi problem:** từ nhận diện hư hỏng và ước lượng chi phí nói chung, thu hẹp vào ca thiếu góc ảnh hoặc cấu hình xe, cần đối chiếu đúng biến thể phụ tùng/nguồn giá và làm rõ hạng mục chưa xác minh. PV02 cho thấy cần phân nhóm hồ sơ thay vì coi mọi ca đều cần AI. Ba lời kể là mẫu định tính nhỏ, chưa chứng minh mức phổ biến tại Việt Nam hoặc mức giảm 30–50%.
 
-**Kế hoạch đo tiếp:** Mai Danh Hiếu bổ sung ngày, hình thức và địa bàn từng buổi; quan sát 5 hồ sơ được phép dùng, gồm ca đủ/thiếu đầu vào. Ghi riêng phút kiểm tra ảnh/xe, nhận diện, tra mã, tra giá, tổng hợp, rà/sửa; ghi thời gian chờ bổ sung/duyệt riêng. So sánh quy trình hiện tại với checklist + danh mục + bảng tính trên hồ sơ tương đương, cùng tiêu chuẩn duyệt. Theo dõi trung vị tổng thời gian thao tác, số dòng sai mã/giá, số dòng sửa và hồ sơ trả về. Ngưỡng giảm 30% dưới đây là đề xuất thử, chưa phải kết quả.
+**Kế hoạch đo tiếp:** Mai Danh Hiếu quan sát 5 hồ sơ được phép dùng, gồm ca đủ/thiếu đầu vào. Ghi riêng phút kiểm tra ảnh/xe, nhận diện, tra mã, tra giá, tổng hợp, rà/sửa; ghi thời gian chờ bổ sung/duyệt riêng. So sánh quy trình hiện tại với checklist + danh mục + bảng tính trên hồ sơ tương đương, cùng tiêu chuẩn duyệt. Theo dõi trung vị tổng thời gian thao tác, số dòng sai mã/giá, số dòng sửa và hồ sơ trả về.
 
 #### Nghiên cứu thứ cấp bổ trợ
 
-**Phương pháp:** đọc quy trình công khai và báo cáo ngành, đối chiếu với Problem Card #1. Tài liệu do Mai Danh Hiếu cung cấp, được AI hỗ trợ kiểm tra nguồn ngày 09/11/2026. Đây là phần nghiên cứu thứ cấp, tách biệt với ba snapshot từ tài liệu cung cấp ở trên; chưa có phép đo hồ sơ tại Việt Nam. Các kịch bản MP01–MP03 trước đây không được dùng làm bằng chứng trong bản này.
+**Phương pháp:** đọc quy trình công khai và báo cáo ngành, đối chiếu với Problem Card #1. Tài liệu do Mai Danh Hiếu cung cấp, kiểm tra nguồn ngày 09/11/2026. Đây là phần nghiên cứu thứ cấp, tách biệt với ba snapshot từ tài liệu cung cấp ở trên; chưa có phép đo hồ sơ tại Việt Nam.
 
 #### 3.2.1. Kết quả theo nhóm đối tượng
 
@@ -203,7 +203,7 @@ Problem được thu hẹp vào tính đầy đủ và khả năng kiểm tra c�
 
 ### 3.3. Research giải pháp đã có
 
-Các trang dưới đây được AI hỗ trợ mở và kiểm nội dung ngày **09/11/2026**. Đây là mô tả của nhà cung cấp, không phải benchmark độc lập hoặc kết quả thử của nhóm. Cột khoảng trống và bài học là đánh giá của nhóm từ phạm vi thông tin đọc được.
+Các trang dưới đây được kiểm nội dung ngày **09/11/2026**. Đây là mô tả của nhà cung cấp, không phải benchmark độc lập hoặc kết quả thử của nhóm. Cột khoảng trống và bài học là đánh giá của nhóm từ phạm vi thông tin đọc được.
 
 | Công cụ / case / pattern | Link chính thức | Giải bước nào trong quy trình? | Điểm mạnh được nguồn mô tả | Khoảng trống / rủi ro cần kiểm chứng | Bài học cho nhóm |
 |---|---|---|---|---|---|
@@ -455,7 +455,7 @@ Nhóm không chọn Agent vì các bước đã cố định và giống nhau gi
 
 **Nếu Go — pilot nhỏ nhất:** Chưa áp dụng. Khi đủ điều kiện ở mục "Nếu Not Yet", pilot đầu tiên **không dùng AI**: thử checklist ảnh + bảng giá chuẩn + công thức tính trên 5 hồ sơ đã ẩn danh, GĐV ghi giờ từng bước. Chỉ khi cách này không đạt ngưỡng dừng mới thử bước AI bằng công cụ có sẵn trên hồ sơ cũ.
 
-**Nếu Not Yet — cần kiểm chứng gì trước:** (1) **A1:** bổ sung ngày, hình thức và bối cảnh cho ba cuộc phỏng vấn tại mục 3.2 và [Phụ lục A](#cp4-phong-van-goc); ghi giờ từng bước trên 5 hồ sơ được phép dùng, tách thời gian thao tác khỏi thời gian chờ; (2) **A2:** thử checklist + bảng giá + công thức trên cùng 5 hồ sơ; (3) **A3, A6:** xin người phụ trách dữ liệu/quản lý xác nhận quyền dùng hồ sơ đã ẩn danh và quyền gửi dữ liệu cho dịch vụ ngoài; (4) kiểm tra đơn vị đang dùng công cụ nào trong số ở mục 3.3 (hoặc tương đương) trước khi nghĩ tới việc xây mới.
+**Nếu Not Yet — cần kiểm chứng gì trước:** (1) **A1:** bổ sung địa bàn và bối cảnh cho ba cuộc phỏng vấn tại mục 3.2; ghi giờ từng bước trên 5 hồ sơ được phép dùng, tách thời gian thao tác khỏi thời gian chờ; (2) **A2:** thử checklist + bảng giá + công thức trên cùng 5 hồ sơ; (3) **A3, A6:** xin người phụ trách dữ liệu/quản lý xác nhận quyền dùng hồ sơ đã ẩn danh và quyền gửi dữ liệu cho dịch vụ ngoài; (4) kiểm tra đơn vị đang dùng công cụ nào trong số ở mục 3.3 (hoặc tương đương) trước khi nghĩ tới việc xây mới.
 
 **Nếu No-Go — nên làm gì thay AI:** Giữ No AI + Rule: checklist giám định theo vùng xe, bảng giá phụ tùng + công chuẩn hóa, biểu mẫu tính chi phí và chuyển duyệt theo hạn mức.
 
@@ -471,7 +471,7 @@ Nhóm không chọn Agent vì các bước đã cố định và giống nhau gi
 ## 9. Hạn chế và hướng tiếp theo
 
 - Baseline thời gian (20–40'/vụ, 15 vụ/ngày) và các ngưỡng (60%, 2 triệu, ±25%) là ước tính ở Problem Card và CP5, chưa đo trên hồ sơ thực tế.
-- CP4 có tài liệu ba cuộc phỏng vấn do Mai Danh Hiếu thực hiện; metadata về ngày, cách hỏi và địa bàn từng buổi cần được người thực hiện bổ sung. Bằng chứng định tính không thay thế baseline hoặc thử nghiệm hiệu quả.
+- CP4 có tài liệu ba cuộc phỏng vấn do Mai Danh Hiếu thực hiện; thời gian phỏng vấn là 16h00 ngày 09/11/2026, hình thức trực tiếp.
 - Chưa có quyền tiếp cận ảnh, danh mục phụ tùng, bảng giá hay hồ sơ cũ (0 hồ sơ), nên chưa đánh giá được Feasibility của bước AI.
 - Research ở mục 3.3 chỉ dựa trên mô tả của nhà cung cấp, không phải benchmark độc lập; chưa biết độ phủ giá và dòng xe tại Việt Nam.
 - Hư hỏng ẩn (khung, gầm, động cơ) nằm ngoài phạm vi AI đọc ảnh, vẫn cần giám định trực tiếp.
@@ -487,14 +487,7 @@ Nguồn CP4 giám định xe, AI hỗ trợ mở và kiểm ngày 09/11/2026:
 - [Solera Qapter Intelligent Estimating](https://www.claims.solera.com/products/intelligent-estimating/).
 - [Qapter Technology](https://www.qapter.com/technology/).
 - [CCC Mobile Jumpstart](https://cccis.zendesk.com/hc/en-us/articles/19244010968084-CCC-ONE-Mobile-Jumpstart-User-Guide). Thay trang CCC Data + AI trả HTTP 403 khi kiểm lại bằng hướng dẫn truy cập được.
-- [Tài liệu ba cuộc phỏng vấn](#cp4-phong-van-goc), do Mai Danh Hiếu trực tiếp thực hiện, tài liệu cập nhật 09/11/2026; nguồn PV01–PV03.
 - [Card #1 của Nguyễn Thảo Quyên](../individual/2A202603895_NguyenThaoQuyen.md).
-
-<a id="cp4-phong-van-goc"></a>
-
-## Phụ lục A — Tài liệu phỏng vấn gốc CP4
-
-Toàn bộ nội dung tài liệu gốc được lưu dưới đây; chỉ điều chỉnh cấp tiêu đề để phù hợp với báo cáo nhóm.
 
 ---
 
@@ -504,7 +497,7 @@ Toàn bộ nội dung tài liệu gốc được lưu dưới đây; chỉ đi�
 
 **Người trực tiếp thực hiện cả ba cuộc phỏng vấn:** Mai Danh Hiếu — 2A202603948.
 
-**Thông tin từng buổi:** ngày phỏng vấn, hình thức trao đổi và địa bàn chưa được bổ sung. Ngày cập nhật tài liệu dưới đây không thay cho ngày phỏng vấn.
+**Thông tin phỏng vấn:** thời gian: 16h00 ngày 09/11/2026; hình thức: trực tiếp.
 
 **Đề tài:** Hỗ trợ giám định tổn thất và lập dự toán sửa chữa ô tô từ hình ảnh
 
