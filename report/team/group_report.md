@@ -451,7 +451,7 @@ Nhóm không chọn Agent vì các bước đã cố định và giống nhau gi
 
 **Quyết định:** **Not Yet**
 
-**Lý do:** Ba rủi ro Value, Feasibility, Viability đều ở mức Cao, nên chưa đủ điều kiện Go (worksheet: Go khi không có rủi ro Cao). Cả ba có thể kiểm chứng nhanh: phỏng vấn 2–3 người, ghi giờ 5 hồ sơ, xin xác nhận quyền dữ liệu. Chưa có căn cứ No-Go vì research cho thấy công cụ đã tồn tại và pain chưa bị bác bỏ. Kết luận này nhất quán với đề xuất của CP4: Not Yet cho thử AI trên hồ sơ thật (mục 3.3).
+**Lý do:** Ba rủi ro Value, Feasibility, Viability đều ở mức Cao, nên chưa đủ điều kiện Go (worksheet: Go khi không có rủi ro Cao). Cả ba có thể kiểm chứng nhanh: bổ sung thông tin cho 3 phỏng vấn đã có (mục 3.2), ghi giờ 5 hồ sơ, xin xác nhận quyền dữ liệu. Chưa có căn cứ No-Go vì research cho thấy công cụ đã tồn tại và pain chưa bị bác bỏ. Kết luận này nhất quán với đề xuất của CP4: Not Yet cho thử AI trên hồ sơ thật (mục 3.3).
 
 **Nếu Go — pilot nhỏ nhất:** Chưa áp dụng. Khi đủ điều kiện ở mục "Nếu Not Yet", pilot đầu tiên **không dùng AI**: thử checklist ảnh + bảng giá chuẩn + công thức tính trên 5 hồ sơ đã ẩn danh, GĐV ghi giờ từng bước. Chỉ khi cách này không đạt ngưỡng dừng mới thử bước AI bằng công cụ có sẵn trên hồ sơ cũ.
 
