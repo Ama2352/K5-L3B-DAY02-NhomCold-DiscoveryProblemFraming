@@ -215,8 +215,7 @@ Phản biện kỹ hơn về tính khả thi của việc thu thập dữ liệu
 
 Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
 **6.7. Hiểu bài:** *(tự viết 5–8 câu, không nhìn tài liệu: problem → quy trình → metric → boundary → mức can thiệp → quyết định)*
-
----
+Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn nhằm tiết kiệm thời gian và tăng tính nhất quán. AI chỉ đề xuất bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule; mọi kết quả đều do giám định viên xác nhận. Nhóm chọn Workflow vì quy trình có các bước cố định. Do mới có 3 phỏng vấn, chưa đo thời gian thực tế và chưa tiếp cận dữ liệu hồ sơ, nhóm quyết định Not Yet. Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ để đánh giá nhu cầu sử dụng AI.
 
 ## 7. Tài liệu tham khảo
 
