@@ -22,12 +22,10 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 |---:|---|---|---|---|
 | 1 |Tốn thời gian |Khi khách hàng yêu cầu báo giá phụ tùng ô tô nhưng chỉ cung cấp hình ảnh hoặc tên gọi thông thường, nhân viên muốn xác định đúng phụ tùng theo dòng xe và mã sản phẩm, để tránh báo giá nhầm và mất thời gian tra cứu. | Nhân viên tư vấn phụ tùng, garage, khách hàng| Phát sinh theo từng yêu cầu báo giá; có thể phải tra cứu nhiều danh mục và đối chiếu thủ công; cần đo thời gian tìm kiếm và tỷ lệ xác định sai.|
 | 2 |Pain từ người khác |Khi làm việc tại một nhà máy có nhiều SOP và quy trình vận hành, nhân viên mới muốn nhanh chóng tìm được đúng tài liệu và hiểu quy trình cần tuân thủ cho từng công việc, để tránh làm sai quy trình, mất thời gian tra cứu hoặc áp dụng nhầm hướng dẫn. |Nhân viên mới, công nhân vận hành, nhân viên QC, kỹ sư sản xuất, quản lý nhà máy |Nhân viên mới phải đọc và tra cứu nhiều SOP từ các nguồn khác nhau; có thể gặp khó khăn khi xác định tài liệu nào áp dụng cho công việc hoặc phiên bản nào còn hiệu lực |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 3 |Pain từ người khác | Khi sinh viên liên tục gặp khó khăn với cùng một nội dung, giảng viên muốn xác định những phần kiến thức mà nhiều người chưa hiểu, để điều chỉnh cách giảng dạy.|Giảng viên, sinh viên | Số câu hỏi lặp lại, số sinh viên gặp khó khăn, kết quả kiểm tra.|
+| 4 |Lặp lại | 	Khi giảng viên nhận nhiều bài tập, tôi muốn kiểm tra và phân loại bài theo cùng một tiêu chí, để giảm công việc đánh giá lặp lại.|Giảng viên, trợ giảng |Số bài mỗi lớp, thời gian chấm, số lớp phụ trách. |
+| 5 | Tốn thời gian|	Khi khách hàng hỏi về tình trạng một bất động sản, môi giới muốn nhanh chóng kiểm tra thông tin còn trống, giá và lịch xem nhà, để phản hồi chính xác. | Môi giới, khách hàng| Số lượt hỏi mỗi ngày, thời gian xác nhận, số hệ thống quản lý.|
+| 6 |Tốn thời gian |Khi cần xác định một quy định hiện hành, tôi muốn tìm được văn bản mới nhất và các văn bản sửa đổi liên quan, để tránh sử dụng quy định đã hết hiệu lực. | Nhân viên pháp chế, doanh nghiệp|Thời gian tra cứu, số văn bản sửa đổi, số nguồn phải kiểm tra. |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
