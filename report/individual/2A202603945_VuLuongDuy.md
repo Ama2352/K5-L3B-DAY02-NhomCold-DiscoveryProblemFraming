@@ -164,52 +164,23 @@ Quy trình nháp hiện tại:
 
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-Mỗi bạn có cách nhìn nhận pain point khác nhau tùy lĩnh vực và trải nghiệm.
-
-Một vấn đề nghe có vẻ đơn giản nhưng có thể gây ảnh hưởng lớn nếu xảy ra thường xuyên.
-
-Học cách đánh giá problem dựa trên Actor, tần suất, mức độ ảnh hưởng, bottleneck và khả năng đo lường.
+Qua phần trình bày của các bạn, tôi nhận thấy mỗi người có cách nhìn nhận pain point khác nhau tùy lĩnh vực và trải nghiệm. Một vấn đề tưởng chừng đơn giản nhưng nếu xảy ra thường xuyên vẫn có thể gây ảnh hưởng lớn. Tôi học được cách đánh giá vấn đề dựa trên Actor, tần suất, mức độ ảnh hưởng, bottleneck và khả năng đo lường.
 
 **6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-Nhận ra chatbot là một giải pháp, chưa mô tả rõ vấn đề thực tế mà chủ shop gặp phải.
-
-Cách nhóm phân biệt problem và solution thông qua Job Story, quy trình hiện tại và bottleneck.
-
-Bài học: cần hiểu vấn đề trước khi lựa chọn công nghệ.
+Ban đầu, nhóm từng đề xuất chatbot như một giải pháp mà chưa làm rõ vấn đề thực tế của chủ shop. Sau đó, nhóm sử dụng Job Story và phân tích quy trình hiện tại để xác định pain point và bottleneck. Qua đó, tôi hiểu rằng cần tìm hiểu vấn đề trước khi lựa chọn công nghệ giải quyết.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-Ban đầu chọn bước chép đơn là bottleneck vì dễ gây sai thông tin và hoàn hàng.
-
-Sau phản biện, nhận ra bước trả lời câu hỏi lặp lại có thời gian xử lý dài hơn.
-
-Điều chỉnh nhận định: phân biệt bước tốn nhiều thời gian nhất với bước gây hậu quả nghiêm trọng nhất.
-
-Bài học về việc tiếp nhận phản biện và không bảo vệ ý tưởng chỉ vì đó là ý tưởng của mình.
+Ban đầu, tôi cho rằng bước chép thông tin đơn hàng là bottleneck vì dễ gây sai sót và hoàn hàng. Tuy nhiên, sau khi được phản biện, tôi nhận ra việc trả lời các câu hỏi lặp lại có thể tiêu tốn nhiều thời gian hơn. Tôi hiểu rằng cần phân biệt giữa bước tốn nhiều thời gian nhất và bước gây hậu quả nghiêm trọng nhất, đồng thời sẵn sàng điều chỉnh nhận định khi có góc nhìn mới.
 
 **6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
 
 Điều khiến tôi bất ngờ là hồ sơ chậm không chỉ do việc xác định hư hỏng. PV02 cho thấy dù thông tin đã đầy đủ, hồ sơ vẫn có thể bị chậm do chờ phê duyệt; PV03 cho thấy hư hỏng khuất vẫn cần kiểm tra trực tiếp. Điều này giúp tôi nhận ra AI không thể giải quyết toàn bộ quy trình. Vì vậy, nhóm nên thử checklist và bảng giá trước, đồng thời đo thời gian thực tế để xác định nhu cầu sử dụng AI.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-Khó xác định chính xác bottleneck và impact.
-
-Phân biệt số liệu ước tính với số liệu đã được kiểm chứng.
-
-Xây dựng Success Metrics có baseline, target và cách đo cụ thể.
-
-Xác định Boundary: AI được làm gì, không được làm gì và khi nào cần HITL.
-
-Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
+Khó khăn lớn nhất của tôi là xác định chính xác bottleneck và impact khi nhiều số liệu vẫn chỉ là ước tính. Bên cạnh đó, việc xây dựng Success Metrics có baseline, target và cách đo cụ thể cũng không dễ. Tôi còn phải cân nhắc Boundary để xác định rõ vai trò của AI, con người và hiệu quả của phương án No AI trước khi đề xuất giải pháp.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-Không thay đổi hướng nghiên cứu nhiều lần nếu chưa đánh giá kỹ problem ban đầu.
-
-Tiến hành kiểm chứng với người dùng sớm hơn thay vì dựa nhiều vào giả định.
-
-Yêu cầu nguồn dữ liệu cụ thể cho từng con số trong Problem Statement.
-
-Phản biện kỹ hơn về tính khả thi của việc thu thập dữ liệu ảnh, hồ sơ đã đóng và bảng giá phụ tùng.
-
+Nếu làm lại, tôi sẽ đánh giá kỹ vấn đề ban đầu và kiểm chứng với người dùng sớm hơn thay vì thay đổi hướng nghiên cứu nhiều lần. Tôi cũng sẽ yêu cầu nguồn dữ liệu cụ thể cho từng số liệu trong Problem Statement, đồng thời phản biện kỹ hơn về khả năng tiếp cận ảnh, hồ sơ đã đóng và bảng giá phụ tùng để đảm bảo tính khả thi của giải pháp.
 **6.7. Hiểu bài:** 
 Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn nhằm tiết kiệm thời gian và tăng tính nhất quán. AI chỉ đề xuất bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule; mọi kết quả đều do giám định viên xác nhận. Nhóm chọn Workflow vì quy trình có các bước cố định. Do mới có 3 phỏng vấn, chưa đo thời gian thực tế và chưa tiếp cận dữ liệu hồ sơ, nhóm quyết định Not Yet. Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ để đánh giá nhu cầu sử dụng AI.
 
