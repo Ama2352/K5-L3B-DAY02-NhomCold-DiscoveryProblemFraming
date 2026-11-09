@@ -141,7 +141,7 @@ HIỆN TẠI ƯỚC LƯỢNG — 25 phút/khái niệm
 | Nhận phản biện | Câu hỏi tôi nhận được (tình huống minh họa): “Vì sao chọn bài toán sửa chữa ô tô thay vì sổ thu chi nhà trọ, trong khi bài toán nhà trọ dễ kiểm chứng hơn?” | Cách trả lời trong tình huống: làm rõ phạm vi chỉ là dự toán ban đầu có người giám định kiểm tra; nêu trở ngại về dữ liệu và giữ bài toán nhà trọ cho vòng sau. Phạm vi và lý do chọn/loại này đã được thể hiện ở mục 2.4 báo cáo nhóm |
 | Gom cluster / cây OST | Phụ trách tổng hợp 12 candidate thành 4 cluster; trình bày cây OST cho bài toán dự toán sửa chữa ô tô, tách pain khỏi các ý Computer Vision, hệ thống tra cứu và Agent | Hoàn thiện mục 2.2–2.3 báo cáo nhóm; outcome tập trung vào thời gian lập dự toán, hạng mục bỏ sót và sai lệch chi phí |
 | Chọn candidate problem | Tổng hợp bảng so sánh 3 candidate theo 7 tiêu chí và ghi lý do chọn/loại; ghi nhận lựa chọn của nhóm là card #1 của Nguyễn Thảo Quyên | Chốt “Xác định hư hỏng và ước lượng chi phí sửa chữa” tại mục 2.4; giới hạn phạm vi ở dự toán ban đầu để người giám định kiểm tra |
-| Kiểm chứng / research | | |
+| Kiểm chứng / research | Hỗ trợ Hiếu rà soát assumption map và đối chiếu các interview snapshot với problem nhóm chọn; góp ý phân biệt thời gian thao tác với thời gian chờ, bằng chứng về pain với kỳ vọng về giải pháp | Làm rõ tín hiệu xác nhận và phản bác ở mục 3 báo cáo nhóm; thu hẹp problem vào dự toán ban đầu có căn cứ đối chiếu và hạng mục cần xác minh, ưu tiên kiểm tra checklist và bảng giá trước khi thử AI |
 | Quy trình nhóm | | |
 | Problem Statement | | |
 | Mức can thiệp AI | | |

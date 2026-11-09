@@ -85,6 +85,7 @@
 
 - Tổng hợp candidate, cluster, cây OST và bảng so sánh ở CP3.
 - Ghi nhận candidate nhóm chọn và lý do chọn/loại.
+- Hỗ trợ Mai Danh Hiếu rà soát assumption map và interview snapshot ở CP4 — Kiểm chứng.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
@@ -92,11 +93,13 @@
 - Tổng hợp 12 candidate của 4 thành viên, trình bày actor, bottleneck và câu hỏi chuẩn bị pitch tại mục 2.1 báo cáo nhóm.
 - Gom candidate thành 4 cluster và xây cây OST cho bài toán giám định xe; tách các nhu cầu, pain khỏi đề xuất công cụ và kiến trúc.
 - Tổng hợp bảng so sánh 3 candidate theo 7 tiêu chí, ghi nhận lựa chọn card #1 của Quyên và lý do giữ các candidate còn lại cho vòng sau.
+- Hỗ trợ rà soát assumption map và đối chiếu interview snapshot với problem nhóm chọn; góp ý tách thời gian thao tác khỏi thời gian chờ, phân biệt bằng chứng về pain với kỳ vọng về giải pháp, làm rõ tín hiệu xác nhận và phản bác ở CP4.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - [Báo cáo cá nhân](report/individual/2A202603905_HoNguyenMinhSang.md).
 - [Báo cáo nhóm — mục 2. Hội tụ nhóm (CP3)](report/team/group_report.md#2-hội-tụ-nhóm-cp3), gồm bảng candidate, cluster, cây OST và bảng shortlist.
+- [Báo cáo nhóm — mục 3. Kiểm chứng và research (CP4)](report/team/group_report.md#3-kiểm-chứng--research-giải-pháp-đã-có-cp4), phần assumption map và tổng hợp interview snapshot.
 
 **Điều mình học được từ phần nhóm:**
 
