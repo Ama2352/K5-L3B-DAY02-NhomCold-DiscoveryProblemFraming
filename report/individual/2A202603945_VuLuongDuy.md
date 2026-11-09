@@ -181,9 +181,9 @@ Khó khăn lớn nhất của tôi là xác định chính xác bottleneck và i
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 Nếu làm lại, tôi sẽ đánh giá kỹ vấn đề ban đầu và kiểm chứng với người dùng sớm hơn thay vì thay đổi hướng nghiên cứu nhiều lần. Tôi cũng sẽ yêu cầu nguồn dữ liệu cụ thể cho từng số liệu trong Problem Statement, đồng thời phản biện kỹ hơn về khả năng tiếp cận ảnh, hồ sơ đã đóng và bảng giá phụ tùng để đảm bảo tính khả thi của giải pháp.
-**6.7. Hiểu bài:** 
-Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn nhằm tiết kiệm thời gian và tăng tính nhất quán. AI chỉ đề xuất bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule; mọi kết quả đều do giám định viên xác nhận. Nhóm chọn Workflow vì quy trình có các bước cố định. Do mới có 3 phỏng vấn, chưa đo thời gian thực tế và chưa tiếp cận dữ liệu hồ sơ, nhóm quyết định Not Yet. Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ để đánh giá nhu cầu sử dụng AI.
 
+**6.7. Hiểu bài:** 
+Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn nhằm giảm thời gian và tăng tính nhất quán. Hiện quy trình xử lý ước tính mất 40–60 phút/hồ sơ, trong đó xác định hư hỏng và tra cứu thông tin chiếm khoảng 20–40 phút. AI chỉ đề xuất bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule; mọi kết quả đều do giám định viên xác nhận. Nhóm chọn Workflow vì quy trình có các bước cố định. Tuy nhiên, dù đã thực hiện 3 cuộc phỏng vấn, nhóm chưa đo thời gian thực tế và chưa tiếp cận dữ liệu hồ sơ nên quyết định Not Yet. Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ, với thời gian xử lý mục tiêu dự kiến giảm còn 17–20 phút/hồ sơ, trước khi quyết định có cần tích hợp AI hay không.
 ## 7. Tài liệu tham khảo
 
 ### 7.1. Tài liệu của lab
