@@ -215,6 +215,34 @@ Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận 
 
 ## 7. Tài liệu tham khảo
 
-- Pancake: https://pancake.vn/
-- Meta Business Suite — About Automated Responses: https://www.facebook.com/business/help/395965998733706
-- Shopee Seller Education Hub — Auto-Reply in Chat Assistant: https://seller.shopee.com.my/edu/article/3719/auto-reply-in-chat-assistant
+### 7.1. Tài liệu của lab
+
+- [README.md](../../README.md), [RULES.md](../../RULES.md), [CHECKPOINTS.md](../../CHECKPOINTS.md), [RUBRIC.md](../../RUBRIC.md) — đề bài, quy định dùng AI, tiêu chí chấm.
+- [docs/01-worksheet.md](../../docs/01-worksheet.md) — template và hướng dẫn từng checkpoint.
+- [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md) — bài mẫu "Báo cáo tuần của PM" (chỉ tham khảo cách làm, không dùng nội dung).
+- [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md) — bản đồ framework theo checkpoint.
+
+### 7.2. Framework đã áp dụng
+
+| Phần trong báo cáo | Framework | Nguồn |
+|---|---|---|
+| Toàn bài (Discover → Define) | Double Diamond — Design Council | https://www.designcouncil.org.uk/resources/framework-for-innovation/ |
+| CP1–CP2: viết problem dạng "Khi… tôi muốn… để…" | Job Story — Intercom | https://www.intercom.com/blog/accidentally-invented-job-stories/ |
+| CP3: tách opportunity và solution | Opportunity Solution Tree — Teresa Torres | https://www.producttalk.org/opportunity-solution-trees/ |
+| CP4: bộ câu hỏi phỏng vấn giám định viên | The Mom Test — Rob Fitzpatrick | https://www.momtestbook.com/ |
+| CP4: ghi kết quả phỏng vấn | Interview Snapshot — Teresa Torres | https://www.producttalk.org/interview-snapshot/ |
+| CP5: Problem Statement không chứa giải pháp | Lean UX — Jeff Gothelf | https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/ |
+| CP5: boundary, người kiểm tra, phương án quay về | Guidelines for Human-AI Interaction — Microsoft Research | https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/ |
+| CP5–CP6: augment hay automate, báo nhầm hay bỏ sót | People + AI Guidebook — Google PAIR | https://pair.withgoogle.com/chapter/user-needs/ |
+| CP6: No AI / Rule / Workflow / Agent | Building Effective Agents — Anthropic | https://www.anthropic.com/research/building-effective-agents |
+| CP6: Value / Usability / Feasibility / Viability | The Four Big Risks — Marty Cagan, SVPG | https://www.svpg.com/four-big-risks/ |
+
+### 7.3. Research giải pháp có sẵn (Problem Card #1 — chốt đơn từ inbox)
+
+- Pancake — nền tảng gộp hội thoại và ghi nhận đơn hàng trực tiếp từ hội thoại/livestream: https://pancake.vn/
+- Meta Business Suite — About Automated Responses (trả lời tự động theo từ khóa, tin chào, tin vắng mặt): https://www.facebook.com/business/help/395965998733706
+- Shopee Seller Education Hub — Auto-Reply in Chat Assistant (trả lời tự động mặc định và ngoài giờ): https://seller.shopee.com.my/edu/article/3719/auto-reply-in-chat-assistant
+
+### 7.4. Công cụ AI đã dùng
+
+- Claude Code (Anthropic) — dùng như mô tả ở mục 5: phản biện Problem Card và Problem Statement, dựng sơ đồ Mermaid, kiểm tra link research.
