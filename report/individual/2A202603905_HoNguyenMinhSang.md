@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Họ tên: Hồ Nguyễn Minh Sang
+- MSSV: 2A202603905
+- Email trường (không bắt buộc, repo có thể để public): 
+- Tên nhóm: Cold
+- Link repo nhóm: https://github.com/Ama2352/K5-L3B-DAY02-NhomCold-DiscoveryProblemFraming
 
 ---
 
@@ -20,18 +20,19 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 1 | Tốn thời gian | Khi vừa họp nhóm xong, tôi muốn xem lại các quyết định, công việc và người phụ trách đã thống nhất, để biết chính xác mình cần làm gì và tránh bỏ sót việc. | Các thành viên nhóm | Sau cuộc họp, thành viên không nắm rõ công việc của mình. Ước lượng tham khảo do AI đề xuất, chưa xác nhận: 2 thành viên phải hỏi lại nhiệm vụ, mất khoảng 10–15 phút xác nhận sau mỗi buổi họp. Chưa bổ sung bằng chứng thực tế. |
+| 2 | Tốn thời gian | Khi chuẩn bị trình bày tiến độ dự án trong buổi họp, tôi muốn xác định nhanh các file liên quan và phiên bản đang dùng, để trình bày đúng kết quả đã hoàn thành. | Dev phụ trách trình bày tiến độ | Nhiều file được sinh ra khiến thư mục lộn xộn, khó trình bày tiến độ khi họp. Ước lượng tham khảo do AI đề xuất, chưa xác nhận: khoảng 10–15 phút tìm đúng file trước mỗi buổi họp. Chưa bổ sung bằng chứng thực tế. |
+| 3 | Lặp lại | Khi đến hạn cập nhật tiến độ hằng tuần, tôi muốn xác định những việc đã hoàn thành, đang làm và bị vướng, để báo cáo chính xác và biết việc nào cần hỗ trợ. | Thành viên phụ trách báo cáo, nhóm trưởng | Ý do AI gợi ý, chưa xác nhận bằng trải nghiệm cá nhân. Ước lượng tham khảo do AI đề xuất: khoảng 20–30 phút/lần xem lại commit, task và tin nhắn, 1 lần/tuần. Chưa có bằng chứng thực tế. |
+| 4 | Cần đọc, tổng hợp nhiều thông tin | Khi yêu cầu dự án thay đổi qua nhiều cuộc trao đổi, tôi muốn xác định yêu cầu mới nhất và lý do thay đổi, để triển khai đúng phạm vi đã thống nhất. | Dev và người kiểm thử | Ý do AI gợi ý, chưa xác nhận bằng trải nghiệm cá nhân. Ước lượng tham khảo do AI đề xuất: khoảng 15–20 phút đối chiếu 3–4 đoạn trao đổi mỗi lần thay đổi yêu cầu. Chưa có bằng chứng thực tế. |
+| 5 | Pain từ người khác | Khi nhận phần code được bàn giao để tích hợp, tôi muốn biết cách chạy, cấu hình cần thiết và lỗi còn tồn tại, để tiếp tục công việc mà không phải chờ người viết hướng dẫn lại. | Thành viên nhận bàn giao, người phụ trách tích hợp | Ý do AI gợi ý, chưa xác nhận từ người nhận bàn giao thực tế. Ước lượng tham khảo do AI đề xuất: khoảng 30–60 phút thiết lập và hỏi lại 2–3 lần mỗi lượt bàn giao. Chưa có bằng chứng thực tế. |
+
+**Cần hoàn thiện trước khi nộp:** các con số trong bảng là ước lượng tham khảo do AI đề xuất, chưa được đo hoặc xác nhận; không phải số liệu thực tế hay ước lượng từ trí nhớ của học viên. Cần đối chiếu, thay bằng số liệu thật và bổ sung nguồn bằng chứng. Với ý 3–5, chỉ giữ khi thực sự gặp; nếu không phù hợp thì thay bằng vấn đề khác.
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+- Đã tự nêu hai vấn đề ban đầu: thiếu ghi nhận công việc sau cuộc họp và khó tìm file khi trình bày tiến độ. AI hỗ trợ diễn đạt lại theo Job Story, bổ sung mục đích và chỉ ra dấu hiệu còn thiếu số liệu.
+- AI gợi ý thêm ý 3–5 theo ba lăng kính khác: Lặp lại; Cần đọc, tổng hợp nhiều thông tin; Pain từ người khác. Hiện ghi làm bản nháp để tự đối chiếu với trải nghiệm thật.
+- AI đã đề xuất và điền các con số tham khảo theo yêu cầu. Cần tự xác nhận số liệu, bổ sung bằng chứng và ghi ý nào giữ/bỏ cùng lý do trước khi nộp.
 
 ---
 
@@ -143,7 +144,7 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
+| CP1 Scan | Nhờ AI góp ý hai vấn đề tự nêu, gợi ý thêm ba vấn đề, đề xuất số liệu tham khảo và trình bày bảng CP1. | Làm rõ tình huống, mục đích trong Job Story và mở rộng sang các lăng kính khác. | Các ý gợi ý và số liệu tham khảo chưa có bằng chứng thực tế; chưa thể dùng làm dữ liệu xác nhận. | Cần tự xác nhận ý 3–5, thay số tham khảo bằng số liệu thật và ghi rõ ý giữ/bỏ cùng lý do. |
 | CP2 Problem Card | | | | |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
