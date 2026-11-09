@@ -199,14 +199,8 @@ Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận 
 |---|---|---|
 | Toàn bài (Discover → Define) | Double Diamond — Design Council | https://www.designcouncil.org.uk/resources/framework-for-innovation/ |
 | CP1–CP2: viết problem dạng "Khi… tôi muốn… để…" | Job Story — Intercom | https://www.intercom.com/blog/accidentally-invented-job-stories/ |
-| CP3: tách opportunity và solution | Opportunity Solution Tree — Teresa Torres | https://www.producttalk.org/opportunity-solution-trees/ |
-| CP4: bộ câu hỏi phỏng vấn giám định viên | The Mom Test — Rob Fitzpatrick | https://www.momtestbook.com/ |
-| CP4: ghi kết quả phỏng vấn | Interview Snapshot — Teresa Torres | https://www.producttalk.org/interview-snapshot/ |
 | CP5: Problem Statement không chứa giải pháp | Lean UX — Jeff Gothelf | https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/ |
 | CP5: boundary, người kiểm tra, phương án quay về | Guidelines for Human-AI Interaction — Microsoft Research | https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/ |
-| CP5–CP6: augment hay automate, báo nhầm hay bỏ sót | People + AI Guidebook — Google PAIR | https://pair.withgoogle.com/chapter/user-needs/ |
-| CP6: No AI / Rule / Workflow / Agent | Building Effective Agents — Anthropic | https://www.anthropic.com/research/building-effective-agents |
-| CP6: Value / Usability / Feasibility / Viability | The Four Big Risks — Marty Cagan, SVPG | https://www.svpg.com/four-big-risks/ |
 
 ### 7.3. Research giải pháp có sẵn (Problem Card #1 — chốt đơn từ inbox)
 
