@@ -200,4 +200,8 @@ Nhóm chọn bài toán xác định hư hỏng và ước lượng chi phí s�
 
 ## 7. Tài liệu tham khảo
 
+- Paul Adams, Intercom — [How we accidentally invented Job Stories](https://www.intercom.com/blog/accidentally-invented-job-stories). Tham khảo cách viết tình huống, động cơ và kết quả mong muốn trong CP1–CP2.
+- Teresa Torres, Product Talk — [Opportunity Solution Trees: Visualize Your Discovery to Stay Aligned and Drive Outcomes](https://www.producttalk.org/opportunity-solution-trees/). Tham khảo cấu trúc outcome → opportunity → solution và cách phân biệt pain với giải pháp ở CP3.
+- Rob Fitzpatrick — [The Mom Test](https://www.momtestbook.com/). Tham khảo phương pháp đặt câu hỏi kiểm chứng nhu cầu, tránh phản hồi thiên lệch ở CP4.
+- Anthropic — [Building effective agents](https://www.anthropic.com/research/building-effective-agents). Tham khảo cách phân biệt Workflow với Agent và nguyên tắc chọn cách giải đơn giản nhất đủ dùng.
 - [Báo cáo nhóm và nguồn research](../team/group_report.md#10-tài-liệu-tham-khảo).

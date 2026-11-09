@@ -1,15 +1,11 @@
-# Báo cáo cá nhân — MSSV_HoTen
-
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
+# Báo cáo cá nhân — 2A202603895_NguyenThaoQuyen
 
 ## 1. Thông tin học viên
 
 - Họ tên: Nguyễn Thảo Quyên
 - MSSV:2A202603895
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm: Cold
+- Tên nhóm: NhomCold
 - Link repo nhóm: https://github.com/Ama2352/K5-L3B-DAY02-NhomCold-DiscoveryProblemFraming/tree/main
 
 ---
@@ -152,8 +148,8 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 ### Card muốn pitch nhất
 
 - Card số: Card số 1 
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Vì sao: Bài toán thực tế, đánh vào nổi đau của thân chủ của xe, và giám định viên. Khi làm được flow này có thể sẽ giảm thời gian của 1 bộ hồ sơ pending từ 5-7 ngày xuống chỉ còn vài giờ.
+- Câu hỏi muốn nhóm phản biện: Bước nghẽn chính là xác định hư hỏng, tra phụ tùng hay tra giá? Ảnh có đủ căn cứ để lập dự toán không?
 
 ### AI đã phản biện card thế nào
 
@@ -167,16 +163,16 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card |Trình bày vấn đề xác định các phụ tùng bị hư hỏng và ước lượng chi phí sửa chữa sau tai nạn xe. |Đưa ra một vấn đề cụ thể trong quy trình xử lý hồ sơ bồi thường để nhóm xem xét. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:  (card tổng hợp ghi chú họp): "Nếu ghi trực tiếp theo mẫu ngay trong họp, bước gom ghi chú còn tốn thời gian không?" | Góp phần kiểm tra tính rõ ràng và mức độ có thể kiểm chứng của vấn đề. Sang sửa bottleneck từ "hỏi lại sau họp" thành "công sức tổng hợp ghi chú". |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Nếu làm vậy thì làm sao đảm bảo AI nhận diện đúng 100%?" | Tôi đã sửa gì: Không đặt mục tiêu AI đúng 100%; thêm bước giám định viên xác nhận từng bộ phận AI đề xuất, đo riêng tỉ lệ bỏ sót (≤ 15%), và chuyển giám định trực tiếp khi AI có độ tin cậy dưới 60%. |
+| Gom cluster / cây OST |Sang phụ trách gom cluster và cây OST. Tôi cung cấp 3 card (#4 hư hỏng xe, #5 phụ tùng, #6 chấm bài) để gom nhóm. | Cả 3 card của tôi vào cluster C "Đánh giá và đối chiếu chuyên môn". 4 opportunity của cây OST (xác định hư hỏng, đối chiếu phụ tùng, tra giá nhiều nguồn, đối chiếu căn cứ dự toán) đều lấy từ quy trình trong card #1 của tôi. "Computer Vision" và "Agent tự xử lý hồ sơ" trong card bị gạch khỏi tầng opportunity vì là solution.|
+| Chọn candidate problem |Đề xuất card #1 "Xác định hư hỏng và ước lượng chi phí sửa chữa" vào shortlist. |Nhóm chọn card #1 với 28 điểm, cao nhất shortlist (mục 2.4). Loại "tra cứu phụ tùng" (27 điểm) vì hẹp hơn và đã là một bước của card #1. Loại "sổ nhà trọ" (26 điểm) vì chỉ cần bảng tính hoặc Rule, ít cơ sở so sánh 4 mức. |
+| Kiểm chứng / research |Hiếu phụ trách CP4. Tôi cung cấp card #1 làm nguồn cho các giả định. |CP4 lập 6 giả định A1–A6 từ card #1 và research 3 công cụ (Tractable, Solera Qapter, CCC). Phát hiện: đã có sản phẩm làm sẵn nên không cần tự xây mô hình; chưa phỏng vấn được ai (0 người, 0 hồ sơ). |
+| Quy trình nhóm |Duy phụ trách quy trình trước/sau. Tôi đối chiếu quy trình đó khi viết CP6. ||
+| Problem Statement |Tôi viết Problem Statement v1 (mục 7) dựa trên v0 của Duy và 6 lỗ hổng AI chỉ ra. Bài toán: giám định viên tổn thất xe ô tô mất 10–15 phút/vụ để tự nhìn ảnh xác định bộ phận hư hỏng và chọn thay/sửa, kết quả khác nhau giữa các giám định viên với cùng bộ ảnh. AI chỉ đề xuất bộ phận ở bước 3, giám định viên xác nhận từng bộ phận. Việc tra mã và giá do Rule cùng bảng giá chuẩn xử lý. | v1 khác v0 ở 4 trường, có ghi lý do: mức chọn từ Agent thành Workflow; bottleneck thu hẹp từ bước 3–5 còn bước 3; metric tách bỏ sót / báo thừa và đo theo mức độ vụ; boundary thêm "chỉ hư hỏng nhìn thấy, chi phí sửa chữa ≠ tiền bồi thường, không gửi ảnh ra ngoài khi chưa được phép".|
+| Mức can thiệp AI | Viết mục 6: ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức, AI Canvas, 2 câu Google PAIR. Bước 3 (nhìn ảnh xác định hư hỏng) mơ hồ cao; các bước tra mã, tra giá, cộng tổng có đúng/sai rõ. | Chọn **Workflow**, AI chỉ ở bước 3, giám định viên xác nhận từng bộ phận (augment; bỏ sót tệ hơn báo nhầm). Không chọn Rule vì Rule không đọc được ảnh; không chọn Agent vì các bước đã cố định. Ưu tiên công cụ có sẵn, không tự xây. |
+| Quyết định | Viết mục 8: chấm 4 rủi ro (Value Cao, Usability TB, Feasibility Cao, Viability Cao) và ngưỡng dừng. | Đề xuất **Not Yet**: chưa phỏng vấn ai, chưa có quyền dùng dữ liệu. Trước tiên thử checklist + bảng giá trên 5 hồ sơ, không dùng AI. Dừng AI nếu tỉ lệ bỏ sót > 15% trên 30 hồ sơ cũ. |
 
 ---
 
@@ -184,12 +180,12 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Sau khi tự scan, nhờ AI gợi ý thêm problem. | Gợi ý ý #3, #4 (giảng viên) có pain rõ, tôi từng gặp tương tự. | Ý AI gợi ý chưa có số đo thật, chỉ ghi chung chung. | Chỉ giữ #3, #4 vì có trải nghiệm thật; bỏ các ý tôi không gặp. |
+| CP2 Problem Card | Phản biện, đàm phán, và brainstorm | đóng vai rất tốt | bắt bẻ tiểu tiết đến mức nó không phải là lỗi cũng cho là lỗi. | Sửa lại flow theo đúng ý của mình. |
+| CP4 Research | Không phụ trách (Hiếu làm). | | | |
+| CP5 Quy trình | Không phụ trách (Duy làm). | | | |
+| CP5–6 Problem Statement | Nhờ AI soạn nháp Problem Statement v1 và bảng v0 → v1. | Đối chiếu nhanh v1 với 6 lỗ hổng; phát hiện CP5 lệch số (20 vs 15 hồ sơ/ngày). | Thêm dòng thay đổi "Boundary" dù v0 đã có ý đó; gắn quá nhiều nhãn đối chiếu. | Bỏ dòng trùng, chỉ giữ thay đổi thật; cắt số hồ sơ/ngày khỏi Actor. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI soạn nháp mục 6–8 theo template. | Lập luận vì sao không chọn Agent; chỉ ra bước 3 chỉ chiếm ~17–37% thời gian nên cần đo thật. | Tự đặt 3 ngưỡng 30/50/20% không có căn cứ; có lúc báo sai về nhánh khác. | Bác 3 ngưỡng, tự chốt bỏ sót ≤ 15%, báo thừa ≤ 2 bộ phận; tự quyết Not Yet. |
 
 ---
 
@@ -198,21 +194,42 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+- Ba đề tài có thể giúp bạn nhận ra ba cách tiếp cận khác nhau khi xác định vấn đề:
+    - Tổng hợp ghi chú cuộc họp: Không chỉ là ghi chép mà còn phải phân biệt thông tin, quyết định và sắp xếp nội dung.
+    - Chốt đơn từ inbox: Cần xác định chính xác bottleneck là trả lời câu hỏi lặp lại hay nhập lại thông tin đơn hàng.
+    - Tổng hợp tiến độ: Phải phân biệt thông tin chưa được cung cấp với thông tin đã có nhưng khó tổng hợp.
+
+Một problem tốt không chỉ cần có pain point mà còn phải xác định được nguyên nhân, phạm vi và metric để kiểm chứng.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+- Có. Ban đầu, nhóm tôi khá solution-first khi nghĩ ngay đến việc sử dụng Computer Vision để nhận diện hư hỏng xe sau tai nạn. Tuy nhiên, sau khi phân tích quy trình nghiệp vụ, nhóm nhận ra nhận diện hình ảnh chỉ là một bước, khó khăn còn nằm ở việc xác định phụ tùng, tra cứu giá và tổng hợp chi phí sửa chữa. Vì vậy, nhóm đã quay lại xác định bottleneck thực tế và mở rộng phạm vi bài toán thành hỗ trợ đánh giá hư hỏng và ước lượng chi phí, thay vì chỉ tập trung vào mô hình nhận diện hình ảnh.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+- Trong bài lab lần này, tôi chưa đổi ý sau khi bị phản biện. Vì paintpoint tôi đưa ra là dựa vào trải nghiệm thực tế, hoàn toàn hợp lý về mặt thực tế, có thành viên bảo là nếu làm vậy thì làm sao đảm bảo được AI có thể detect đúng được 100% - vấn đề phản biện này thì khi đã làm AI thì tỷ lệ khi đúng 100% là khá khó để đạt được. Do vậy tôi không đổi ý sau khi bị phản biện.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+- Research cho thấy Tractable, Solera và CCC đã làm sẵn phần đánh giá hư hỏng từ ảnh.
+- Nhóm chưa thực hiện phỏng vấn thực tế (0 người, 0 hồ sơ)
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+- Phân biệt khó khăn trong nhận diện hư hỏng với khó khăn trong tra cứu giá
+- Phải tách hai kiểu lỗi: bỏ sót và báo thừa
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+- Phản biện mạnh hơn về tính khả thi của dữ liệu đầu vào và độ tin cậy của kết quả AI.
+- Tìm hiểu quy trình thực tế thay vì chỉ dựa vào suy luận.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+- Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn, vì đánh giá thủ công mất thời gian và thiếu nhất quán.
+AI chỉ tham gia đề xuất các bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule.
+Nhóm đánh giá hiệu quả qua thời gian xử lý, tỷ lệ bỏ sót và số bộ phận báo thừa.
+AI không được tự quyết định tiền bồi thường; giám định viên phải xác nhận mọi kết quả.
+Nhóm chọn Workflow vì quy trình đã có các bước cố định, không cần Agent tự quyết định hành động.
+Do chưa có phỏng vấn và dữ liệu thực tế, nhóm quyết định Not Yet.
+Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ trước khi quyết định có cần AI hay không.
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+
