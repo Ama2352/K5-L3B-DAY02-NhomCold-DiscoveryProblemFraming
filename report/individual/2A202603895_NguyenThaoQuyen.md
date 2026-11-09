@@ -155,7 +155,10 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Baseline 20–40 phút/vụ chỉ là ước tính, khoảng rộng gấp đôi có thể đang gộp va quẹt nhẹ với tai nạn nặng. | Đồng ý | Ghi rõ là ước tính; ở Problem Statement v1 tách metric thời gian theo mức độ vụ, chờ đo thật trên 5 hồ sơ. |
+| Bottleneck gộp 3 bước (xác định hư hỏng, tra phụ tùng, tra giá) nên không biết bước nào thật sự cần AI. | Đồng ý | Tách riêng: tra mã và tra giá giải được bằng bảng giá chuẩn (Rule); chỉ bước 3 nhìn ảnh mới cần AI. |
+| Mốc "5–7 ngày" là thời gian cả hồ sơ, gồm chờ phê duyệt, không phải thời gian thao tác giám định. | Đồng ý một phần | Không dùng 5–7 ngày làm baseline; tách thời gian thao tác khỏi thời gian chờ khi đo. |
+| Success metric "độ chính xác" chưa có target, và chưa tách bỏ sót với báo thừa. | Đồng ý | Đặt target: bỏ sót ≤ 15%, báo thừa ≤ 2 bộ phận/hồ sơ. |
 
 ---
 
@@ -168,11 +171,11 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 | Nhận phản biện | Câu hỏi tôi nhận được: "Nếu làm vậy thì làm sao đảm bảo AI nhận diện đúng 100%?" | Tôi đã sửa gì: Không đặt mục tiêu AI đúng 100%; thêm bước giám định viên xác nhận từng bộ phận AI đề xuất, đo riêng tỉ lệ bỏ sót (≤ 15%), và chuyển giám định trực tiếp khi AI có độ tin cậy dưới 60%. |
 | Gom cluster / cây OST |Sang phụ trách gom cluster và cây OST. Tôi cung cấp 3 card (#4 hư hỏng xe, #5 phụ tùng, #6 chấm bài) để gom nhóm. | Cả 3 card của tôi vào cluster C "Đánh giá và đối chiếu chuyên môn". 4 opportunity của cây OST (xác định hư hỏng, đối chiếu phụ tùng, tra giá nhiều nguồn, đối chiếu căn cứ dự toán) đều lấy từ quy trình trong card #1 của tôi. "Computer Vision" và "Agent tự xử lý hồ sơ" trong card bị gạch khỏi tầng opportunity vì là solution.|
 | Chọn candidate problem |Đề xuất card #1 "Xác định hư hỏng và ước lượng chi phí sửa chữa" vào shortlist. |Nhóm chọn card #1 với 28 điểm, cao nhất shortlist (mục 2.4). Loại "tra cứu phụ tùng" (27 điểm) vì hẹp hơn và đã là một bước của card #1. Loại "sổ nhà trọ" (26 điểm) vì chỉ cần bảng tính hoặc Rule, ít cơ sở so sánh 4 mức. |
-| Kiểm chứng / research |Hiếu phụ trách CP4. Tôi cung cấp card #1 làm nguồn cho các giả định. |CP4 lập 6 giả định A1–A6 từ card #1 và research 3 công cụ (Tractable, Solera Qapter, CCC). Phát hiện: đã có sản phẩm làm sẵn nên không cần tự xây mô hình; chưa phỏng vấn được ai (0 người, 0 hồ sơ). |
+| Kiểm chứng / research |Hiếu phụ trách CP4. Tôi cung cấp card #1 làm nguồn cho các giả định. |CP4 lập 6 giả định A1–A6 từ card #1 và research 3 công cụ (Tractable, Solera Qapter, CCC). Hiếu phỏng vấn 3 người (giám định viên, nhân viên bồi thường, nhân viên garage). Phát hiện: đã có sản phẩm làm sẵn nên không cần tự xây mô hình; PV02 phản bác việc cần AI cho mọi ca (ca đủ dữ liệu, checklist và bảng giá đã đủ); chưa có log thời gian hay hồ sơ thật. |
 | Quy trình nhóm |Duy phụ trách quy trình trước/sau. Tôi đối chiếu quy trình đó khi viết CP6. ||
 | Problem Statement |Tôi viết Problem Statement v1 (mục 7) dựa trên v0 của Duy và 6 lỗ hổng AI chỉ ra. Bài toán: giám định viên tổn thất xe ô tô mất 10–15 phút/vụ để tự nhìn ảnh xác định bộ phận hư hỏng và chọn thay/sửa, kết quả khác nhau giữa các giám định viên với cùng bộ ảnh. AI chỉ đề xuất bộ phận ở bước 3, giám định viên xác nhận từng bộ phận. Việc tra mã và giá do Rule cùng bảng giá chuẩn xử lý. | v1 khác v0 ở 4 trường, có ghi lý do: mức chọn từ Agent thành Workflow; bottleneck thu hẹp từ bước 3–5 còn bước 3; metric tách bỏ sót / báo thừa và đo theo mức độ vụ; boundary thêm "chỉ hư hỏng nhìn thấy, chi phí sửa chữa ≠ tiền bồi thường, không gửi ảnh ra ngoài khi chưa được phép".|
 | Mức can thiệp AI | Viết mục 6: ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức, AI Canvas, 2 câu Google PAIR. Bước 3 (nhìn ảnh xác định hư hỏng) mơ hồ cao; các bước tra mã, tra giá, cộng tổng có đúng/sai rõ. | Chọn **Workflow**, AI chỉ ở bước 3, giám định viên xác nhận từng bộ phận (augment; bỏ sót tệ hơn báo nhầm). Không chọn Rule vì Rule không đọc được ảnh; không chọn Agent vì các bước đã cố định. Ưu tiên công cụ có sẵn, không tự xây. |
-| Quyết định | Viết mục 8: chấm 4 rủi ro (Value Cao, Usability TB, Feasibility Cao, Viability Cao) và ngưỡng dừng. | Đề xuất **Not Yet**: chưa phỏng vấn ai, chưa có quyền dùng dữ liệu. Trước tiên thử checklist + bảng giá trên 5 hồ sơ, không dùng AI. Dừng AI nếu tỉ lệ bỏ sót > 15% trên 30 hồ sơ cũ. |
+| Quyết định | Viết mục 8: chấm 4 rủi ro (Value Cao, Usability TB, Feasibility Cao, Viability Cao) và ngưỡng dừng. | Đề xuất **Not Yet**: mới có 3 phỏng vấn định tính, chưa đo thời gian trên hồ sơ, chưa có quyền dùng dữ liệu. Trước tiên thử checklist + bảng giá trên 5 hồ sơ, không dùng AI. Dừng AI nếu tỉ lệ bỏ sót > 15% trên 30 hồ sơ cũ. |
 
 ---
 
@@ -209,7 +212,7 @@ Một problem tốt không chỉ cần có pain point mà còn phải xác đị
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 - Research cho thấy Tractable, Solera và CCC đã làm sẵn phần đánh giá hư hỏng từ ảnh.
-- Nhóm chưa thực hiện phỏng vấn thực tế (0 người, 0 hồ sơ)
+- Hiếu phỏng vấn 3 người; nhân viên bồi thường (PV02) cho biết chậm chủ yếu ở chuyển duyệt và chờ phản hồi, còn ca đủ dữ liệu thì checklist và bảng giá đã đủ. Nhóm vẫn chưa có log thời gian hay hồ sơ thật (0 hồ sơ).
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 - Phân biệt khó khăn trong nhận diện hư hỏng với khó khăn trong tra cứu giá
@@ -226,10 +229,20 @@ AI chỉ tham gia đề xuất các bộ phận hư hỏng, còn tra cứu thôn
 Nhóm đánh giá hiệu quả qua thời gian xử lý, tỷ lệ bỏ sót và số bộ phận báo thừa.
 AI không được tự quyết định tiền bồi thường; giám định viên phải xác nhận mọi kết quả.
 Nhóm chọn Workflow vì quy trình đã có các bước cố định, không cần Agent tự quyết định hành động.
-Do chưa có phỏng vấn và dữ liệu thực tế, nhóm quyết định Not Yet.
+Do mới có 3 phỏng vấn định tính, chưa đo thời gian trên hồ sơ và chưa có quyền dùng dữ liệu, nhóm quyết định Not Yet.
 Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ trước khi quyết định có cần AI hay không.
 ---
 
 ## 7. Tài liệu tham khảo
 
+**Paper**
+
+- Wang, X., Li, W., & Wu, Z. (2023). CarDD: A New Dataset for Vision-Based Car Damage Detection. *IEEE Transactions on Intelligent Transportation Systems*, 24(7), 7202–7214. https://doi.org/10.1109/TITS.2023.3258480 · [arXiv:2211.00945](https://arxiv.org/abs/2211.00945)
+
+**Báo**
+
+- Fortune (02/08/2022). *Behind the scenes, A.I. may now be handling your insurance claim*. https://fortune.com/2022/08/02/insurance-ai-auto-claims-tractable-american-family-subrogation/
+- Insurance Journal (11/05/2020). *Tokio Marine Uses Tractable's Artificial Intelligence Solution for Auto Claims in Japan*. https://www.insurancejournal.com/news/international/2020/05/11/568090.htm
+- Repairer Driven News (09/06/2020). *Tractable shows off more comprehensive AI photo estimating product*. https://www.repairerdrivennews.com/2020/06/09/tractable-shows-off-more-comprehensive-ai-photo-estimating-product/
+- The New York Times (17/09/2020). *A Car Insurance Claim Estimate Before the Tow Truck Is Called*. https://www.nytimes.com/2020/09/17/business/car-insurance-claim-estimate-artificial-intelligence.html
 

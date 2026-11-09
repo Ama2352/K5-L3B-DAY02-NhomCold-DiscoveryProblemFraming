@@ -63,15 +63,17 @@
 
 - Báo cáo cá nhân có ba card về đánh giá hư hỏng và chi phí, tra cứu phụ tùng, kiểm tra bài tập.
 - Card #1 là candidate nhóm chọn để phân tích tiếp.
+- Viết mục 6–8 báo cáo nhóm: ma trận độ mơ hồ × độ phức tạp; so sánh 4 mức và chọn Workflow (AI chỉ ở bước 3, không chọn Agent); AI Canvas và 2 câu Google PAIR.
+- Viết Problem Statement v1 (khác v0 ở 4 trường: mức chọn, bottleneck, success metric, boundary) và 5 tiêu chí đánh giá (bỏ sót ≤ 15%, báo thừa ≤ 2 bộ phận/hồ sơ).
+- Chấm 4 rủi ro, đề xuất Not Yet kèm 4 ngưỡng dừng; viết mục 9–10 (hạn chế, tài liệu tham khảo).
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - [Báo cáo cá nhân](report/individual/2A202603895_NguyenThaoQuyen.md).
 - [Báo cáo nhóm, mục 2.4 — Candidate được chọn](report/team/group_report.md).
+- [Báo cáo nhóm, mục 6–8 — Mức can thiệp, Problem Statement v1, quyết định (CP6)](report/team/group_report.md); commit `cb85c7e` ("CP6: muc 6-10 cho card #1").
 
 **Điều mình học được từ phần nhóm:**
-
-*Bản gợi ý để thành viên tự đối chiếu với trải nghiệm của mình:*
 
 - Bài toán xác định hư hỏng cần tách rõ nhận diện bộ phận, đối chiếu phụ tùng và tra giá. Gộp cả ba thành một bottleneck sẽ khó xác định bước nào thực sự cần cải thiện.
 - Có công cụ nhận diện ảnh không đồng nghĩa với việc lập được dự toán đáng tin cậy. Cần kiểm tra phạm vi dữ liệu, phụ tùng tương thích, nguồn giá và vai trò xác nhận của người giám định.
