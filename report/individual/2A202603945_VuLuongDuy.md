@@ -29,7 +29,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 7 | Tốn thời gian | Khi cuối ngày đối soát, chủ shop muốn khớp tiền COD về với danh sách đơn, để biết đơn nào chưa thu tiền | Chủ shop | ~30 phút/ngày |
 | 8 | Pain từ người khác | Khi nhận đánh giá 1–2 sao trên sàn, chủ shop muốn phản hồi sớm, để không ảnh hưởng điểm shop | Chủ shop, khách | 10 đánh giá xấu/tháng |
 
-**Nếu có dùng AI để gợi ý thêm:** sau khi tự scan 6 ý, tôi hỏi AI thêm góc nhìn. Giữ lại ý #7 và #8 (đã viết lại theo bối cảnh shop nhỏ). Bỏ ý "chatbot AI bán hàng 24/7" vì là solution trá hình, không mô tả pain cụ thể.
+**Nếu có dùng AI để gợi ý thêm:** sau khi tự scan 6 ý, tôi hỏi AI thêm góc nhìn. Giữ lại ý #7 và #8. Bỏ ý "chatbot AI bán hàng 24/7" vì là solution trá hình, không mô tả pain cụ thể.
 
 ---
 
