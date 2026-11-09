@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Vũ Lương Duy | 2A202603945 | Nhóm trưởng, ghi chép, viết Problem Statement | duy-vu |
+| 1 | Vũ Lương Duy | 2A202603945 | Nhóm trưởng, ghi chép, viết Problem Statement | vuduy21 |
 | 2 | Nguyễn Văn A | 2A202603946 | Phản biện chính, lập bảng chấm điểm | nguyenvana |
 | 3 | Trần Thị B | 2A202603947 | Kiểm chứng, phỏng vấn, survey | tranthib |
 | 4 | Lê Văn C | 2A202603948 | Research, quy trình, vẽ sơ đồ | levanc |
