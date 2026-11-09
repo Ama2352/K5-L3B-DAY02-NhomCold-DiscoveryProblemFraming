@@ -5,8 +5,8 @@
 ## Thông tin nhóm
 
 - Tên nhóm: NhomCold
-- Candidate problem nhóm chọn (1 câu): Học viên K5 mất ~20 phút mỗi ngày lướt LMS, Discord/Zalo, email và README để biết chắc còn bài nào phải nộp và hạn lúc nào, vì thông báo đổi hạn nằm rải rác và trôi trong chat.
-- Quyết định cuối (Go / Not Yet / No-Go): Go — phạm vi No AI + Rule (bước AI đọc chat: Not Yet)
+- Candidate problem nhóm chọn (1 câu): Khi tiếp nhận hồ sơ bồi thường bảo hiểm ô tô kèm ảnh xe tai nạn, giám định viên mất 20–40 phút/vụ để xác định bộ phận hư hỏng, tra phụ tùng và giá sửa chữa, và kết quả chưa nhất quán giữa các nhân viên.
+- Quyết định cuối (Go / Not Yet / No-Go): (chốt ở CP6)
 
 ## Thành viên
 
