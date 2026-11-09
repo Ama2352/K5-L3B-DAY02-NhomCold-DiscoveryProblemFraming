@@ -135,12 +135,11 @@ flowchart TD
   E --> F["6. Tổng hợp chi phí dự kiến<br/>GĐV · 5'"]
   F --> G["7. Trình cấp có thẩm quyền duyệt<br/>Trưởng nhóm / phòng · 5' + chờ"]
 
-  style C fill:#f8d7da,stroke:#c0392b
-  style D fill:#f8d7da,stroke:#c0392b
-  style E fill:#f8d7da,stroke:#c0392b
+  classDef bottleneck fill:#b03a2e,stroke:#7b241c,stroke-width:3px,color:#ffffff,font-weight:bold
+  class C,D,E bottleneck
 ```
 
-*Ô đỏ = bottleneck (bước 3–5).*
+*Ô đỏ đậm, viền dày = bottleneck (bước 3–5).*
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
@@ -172,13 +171,13 @@ flowchart TD
   E --> F["6. CON NGƯỜI: GĐV điều chỉnh giá,<br/>chốt bảng chi phí · 3'"]
   F --> G["7. CON NGƯỜI: Cấp có thẩm quyền duyệt · 5'"]
 
-  style D fill:#d4edda,stroke:#1e7e34
-  style F fill:#d4edda,stroke:#1e7e34
-  style G fill:#d4edda,stroke:#1e7e34
-  style C fill:#fff3cd,stroke:#b8860b
+  classDef human fill:#1e7e34,stroke:#145a24,stroke-width:2px,color:#ffffff
+  classDef ai fill:#9a6b00,stroke:#6b4a00,stroke-width:2px,color:#ffffff
+  class D,F,G human
+  class C ai
 ```
 
-*Vàng = bước AI · Xanh = bước con người kiểm tra / quyết định · còn lại là Rule.*
+*Vàng đậm = bước AI · Xanh lá đậm = bước con người kiểm tra / quyết định · còn lại là Rule.*
 
 | Bước | Ai làm | Việc | Thời gian |
 |---:|---|---|---|
