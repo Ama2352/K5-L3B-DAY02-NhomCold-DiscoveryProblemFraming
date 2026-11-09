@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — 2A202603945_VuLuongDuy
 
-> ⚠️ **Trước khi nộp:** mọi chỗ `[ĐO THẬT]` / `___` là số ước tính hoặc ô trống — thay bằng số bạn tự quan sát, hỏi hoặc đếm được (ảnh chụp inbox đã che tên, lịch sử đơn). Mục 4–6 phải tự viết bằng trải nghiệm thật (RULES §2, RUBRIC C4). Xóa khối ghi chú này khi xong.
+
 
 ## 1. Thông tin học viên
 
