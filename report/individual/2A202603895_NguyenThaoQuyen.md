@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603895_NguyenThaoQuyen
 
 ## 1. Thông tin học viên
 
@@ -148,8 +148,8 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 ### Card muốn pitch nhất
 
 - Card số: Card số 1 
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Vì sao: Bài toán thực tế, đánh vào nổi đau của thân chủ của xe, và giám định viên. Khi làm được flow này có thể sẽ giảm thời gian của 1 bộ hồ sơ pending từ 5-7 ngày xuống chỉ còn vài giờ.
+- Câu hỏi muốn nhóm phản biện: Bước nghẽn chính là xác định hư hỏng, tra phụ tùng hay tra giá? Ảnh có đủ căn cứ để lập dự toán không?
 
 ### AI đã phản biện card thế nào
 
@@ -164,8 +164,8 @@ HIỆN TẠI — Ước tính 5–10 phút/bài
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card |Trình bày vấn đề xác định các phụ tùng bị hư hỏng và ước lượng chi phí sửa chữa sau tai nạn xe. |Đưa ra một vấn đề cụ thể trong quy trình xử lý hồ sơ bồi thường để nhóm xem xét. |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |Góp phần kiểm tra tính rõ ràng và mức độ có thể kiểm chứng của vấn đề.
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:  (card tổng hợp ghi chú họp): "Nếu ghi trực tiếp theo mẫu ngay trong họp, bước gom ghi chú còn tốn thời gian không?" | Góp phần kiểm tra tính rõ ràng và mức độ có thể kiểm chứng của vấn đề. Sang sửa bottleneck từ "hỏi lại sau họp" thành "công sức tổng hợp ghi chú". |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Nếu làm vậy thì làm sao đảm bảo AI nhận diện đúng 100%?" | Tôi đã sửa gì: Không đặt mục tiêu AI đúng 100%; thêm bước giám định viên xác nhận từng bộ phận AI đề xuất, đo riêng tỉ lệ bỏ sót (≤ 15%), và chuyển giám định trực tiếp khi AI có độ tin cậy dưới 60%. |
 | Gom cluster / cây OST |Sang phụ trách gom cluster và cây OST. Tôi cung cấp 3 card (#4 hư hỏng xe, #5 phụ tùng, #6 chấm bài) để gom nhóm. | Cả 3 card của tôi vào cluster C "Đánh giá và đối chiếu chuyên môn". 4 opportunity của cây OST (xác định hư hỏng, đối chiếu phụ tùng, tra giá nhiều nguồn, đối chiếu căn cứ dự toán) đều lấy từ quy trình trong card #1 của tôi. "Computer Vision" và "Agent tự xử lý hồ sơ" trong card bị gạch khỏi tầng opportunity vì là solution.|
 | Chọn candidate problem |Đề xuất card #1 "Xác định hư hỏng và ước lượng chi phí sửa chữa" vào shortlist. |Nhóm chọn card #1 với 28 điểm, cao nhất shortlist (mục 2.4). Loại "tra cứu phụ tùng" (27 điểm) vì hẹp hơn và đã là một bước của card #1. Loại "sổ nhà trọ" (26 điểm) vì chỉ cần bảng tính hoặc Rule, ít cơ sở so sánh 4 mức. |
 | Kiểm chứng / research |Hiếu phụ trách CP4. Tôi cung cấp card #1 làm nguồn cho các giả định. |CP4 lập 6 giả định A1–A6 từ card #1 và research 3 công cụ (Tractable, Solera Qapter, CCC). Phát hiện: đã có sản phẩm làm sẵn nên không cần tự xây mô hình; chưa phỏng vấn được ai (0 người, 0 hồ sơ). |
