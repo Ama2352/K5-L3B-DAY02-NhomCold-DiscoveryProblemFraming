@@ -15,7 +15,7 @@
 | 1 | Vũ Lương Duy | 2A202603945 |  | vuduy21 |
 | 2 | Nguyễn Văn A | 2A202603946 |  | nguyenvana |
 | 3 | Trần Thị B | 2A202603947 |  | tranthib |
-| 4 | Mai Danh Hiếu | 2A202603948 | Tổng hợp CP4, research và chuẩn bị kiểm chứng | Chưa xác nhận |
+| 4 | Mai Danh Hiếu | 2A202603948 | Trực tiếp phỏng vấn, tổng hợp CP4 và research | Chưa xác nhận |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -24,7 +24,7 @@ Không ghi email hay số điện thoại vào bảng này, vì repo có thể �
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | Nguyễn Văn A | Vũ Lương Duy | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | Mai Danh Hiếu (chuẩn bị) | Chưa xác nhận người cùng phỏng vấn | 6 giả định, 10 câu hỏi và kế hoạch đối chiếu 5 hồ sơ; chưa có phỏng vấn thực tế |
+| CP4 — Kiểm chứng | Mai Danh Hiếu — trực tiếp thực hiện 3 cuộc phỏng vấn | AI hỗ trợ tổng hợp tài liệu sau phỏng vấn | 6 giả định, 3 Interview Snapshot PV01–PV03, tín hiệu phản bác và problem điều chỉnh; kế hoạch đo 5 hồ sơ |
 | CP4 — Research | Mai Danh Hiếu, có AI hỗ trợ | Card nguồn của Nguyễn Thảo Quyên | Bảng 3 nhà cung cấp, 4 trang chính thức đã mở; giới hạn bằng chứng và problem điều chỉnh |
 | CP5 — Quy trình trước/sau | Vũ Lương Duy | Lê Văn C | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Vũ Lương Duy | Nguyễn Văn A | Problem Statement v0 |
@@ -35,11 +35,13 @@ Không ghi email hay số điện thoại vào bảng này, vì repo có thể �
 
 ### Mai Danh Hiếu — 2A202603948
 
-**Phần việc CP4:** tổng hợp assumption map, research giải pháp hiện có và chuẩn bị kiểm chứng theo Problem Card #1 của Nguyễn Thảo Quyên, có AI hỗ trợ.
+**Phần việc CP4:** trực tiếp thực hiện ba cuộc phỏng vấn với giám định viên, nhân viên bồi thường và nhân viên garage; tổng hợp assumption map và research giải pháp theo Problem Card #1 của Nguyễn Thảo Quyên. AI hỗ trợ tổng hợp tài liệu và research.
 
-**Đóng góp cụ thể:** hoàn thiện mục 3 báo cáo nhóm; đổi bộ câu hỏi từ đề tài deadline sang giám định xe; phân biệt số liệu ước tính với baseline, nguồn sản phẩm với kiểm chứng người dùng; sửa kết luận chưa đủ nguồn về độ phủ Việt Nam. Chưa thực hiện phỏng vấn hoặc thu thập hồ sơ thực tế.
+**CP4 bản cập nhật:** sử dụng ba cuộc phỏng vấn do Mai Danh Hiếu trực tiếp thực hiện, kết hợp nghiên cứu thứ cấp và research ba nhà cung cấp. Kịch bản mô phỏng trước đây không dùng làm bằng chứng. Ngày, hình thức và địa bàn từng buổi chưa được bổ sung; chưa có baseline đo trên hồ sơ.
 
-**Bằng chứng:** [CP4 báo cáo nhóm](report/team/group_report.md), [hướng dẫn phỏng vấn](report/assets/cp4-interview-guide.md), [báo cáo cá nhân](report/individual/2A202603948_MAIDANHHIEU.md).
+**Đóng góp cụ thể:** hoàn thiện mục 3 báo cáo nhóm; đổi bộ câu hỏi từ đề tài deadline sang giám định xe; phân biệt số liệu ước tính với baseline, nguồn sản phẩm với kiểm chứng người dùng; sửa kết luận chưa đủ nguồn về độ phủ Việt Nam. Đã thực hiện ba cuộc phỏng vấn và cung cấp tài liệu gốc để tổng hợp; chưa có bộ hồ sơ và log thời gian kèm theo.
+
+**Bằng chứng:** [Tài liệu phỏng vấn do Mai Danh Hiếu thực hiện](report/team/group_report.md#cp4-phong-van-goc), [CP4 báo cáo nhóm](report/team/group_report.md), [báo cáo cá nhân](report/individual/2A202603948_MAIDANHHIEU.md).
 
 **Điều rút ra từ research:** có sản phẩm AI tương tự không chứng minh đơn vị mục tiêu cần Agent; cần kiểm tra bottleneck, nguồn giá, quyền dữ liệu và phương án No AI/Rule trước.
 

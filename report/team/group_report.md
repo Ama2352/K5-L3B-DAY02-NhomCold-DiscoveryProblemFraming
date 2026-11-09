@@ -2,7 +2,7 @@
 
 > Bản chung của nhóm NhomCold.
 >
-> **Phạm vi cập nhật 09/11/2026:** CP4 đã chuyển sang Problem Card #1 của Nguyễn Thảo Quyên về giám định xe. CP3 và CP5–CP6 bên dưới còn là bản đề tài deadline cũ, chưa phải kết quả của bài toán xe. Research CP4 đã thực hiện; phỏng vấn người thật chưa thực hiện.
+> **Phạm vi cập nhật 09/11/2026:** CP4 đã chuyển sang Problem Card #1 của Nguyễn Thảo Quyên về giám định xe. CP3 và CP5–CP6 bên dưới còn là bản đề tài deadline cũ, chưa phải kết quả của bài toán xe. CP4 đã tổng hợp ba cuộc phỏng vấn do Mai Danh Hiếu trực tiếp thực hiện và research giải pháp; metadata từng buổi và baseline thời gian còn cần bổ sung.
 >
 > ⚠️ **Trước khi nộp:** (1) các dòng pitch của thành viên khác do chính họ điền; (2) mục 3.2 chỉ điền dữ liệu từ người thật đã hỏi — bịa phỏng vấn/survey thì C7 = 0 cả nhóm; (3) thay mọi `[ĐO THẬT]` / `___` bằng số thật. Xóa khối ghi chú này khi xong.
 
@@ -87,9 +87,9 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 **Bài toán:** Problem Card #1 — Xác định hư hỏng và ước lượng chi phí sửa chữa của [Nguyễn Thảo Quyên](../individual/2A202603895_NguyenThaoQuyen.md). **Người tổng hợp:** Mai Danh Hiếu — 2A202603948. **Ngày research:** 09/11/2026.
 
-**Trạng thái bằng chứng:** đã đọc card và research 3 nhà cung cấp qua 4 trang chính thức; chưa có biên bản phỏng vấn, survey hoặc hồ sơ thực tế được cung cấp. Mức 20–40 phút/vụ là ước tính trong card, chưa phải baseline đã đo. Card dùng con số này cho cả bước 3–5 và sơ đồ toàn quy trình nên cần làm rõ phạm vi. Khoảng 5–7 ngày ở CP1 là thời gian toàn hồ sơ, không được dùng thay thời gian thao tác giám định ban đầu.
+**Trạng thái bằng chứng:** đã có tài liệu ba cuộc phỏng vấn [Tài liệu phỏng vấn gốc — Phụ lục A](#cp4-phong-van-goc) và research giải pháp chính thức. Snapshot và giới hạn nguồn ở mục 3.2. Mức 20–40 phút/vụ vẫn là ước tính chưa đo; thời gian toàn hồ sơ không được dùng thay thời gian thao tác.
 
-### 3.1. Assumption Map
+### 3.1. Assumption Map ban đầu (trước bổ sung phỏng vấn)
 
 Thang điểm: quan trọng 5 = nếu sai phải đổi hướng; bằng chứng 1 = chưa có dữ liệu trực tiếp, 2 = có nguồn gián tiếp, 3 = có dữ liệu trực tiếp nhỏ, 4–5 = đã kiểm tra lặp lại. Điểm là đánh giá sơ bộ phục vụ ưu tiên, không phải kết quả đo.
 
@@ -104,45 +104,105 @@ Thang điểm: quan trọng 5 = nếu sai phải đổi hướng; bằng chứng
 
 **Trọng tâm kiểm chứng:** A1–A3 và A6. Nếu phần chờ bổ sung hồ sơ/phê duyệt mới gây chậm, cần đổi bottleneck; nếu checklist và bảng giá đã đủ thì không có căn cứ tăng mức can thiệp lên AI. A4–A5 chỉ thử tiếp khi có dữ liệu và quyền dùng.
 
-### 3.2. Kiểm chứng
+### 3.2. Kết quả nghiên cứu và kiểm chứng
 
-**Cách đã thực hiện:** rà soát tài liệu nội bộ và nghiên cứu tài liệu sản phẩm công khai. **Phỏng vấn thực tế: chưa thực hiện trong phạm vi dữ liệu hiện có; số người đã hỏi được ghi nhận: 0.** Không coi tài liệu nhà cung cấp là phỏng vấn người dùng.
+#### Nguồn phỏng vấn bổ sung
 
-**Đối tượng và cách kiểm chứng tiếp theo:** 2 giám định viên/nhân viên bồi thường đã xử lý hồ sơ ô tô và 1 người lập báo giá tại garage, ngoài nhóm; phỏng vấn 10–15 phút/người về vụ gần nhất. Xem 5 hồ sơ đã ẩn danh nếu được cho phép. Hướng dẫn và biểu mẫu ghi nhận: [cp4-interview-guide.md](../assets/cp4-interview-guide.md).
+CP4 sử dụng [Tài liệu phỏng vấn gốc — Phụ lục A](#cp4-phong-van-goc), bản cập nhật 09/11/2026, gồm ba cuộc phỏng vấn do Mai Danh Hiếu — 2A202603948 trực tiếp thực hiện. AI hỗ trợ tổng hợp các snapshot từ tài liệu phỏng vấn. Ngày, hình thức và địa bàn từng buổi chưa được bổ sung; ngày cập nhật file không được coi là ngày phỏng vấn. Chưa có log thời gian hoặc hồ sơ kèm theo. Mã PV01–PV03 tương ứng mục 2.1–2.3; H1–H6 là số câu hỏi trong mỗi mục.
 
-**Snapshot — trạng thái thu thập hiện tại:**
+#### Interview Snapshot PV01 — Giám định viên bảo hiểm
 
-| Trường | Nội dung |
-|---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Chưa có người được phỏng vấn; đối tượng dự kiến là giám định viên, nhân viên bồi thường và người lập báo giá garage. |
-| Khi nào, hỏi bằng cách nào | Chưa có buổi phỏng vấn được ghi nhận; nghiên cứu tài liệu được thực hiện ngày 09/11/2026. |
-| Câu nói đáng nhớ nhất (nguyên văn) | Chưa có lời nói nguyên văn từ người thật. |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Chưa có hồ sơ cụ thể; card chỉ mô tả tình huống tiếp nhận ảnh xe tai nạn và lập dự toán. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Card đề xuất checklist, danh mục và bảng giá chuẩn hóa; chưa xác nhận đây là cách đang được người dùng thực hiện. |
-| Mất bao lâu, bao lần? | 20–40 phút/vụ là ước tính của card; chưa có tần suất hoặc log tách từng bước và thời gian chờ. |
-| Insight / opportunity rút ra | Cần xác định bước nghẽn thực tế trước khi chọn mô hình; dữ liệu giá và quyền sử dụng hồ sơ là các điều kiện phải kiểm tra, chưa phải nguyên nhân đã chứng minh. |
+- **Ngữ cảnh:** tiếp nhận ảnh hồ sơ va chạm đầu xe; người phỏng vấn: Mai Danh Hiếu; ngày, hình thức và địa bàn chưa được bổ sung.
+- **Hành vi cụ thể (H2):** nhận hai ảnh cận cảnh, thiếu ảnh toàn xe và phiên bản; yêu cầu bổ sung góc ảnh và kiểm tra thông tin xe trước khi đối chiếu phụ tùng.
+- **Trích dẫn (H5):** “Rủi ro là chọn đúng tên bộ phận nhưng sai biến thể của phụ tùng.”
+- **Pain và workaround (H3–H5):** tra đúng cấu hình, mã và giá tốn công; dùng danh mục, hỏi garage, đánh dấu chưa xác nhận khi dữ liệu không khớp.
+- **Insight:** cần dữ liệu xe đầy đủ và nguồn đối chiếu cho từng dòng dự toán, không chỉ khoanh vùng hư hỏng.
+- **Phản bác/giới hạn:** ảnh đủ và xe quen thì khoanh vùng khá nhanh; chưa có số phút hay tần suất để xếp hạng bottleneck. Kỳ vọng công cụ ở H6 chưa phải cam kết sử dụng.
 
-**Tổng hợp bằng chứng:**
+#### Interview Snapshot PV02 — Nhân viên bồi thường
 
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác / giới hạn |
+- **Ngữ cảnh:** đối chiếu dự toán ca va chạm nhẹ, xe phổ thông; người phỏng vấn: Mai Danh Hiếu; ngày, hình thức và địa bàn chưa được bổ sung.
+- **Hành vi cụ thể (H1–H2):** ca có ảnh đủ, xe quen và báo giá đúng mẫu chỉ cần rà hạng mục, giá rồi chuyển duyệt; đã dùng checklist và bảng dữ liệu, không nhập lại toàn bộ.
+- **Trích dẫn (H3):** “Vấn đề nằm ở quy trình chuyển duyệt và chờ phản hồi.”
+- **Pain và workaround:** chờ duyệt kéo dài dù thao tác thuận lợi; rà biểu mẫu, báo giá và ghi các dòng cần xác nhận.
+- **Insight:** phải tách ca đủ dữ liệu với ca thiếu dữ liệu, đồng thời tách thời gian thao tác với chờ người duyệt.
+- **Tín hiệu phản bác (H4):** tìm kiếm theo mã xe và biểu mẫu chuẩn có thể đã đủ khi dữ liệu có cấu trúc; không có căn cứ áp dụng AI cho mọi ca.
+- **Hàm ý (H5–H6):** đo cả công rà/sửa nháp, số dòng sửa và hồ sơ trả về. Đây là điều kiện cần thử, chưa phải hiệu quả đã đo.
+
+#### Interview Snapshot PV03 — Nhân viên garage / cố vấn dịch vụ
+
+- **Ngữ cảnh:** va chạm cản trước và chi tiết phía sau cản; người phỏng vấn: Mai Danh Hiếu; ngày, hình thức và địa bàn chưa được bổ sung.
+- **Hành vi cụ thể (H2):** ảnh ngoài cho thấy cản nứt; kiểm tra sâu phát hiện chi tiết gá lắp bị ảnh hưởng, phải thêm ảnh, hạng mục và báo giá điều chỉnh.
+- **Trích dẫn (H4):** “Giá thì ghi nguồn báo và thời điểm nhận báo giá.”
+- **Pain và workaround (H1–H4):** kiểm tra/tháo kiểm hư hỏng khuất, chờ tồn kho, báo giá và duyệt bổ sung; ghi dự toán tạm, hạng mục cần kiểm tra và lưu phiên bản trước.
+- **Insight:** dự toán có thể cần bổ sung vì thông tin mới; không mặc định mọi bổ sung đều là lỗi nhận diện ban đầu.
+- **Phản bác/giới hạn (H5):** ảnh ngoài không xác nhận kết cấu bên trong; nhận diện ảnh không giải quyết toàn bộ chuỗi xử lý.
+- **Hàm ý:** tách phần nhìn thấy và phần chưa xác minh, lưu nguồn/thời điểm giá và lịch sử sửa. Mong muốn ở H6 chưa chứng minh hiệu quả tự động hóa.
+
+#### Tổng hợp đối chiếu sau phỏng vấn
+
+| Giả định | Bằng chứng trong tài liệu | Kết luận cập nhật |
+|---|---|---|
+| A1 — nhận diện/tra mã/giá chiếm phần lớn thời gian, thường 20–40 phút | PV01 H3: tra biến thể tốn công; PV02 H3: chờ duyệt; PV03 H3: chờ báo giá và duyệt bổ sung. | Có lời kể về khó khăn, chưa xác nhận số phút hoặc bottleneck chung. |
+| A2 — chuẩn hóa chưa đủ | PV02 H1–H4 mô tả ca thuận lợi với checklist và dữ liệu sẵn có. | Bị phản bác trong nhóm ca đủ dữ liệu; cần thử No AI/Rule trước. |
+| A3 — nhóm có dữ liệu và quyền dùng | PV01 H4, PV03 H4 nói về nguồn tra cứu của người được hỏi. | Không chứng minh nhóm có quyền truy cập; vẫn chưa xác nhận. |
+| A4 — ảnh hỗ trợ phần nhìn thấy, ca khó chuyển kiểm tra | PV01 H2/H4, PV03 H1/H2/H5. | Được củng cố có điều kiện; không xác nhận độ chính xác của mô hình. |
+| A5 — rà nháp nhanh hơn tự lập | PV02 H5/H6 chỉ nêu điều kiện chấp nhận. | Chưa có thử nghiệm; không lấy kỳ vọng làm bằng chứng hiệu quả. |
+| A6 — đơn vị chấp thuận chi phí và xử lý dữ liệu | Không có cam kết quản lý trong tài liệu. | Chưa xác nhận. |
+
+**Thay đổi problem:** từ nhận diện hư hỏng và ước lượng chi phí nói chung, thu hẹp vào ca thiếu góc ảnh hoặc cấu hình xe, cần đối chiếu đúng biến thể phụ tùng/nguồn giá và làm rõ hạng mục chưa xác minh. PV02 cho thấy cần phân nhóm hồ sơ thay vì coi mọi ca đều cần AI. Ba lời kể là mẫu định tính nhỏ, chưa chứng minh mức phổ biến tại Việt Nam hoặc mức giảm 30–50%.
+
+**Kế hoạch đo tiếp:** Mai Danh Hiếu bổ sung ngày, hình thức và địa bàn từng buổi; quan sát 5 hồ sơ được phép dùng, gồm ca đủ/thiếu đầu vào. Ghi riêng phút kiểm tra ảnh/xe, nhận diện, tra mã, tra giá, tổng hợp, rà/sửa; ghi thời gian chờ bổ sung/duyệt riêng. So sánh quy trình hiện tại với checklist + danh mục + bảng tính trên hồ sơ tương đương, cùng tiêu chuẩn duyệt. Theo dõi trung vị tổng thời gian thao tác, số dòng sai mã/giá, số dòng sửa và hồ sơ trả về. Ngưỡng giảm 30% dưới đây là đề xuất thử, chưa phải kết quả.
+
+#### Nghiên cứu thứ cấp bổ trợ
+
+**Phương pháp:** đọc quy trình công khai và báo cáo ngành, đối chiếu với Problem Card #1. Tài liệu do Mai Danh Hiếu cung cấp, được AI hỗ trợ kiểm tra nguồn ngày 09/11/2026. Đây là phần nghiên cứu thứ cấp, tách biệt với ba snapshot từ tài liệu cung cấp ở trên; chưa có phép đo hồ sơ tại Việt Nam. Các kịch bản MP01–MP03 trước đây không được dùng làm bằng chứng trong bản này.
+
+#### 3.2.1. Kết quả theo nhóm đối tượng
+
+| Nhóm đối tượng | Kết quả từ nguồn đã kiểm tra | Ý nghĩa đối với bài toán |
+|---|---|---|
+| Giám định viên | Allstate yêu cầu ảnh hư hỏng, nhiều góc xe, VIN và công-tơ-mét; có thể yêu cầu thêm ảnh. Dự toán dựa trên phần hư hỏng nhìn thấy. [Nguồn Allstate](https://www.allstate.com/claims/auto-motorcycle/photos). | Kiểm tra độ đầy đủ đầu vào trước khi đánh giá; không xem ảnh là bằng chứng đầy đủ về mọi hư hỏng. |
+| Nhân viên bồi thường | Báo cáo Vermont mô tả nhu cầu bổ sung dự toán khi phát hiện hư hỏng chưa thấy lúc đầu, gồm trường hợp sau tháo kiểm. [Nguồn DFR, trang 17–18](https://legislature.vermont.gov/Documents/2026/Workgroups/House%20Commerce/Reports%20and%20Resources/W~Department%20of%20Financial%20Regulation~Act%2032%20of%202023%20Section%2012a%20Report~12-30-2025.pdf). | Phân biệt dự toán ban đầu và kết quả cuối; ghi hạng mục cần xác minh cùng trạng thái duyệt. |
+| Người lập báo giá garage | Garage phản hồi trong khảo sát Vermont báo cáo mức chậm trễ trung bình do bổ sung dự toán là **7,32 ngày**. Đây là số tự báo cáo của mẫu khảo sát, không phải số đo của nhóm. [Nguồn DFR, trang 19](https://legislature.vermont.gov/Documents/2026/Workgroups/House%20Commerce/Reports%20and%20Resources/W~Department%20of%20Financial%20Regulation~Act%2032%20of%202023%20Section%2012a%20Report~12-30-2025.pdf). | Đo thời gian phối hợp/chờ riêng với thời gian thao tác; không mặc định tự động nhận diện ảnh sẽ giảm toàn bộ thời gian xử lý. |
+
+Allstate nêu **10–15 phút để hoàn tất gửi thông tin/ảnh**, không phải thời gian giám định và lập dự toán. Không dùng con số này thay baseline 20–40 phút trong card. [Nguồn](https://www.allstate.com/claims/auto-motorcycle/photos).
+
+#### 3.2.2. Tổng hợp bằng chứng và tín hiệu phản bác
+
+| Nguồn | Phạm vi | Tín hiệu xác nhận | Tín hiệu phản bác / giới hạn |
 |---|---|---|---|
-| Problem Card #1 của Quyên | 1 card; không tính là mẫu phỏng vấn | Có actor, chuỗi 7 bước và ước tính 20–40 phút để đặt giả định kiểm chứng. | Chưa có nguồn đo; phạm vi số phút chưa nhất quán; cảm nhận “Agent” chưa được so sánh với cách đơn giản hơn. |
-| Research chính thức tại mục 3.3 | 3 nhà cung cấp / 4 trang | Có sản phẩm hỗ trợ đánh giá hư hỏng và lập dự toán từ ảnh. | Phản bác giả định phải tự xây toàn bộ; chưa chứng minh hiệu quả, độ phủ giá hoặc quyền truy cập tại đơn vị ở Việt Nam. |
-| Phỏng vấn / survey / hồ sơ đã ẩn danh | 0 người / 0 hồ sơ đã thu thập | Chưa có tín hiệu trực tiếp xác nhận nhu cầu hoặc baseline. | Chưa có phản bác từ người dùng; không thay bằng một câu trả lời giả định. |
+| Allstate | Quy trình gửi ảnh và lập dự toán tại một doanh nghiệp bảo hiểm | Có bước yêu cầu bổ sung ảnh và xử lý hư hỏng phát hiện thêm. | Chưa chứng minh bước tra mã/giá là bottleneck lớn nhất hoặc AI tiết kiệm bao nhiêu phút. |
+| Vermont DFR | Báo cáo ngành tại một bang của Hoa Kỳ | Có nhu cầu bổ sung, xác minh và phối hợp sau dự toán ban đầu. | Không đại diện cho Việt Nam; thời gian chờ không phải giờ công; không chứng minh nguyên nhân là thiếu AI. |
+| Tractable, Qapter, CCC | Tài liệu sản phẩm tại mục 3.3 | Có công cụ hỗ trợ nhiều bước của quy trình. | Phản bác giả định phải tự xây mới; chưa kiểm chứng độ phù hợp với đơn vị mục tiêu. |
+| Card #1 của Quyên | Một mô tả vấn đề, ước tính 20–40 phút | Xác định được actor và các bước cần đo. | Chưa có log hoặc hồ sơ đối chiếu xác nhận mức 20–40 phút; ba phỏng vấn chỉ bổ sung bằng chứng định tính. |
 
-**Tiêu chí kiểm chứng được đặt trước, chưa phải kết quả:**
+**Phát hiện rút ra:** vấn đề có cơ sở từ nguồn công khai là dữ liệu ban đầu có thể chưa đủ và dự toán có thể cần xác minh, điều chỉnh. Chưa đủ căn cứ kết luận tra cứu mã/giá luôn là bước nghẽn lớn nhất. Kết quả nghiên cứu không xác nhận mức giảm 30–50% hoặc nhu cầu chọn Agent.
 
-- Xác nhận sơ bộ A1 nếu ít nhất 2/3 người kể được vụ cụ thể có khó khăn tại bước 3–5 và log cho thấy đây là cụm bước chiếm nhiều thời gian thao tác nhất. Với mẫu nhỏ chỉ dùng để định hướng, không suy rộng toàn ngành.
-- Bác bỏ hoặc thu hẹp A1 nếu phần lớn chậm trễ nằm ở chờ hồ sơ, chờ garage hoặc phê duyệt. Tách thời gian thao tác khỏi thời gian từ tiếp nhận đến phản hồi.
-- Thử checklist + bảng giá + công thức trước: nếu giảm ít nhất 30% trung vị thời gian thao tác trên 5 hồ sơ, không tăng lỗi sau người duyệt, ưu tiên tiếp tục No AI/Rule. Đây là ngưỡng thử nghiệm đề xuất.
-- Nếu chưa được phép dùng hồ sơ hoặc không đối chiếu được mã phụ tùng/nguồn giá/ngày hiệu lực, dừng thử AI trên hồ sơ thật và bổ sung điều kiện dữ liệu.
-- Không kết luận độ chính xác hoặc mức giảm chi phí khi chưa có tập đối chiếu và kết quả thực nghiệm.
+#### 3.2.3. Đối chiếu Assumption Map riêng với nguồn thứ cấp
 
-**Điều chỉnh problem sau research — chưa phải sau phỏng vấn:**
+| Giả định | Kết quả sau nghiên cứu | Trạng thái |
+|---|---|---|
+| A1 — bước 3–5 chiếm phần lớn thao tác và thường mất 20–40 phút | Nguồn chưa có phép đo tương đồng. | Chưa xác nhận; cần đo từng bước. |
+| A2 — chuẩn hóa chưa đủ | Nhu cầu bổ sung dự toán không chứng minh checklist/bảng giá không hiệu quả. | Chưa xác nhận; thử No AI/Rule trước. |
+| A3 — có dữ liệu và quyền dùng | Sự tồn tại sản phẩm không đồng nghĩa nhóm được truy cập dữ liệu. | Chưa xác nhận với đơn vị mục tiêu. |
+| A4 — ảnh hỗ trợ nhận diện với cơ chế chuyển chuyên viên | Nguồn công khai củng cố phạm vi đánh giá hư hỏng nhìn thấy và nhu cầu bổ sung thông tin. | Có cơ sở có điều kiện; chưa đo độ chính xác. |
+| A5 — người dùng kiểm tra nháp AI hiệu quả | Chưa thử với người dùng. | Chưa xác nhận. |
+| A6 — đơn vị chấp thuận chi phí và cách xử lý dữ liệu | Chưa có xác nhận của người có thẩm quyền. | Chưa xác nhận. |
 
-> Khi tiếp nhận ảnh xe tai nạn và thông tin xe để đánh giá ban đầu, nhân viên giám định/bồi thường cần xác định các bộ phận hư hỏng nhìn thấy, đối chiếu phụ tùng và nguồn giá còn hiệu lực để lập dự toán có thể kiểm tra trước khi chuyển người có thẩm quyền xác nhận. Nhóm cần đo riêng bước nhận diện, tra mã, tra giá và tổng hợp để xác định bottleneck, thay vì mặc định toàn bộ bước 3–5 đều nghẽn hoặc mặc định cần Agent.
+Mục 3.1 lưu đánh giá ban đầu; bảng tổng hợp sau phỏng vấn ở trên cập nhật kết quả A1–A6. Nghiên cứu quốc tế không thay thế phép đo tại đơn vị mục tiêu.
 
-Phạm vi ban đầu giới hạn ở dự toán hỗ trợ đối với hư hỏng nhìn thấy. Không suy luận “không hư hỏng” từ ảnh không đủ, không tự quyết sửa/thay khi thiếu cơ sở và không đồng nhất chi phí sửa chữa dự kiến với số tiền được duyệt bồi thường. Thiếu dữ liệu thì yêu cầu bổ sung hoặc chuyển chuyên viên.
+#### 3.2.4. Điều chỉnh problem sau nghiên cứu
+
+> Khi lập dự toán ban đầu từ ảnh xe tai nạn, giám định viên và người lập báo giá cần xác định các hạng mục hư hỏng nhìn thấy, đối chiếu thông tin xe, phụ tùng và giá, đồng thời làm rõ những hạng mục chưa đủ căn cứ, để chuyển dự toán có thể kiểm tra cho người duyệt và hạn chế trao đổi, tra cứu lại.
+
+Problem được thu hẹp vào tính đầy đủ và khả năng kiểm tra của dự toán ban đầu; chưa gắn giải pháp “xây công cụ” vào mô tả vấn đề. Chi phí sửa chữa dự kiến không đồng nhất với số tiền được duyệt bồi thường. Hư hỏng khuất hoặc thông tin thiếu phải chuyển kiểm tra thêm, không suy diễn là không có hư hỏng.
+
+**Bước kiểm chứng tiếp theo:** bổ sung thông tin nguồn cho ba cuộc phỏng vấn đã cung cấp và quan sát hồ sơ theo kế hoạch đo ở trên; làm rõ thời gian thao tác/chờ, nguồn mã/giá và người xác nhận kết quả.
+
+**Ngưỡng thử đề xuất:** nếu checklist + bảng giá + công thức giảm ít nhất 30% trung vị thời gian thao tác mà không tăng lỗi sau người duyệt trên tập thử, tiếp tục ưu tiên No AI/Rule. Đây là tiêu chí thử, chưa phải kết quả. Thiếu quyền dữ liệu hoặc nguồn giá đối chiếu thì chưa thử AI trên hồ sơ thật.
+
+
 
 ### 3.3. Research giải pháp đã có
 
@@ -152,11 +212,11 @@ Các trang dưới đây được AI hỗ trợ mở và kiểm nội dung ngày
 |---|---|---|---|---|---|
 | Tractable — đánh giá hư hỏng bằng ảnh | [Tractable](https://tractable.ai/) | Bước 2–3: phân tích ảnh và đánh giá hư hỏng. | Có đánh giá kèm mức độ chắc chắn, xét chất lượng ảnh và khả năng quan sát; cung cấp API tích hợp. | Trang đã đọc chưa đủ xác nhận độ chính xác trên ảnh của nhóm, giá dịch vụ hoặc dữ liệu phụ tùng/công tại Việt Nam. | Bản nháp cần thể hiện trường hợp không chắc chắn; không tự xây mô hình chỉ vì đã có ý tưởng nhận diện ảnh. |
 | Solera — Qapter Intelligent Estimating | [Sản phẩm](https://www.claims.solera.com/products/intelligent-estimating/), [Công nghệ](https://www.qapter.com/technology/) | Bước 2–6: đánh giá ảnh, nhận diện hư hỏng và tạo dự toán theo từng dòng. | Có đề xuất phương pháp sửa chữa và phản hồi chất lượng ảnh để yêu cầu chụp lại. | Chưa xác nhận quyền truy cập, điều kiện tích hợp và độ phủ giá tại garage mục tiêu; không lấy tốc độ quảng bá làm target đã kiểm chứng. | Kiểm chất lượng ảnh phải đứng trước lập dự toán; nguồn giá và người duyệt cần kiểm tra riêng. |
-| CCC — Data + AI cho bảo hiểm và sửa chữa | [CCC Data + AI](https://www.cccis.com/our-technology/ai) | Bước 3 và 6: computer vision hỗ trợ đánh giá, điền trước dòng dự toán từ ảnh hư hỏng. | Hỗ trợ khởi tạo dự toán trong quy trình làm việc thay vì yêu cầu người dùng nhập lại toàn bộ. | Trang tổng quan chưa chứng minh phù hợp với dòng xe, nguồn giá, hệ thống hoặc chi phí của đơn vị mục tiêu. | Có thể thử bản nháp cho chuyên viên sửa; việc một hãng có Agent không chứng minh bài toán của nhóm cần Agent. |
+| CCC — Mobile Jumpstart | [Hướng dẫn chính thức](https://cccis.zendesk.com/hc/en-us/articles/19244010968084-CCC-ONE-Mobile-Jumpstart-User-Guide) | Hỗ trợ chọn phụ tùng/thao tác và tạo dòng dự toán ban đầu. | Có thể dùng có hoặc không có AI; người lập dự toán kiểm tra, sửa lựa chọn. | Cần xe trong cơ sở dữ liệu và dữ liệu MOTOR; không dùng cho supplement hoặc hồ sơ đã có dòng dự toán. Chưa xác nhận độ phủ/chi phí tại đơn vị mục tiêu. | Tham khảo cách tạo nháp có người kiểm tra; không giải quyết toàn bộ bổ sung hư hỏng khuất của PV03. |
 
 **Kết luận research:** đã có các sản phẩm hỗ trợ nhiều bước của chuỗi ảnh → đánh giá hư hỏng → dự toán. Chưa đủ căn cứ kết luận “không có sản phẩm phủ Việt Nam” hoặc “dữ liệu giá chắc chắn là bottleneck”. Trước khi xây mới, cần kiểm tra công cụ đơn vị đang dùng, dữ liệu được phép tiếp cận và hiệu quả của checklist + bảng giá + công thức. Nếu các bước cố định nhưng còn cần hiểu ảnh, Workflow có người duyệt là một giả thuyết để thử; chưa có căn cứ chọn Agent.
 
-**Kết luận CP4:** research hoàn thành; kiểm chứng trực tiếp chưa hoàn thành. Đề xuất **Not Yet cho thử nghiệm AI trên hồ sơ thật** cho đến khi A1, A3 và A6 được kiểm tra. Đây là kết luận tại CP4, chưa thay cho quyết định CP6 của nhóm.
+**Kết luận CP4:** ba cuộc phỏng vấn do Mai Danh Hiếu thực hiện củng cố pain về thiếu đầu vào, đối chiếu phụ tùng/giá và quản lý hạng mục chưa xác minh; PV02 phản bác giả định mọi ca đều cần AI. Problem đã thu hẹp vào dự toán ban đầu có thể kiểm tra. **Solution Validation — Not Yet**: chưa có baseline, thử nghiệm so sánh hoặc quyền dữ liệu để kết luận hiệu quả AI. Ưu tiên đo và thử checklist + danh mục trước; đây là đề xuất CP4, chưa thay quyết định CP6.
 
 ---
 
@@ -358,8 +418,9 @@ Nguồn CP4 giám định xe, AI hỗ trợ mở và kiểm ngày 09/11/2026:
 - [Tractable](https://tractable.ai/).
 - [Solera Qapter Intelligent Estimating](https://www.claims.solera.com/products/intelligent-estimating/).
 - [Qapter Technology](https://www.qapter.com/technology/).
-- [CCC Data + AI](https://www.cccis.com/our-technology/ai).
-- [Card #1 của Nguyễn Thảo Quyên](../individual/2A202603895_NguyenThaoQuyen.md) và [kế hoạch phỏng vấn CP4](../assets/cp4-interview-guide.md).
+- [CCC Mobile Jumpstart](https://cccis.zendesk.com/hc/en-us/articles/19244010968084-CCC-ONE-Mobile-Jumpstart-User-Guide). Thay trang CCC Data + AI trả HTTP 403 khi kiểm lại bằng hướng dẫn truy cập được.
+- [Tài liệu ba cuộc phỏng vấn](#cp4-phong-van-goc), do Mai Danh Hiếu trực tiếp thực hiện, tài liệu cập nhật 09/11/2026; nguồn PV01–PV03.
+- [Card #1 của Nguyễn Thảo Quyên](../individual/2A202603895_NguyenThaoQuyen.md).
 
 Nguồn của đề tài deadline cũ (CP3, CP5–CP6), chưa áp dụng cho CP4 mới:
 
@@ -367,3 +428,120 @@ Nguồn của đề tài deadline cũ (CP3, CP5–CP6), chưa áp dụng cho CP4
 - Todoist Help — Use Task Quick Add: https://www.todoist.com/help/articles/use-task-quick-add-in-todoist-va4Lhpzz
 - Google Calendar Help — Events from Gmail: https://support.google.com/calendar/answer/6084018
 - Rob Fitzpatrick — *The Mom Test*; Teresa Torres — Opportunity Solution Tree; Anthropic — *Building Effective Agents*; Marty Cagan — 4 rủi ro (xem [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md))
+
+<a id="cp4-phong-van-goc"></a>
+
+## Phụ lục A — Tài liệu phỏng vấn gốc CP4
+
+Toàn bộ nội dung tài liệu gốc được lưu dưới đây; chỉ điều chỉnh cấp tiêu đề để phù hợp với báo cáo nhóm.
+
+---
+
+### Báo cáo kết quả khảo sát thực tế: Nghiệp vụ giám định tổn thất và lập dự toán sửa chữa ô tô
+
+**Nhóm thực hiện:** NhomCold
+
+**Người trực tiếp thực hiện cả ba cuộc phỏng vấn:** Mai Danh Hiếu — 2A202603948.
+
+**Thông tin từng buổi:** ngày phỏng vấn, hình thức trao đổi và địa bàn chưa được bổ sung. Ngày cập nhật tài liệu dưới đây không thay cho ngày phỏng vấn.
+
+**Đề tài:** Hỗ trợ giám định tổn thất và lập dự toán sửa chữa ô tô từ hình ảnh
+
+**Ngày cập nhật:** 09/11/2026
+
+---
+
+#### 1. Tổng quan quy trình và cơ sở thực tiễn
+
+Trong quá trình triển khai thực tế tại hiện trường và hệ thống bồi thường, việc tiếp nhận hồ sơ tổn thất từ hình ảnh đòi hỏi sự đồng bộ giữa thông tin phương tiện, góc chụp ảnh hiện trường và biểu giá phụ tùng chuẩn.
+
+Dựa trên dữ liệu khảo sát vận hành thực tế tại các đơn vị bảo hiểm và xưởng dịch vụ (bao gồm các tiêu chuẩn tiếp nhận hồ sơ của Allstate, State Farm, dữ liệu quản lý bồi thường từ Vermont DFR và các nền tảng tự động hóa dự toán như CCC Mobile Jumpstart), Mai Danh Hiếu đã trực tiếp thực hiện ba buổi phỏng vấn chuyên sâu với các bên liên quan trực tiếp.
+
+---
+
+#### 2. Chi tiết các buổi phỏng vấn thực tế
+
+##### 2.1. Phỏng vấn 01: Giám định viên bảo hiểm (Xử lý hồ sơ tổn thất vật chất)
+
+* **Vai trò:** Giám định viên trực tiếp xử lý hồ sơ tổn thất vật chất xe, tiếp nhận và kiểm tra ảnh chụp từ khách hàng.
+* **Ngữ cảnh:** Xử lý hồ sơ va chạm phần đầu xe thực tế.
+
+###### Nội dung trao đổi:
+
+* **Hỏi 1 — Anh/chị thường bắt đầu một hồ sơ như thế nào?**
+*Trả lời:* “Đầu tiên tôi kiểm tra ảnh đủ góc chưa, có nhìn được đúng vị trí va chạm không, rồi xem thông tin xe. Nếu thiếu dòng xe, năm sản xuất hoặc phiên bản thì tôi phải yêu cầu bổ sung trước khi kết luận mã phụ tùng.”
+* **Hỏi 2 — Anh/chị kể lại một trường hợp cụ thể phải làm lại?**
+*Trả lời:* “Có tình huống khách gửi hai ảnh cận cảnh phần đầu xe. Tôi nhìn thấy cản trước bị trầy và có thể có vấn đề ở cụm đèn, nhưng không có ảnh toàn xe và thông tin phiên bản. Tôi phải nhờ gửi ảnh các góc và kiểm tra lại thông tin xe trước khi đối chiếu phụ tùng.”
+* **Hỏi 3 — Bước nào làm anh/chị tốn công nhất?**
+*Trả lời:* “Nếu ảnh đủ và xe quen thuộc thì khoanh vùng hư hỏng khá nhanh. Tốn công hơn là xác định loại phụ tùng tương ứng với cấu hình xe, rồi kiểm tra mã và mức giá dùng để lập dự toán.”
+* **Hỏi 4 — Anh/chị hiện giải quyết bằng cách nào?**
+*Trả lời:* “Tôi dùng danh mục phụ tùng và dữ liệu giá đang có, đối chiếu bằng thông tin xe; phần nào chưa rõ thì hỏi garage hoặc yêu cầu bổ sung ảnh. Tôi không chốt những chi tiết nghi hỏng bên trong chỉ từ ảnh ngoài.”
+* **Hỏi 5 — Anh/chị đã gặp sai sót nào?**
+*Trả lời:* “Rủi ro là chọn đúng tên bộ phận nhưng sai biến thể của phụ tùng. Khi gặp thông tin không khớp, tôi đánh dấu chưa xác nhận và tra lại chứ không tự điền mã để hoàn tất hồ sơ.”
+* **Hỏi 6 — Nếu có công cụ hỗ trợ, điểm nào hữu ích nhất?**
+*Trả lời:* “Tôi cần hệ thống nhắc thiếu ảnh, chỉ ra vùng nghi hỏng, đưa danh sách phụ tùng gợi ý kèm mã và nguồn. Còn lựa chọn sửa hay thay và đơn giá cuối cùng tôi vẫn muốn tự kiểm tra.”
+
+---
+
+##### 2.2. Phỏng vấn 02: Nhân viên bồi thường (Đối chiếu và phê duyệt dự toán)
+
+* **Vai trò:** Nhân viên xử lý bồi thường, nhận dự toán từ giám định viên hoặc garage và đối chiếu trước khi chuyển cấp thẩm quyền phê duyệt.
+* **Ngữ cảnh:** Xử lý hồ sơ va chạm nhẹ đối với dòng xe phổ thông.
+
+###### Nội dung trao đổi:
+
+* **Hỏi 1 — Có hồ sơ nào anh/chị xử lý khá thuận lợi không?**
+*Trả lời:* “Có. Với một va chạm nhẹ, ảnh đầy đủ, xe quen và garage đã gửi báo giá theo mẫu, tôi chỉ cần đối chiếu lại các hạng mục, xem mức giá và chuyển duyệt. Hồ sơ đó không có gì phải tra đi tra lại.”
+* **Hỏi 2 — Việc nào anh/chị làm thủ công?**
+*Trả lời:* “Tôi vẫn xem ảnh, kiểm tra danh sách phụ tùng với biểu mẫu, rà soát báo giá và ghi chú các hạng mục cần xác nhận. Nhưng các bước này đã có checklist và bảng dữ liệu, nên không phải nhập lại toàn bộ từ đầu.”
+* **Hỏi 3 — Công đoạn lâu nhất là gì?**
+*Trả lời:* “Tôi không nghĩ nhận diện hư hỏng là bước nghẽn của ca đó. Vấn đề nằm ở quy trình chuyển duyệt và chờ phản hồi. Đó là thời gian chờ, chứ không phải thời gian thao tác trên hồ sơ.”
+* **Hỏi 4 — Vì sao chưa cần tự động hóa hoàn toàn cho tất cả trường hợp?**
+*Trả lời:* “Nếu dữ liệu đã có cấu trúc, công cụ tìm kiếm theo mã xe và một biểu mẫu chuẩn là đủ. Đưa công nghệ phức tạp vào mà vẫn phải đọc lại từng dòng đôi khi không nhanh hơn.”
+* **Hỏi 5 — Khi nào anh/chị cân nhắc ứng dụng công nghệ mới?**
+*Trả lời:* “Có thể dùng để gợi ý hoặc điền nháp khi khách gửi nhiều ảnh và mô tả không rõ, nhưng phải chứng minh thời gian kiểm tra bản nháp ngắn hơn thời gian tự làm.”
+* **Hỏi 6 — Có chỉ số nào cần theo dõi khi tối ưu hóa?**
+*Trả lời:* “Tách thời gian thao tác của người lập hồ sơ khỏi thời gian chờ người duyệt. Sau đó đo số dòng phải sửa và hồ sơ phải trả về. Nếu chỉ giảm thời gian tạo nháp mà lỗi tăng thì không có hiệu quả.”
+
+---
+
+##### 2.3. Phỏng vấn 03: Nhân viên garage (Xử lý hư hỏng khuất và lập dự toán bổ sung)
+
+* **Vai trò:** Cố vấn dịch vụ / Nhân viên lập báo giá tại xưởng sửa chữa thân vỏ ô tô (Garage).
+* **Ngữ cảnh:** Xử lý va chạm cản trước và các chi tiết kết cấu ẩn phía sau.
+
+###### Nội dung trao đổi:
+
+* **Hỏi 1 — Với ảnh khách gửi, anh/chị có báo giá ngay được không?**
+*Trả lời:* “Tôi có thể báo giá sơ bộ cho phần nhìn thấy, chẳng hạn vỏ cản trầy hoặc vỡ. Nhưng nếu có nghi ngờ pát giữ, thanh hấp thụ lực hay chi tiết nằm sau cản thì phải kiểm tra xe, nhiều trường hợp cần tháo ra mới kết luận được.”
+* **Hỏi 2 — Kể lại một tình huống cần điều chỉnh dự toán (Supplement)?**
+*Trả lời:* “Một tình huống xe va chạm đầu, ảnh ngoài chủ yếu cho thấy cản nứt. Khi kiểm tra sâu hơn thì phát hiện thêm chi tiết gá lắp bên trong bị ảnh hưởng. Lúc đó tôi phải cập nhật danh sách hạng mục, bổ sung ảnh và làm báo giá điều chỉnh.”
+* **Hỏi 3 — Điều gì khiến công việc bị kéo dài?**
+*Trả lời:* “Ngoài việc tra đúng mã, có phụ tùng phải xác nhận tồn kho hoặc chờ báo giá từ nhà cung cấp. Với hồ sơ bảo hiểm, nếu có hạng mục bổ sung thì còn phải đợi bên liên quan duyệt trước khi làm tiếp.”
+* **Hỏi 4 — Anh/chị xử lý tình trạng thiếu thông tin như thế nào?**
+*Trả lời:* “Tôi ghi rõ dự toán tạm, hạng mục nào đã nhìn thấy, hạng mục nào cần tháo kiểm. Giá thì ghi nguồn báo và thời điểm nhận báo giá. Khi có kết quả kiểm tra thực tế, tôi cập nhật chứ không xóa dấu vết của bản trước.”
+* **Hỏi 5 — Công cụ tự nhận diện ảnh có giải quyết hết các khâu không?**
+*Trả lời:* “Không. Ảnh có thể giúp khoanh vùng và đề xuất danh sách kiểm tra, nhưng không nhìn xuyên qua bộ phận bên ngoài. Tôi không thể xác nhận kết cấu bên trong chỉ vì phần mềm nhận định như vậy.”
+* **Hỏi 6 — Điều gì nên được tự động hóa trước tiên tại xưởng?**
+*Trả lời:* “Tôi muốn nhập thông tin xe một lần, có sẵn checklist ảnh, đối chiếu phụ tùng và nguồn giá. Nếu hệ thống tự lập được dự toán nháp kèm trạng thái ‘chưa xác minh’ thì mới dễ sử dụng trong thực tế.”
+
+---
+
+#### 3. Bảng tổng hợp ý kiến và đối chiếu các bên
+
+| Tiêu chí phân tích | PV01 (Giám định viên bảo hiểm) | PV02 (Nhân viên bồi thường) | PV03 (Cố vấn dịch vụ / Garage) |
+| --- | --- | --- | --- |
+| **Đầu vào phổ biến** | Thiếu góc ảnh tổng thể hoặc phiên bản xe | Ảnh hiện trường và báo giá đã đủ cơ sở | Ảnh chụp chỉ thể hiện phần hư hỏng bên ngoài |
+| **Điểm nghẽn (Pain) cốt lõi** | Xác định chính xác mã phụ tùng và nguồn giá tham chiếu | Thời gian chờ duyệt quy trình, không phải khâu tra cứu | Xử lý hư hỏng khuất bên trong, làm thủ tục bổ sung (Supplement) |
+| **Giải pháp xử lý tạm thời (Workaround)** | Yêu cầu bổ sung ảnh, tra cứu danh mục, liên hệ garage | Sử dụng checklist, biểu mẫu chuẩn, bảng giá có sẵn | Tháo kiểm thực tế, chụp ảnh bổ sung, lưu vết phiên bản báo giá |
+| **Kỳ vọng ứng dụng công nghệ** | Phát hiện dữ liệu thiếu, gợi ý đối chiếu chéo | Cần chứng minh tính nhanh chóng vượt trội so với quy trình cũ | Gợi ý hạng mục, tự động tạo nháp nhưng phải có cơ chế xác nhận |
+
+---
+
+#### 4. Định hướng giải pháp và kết luận kỹ thuật
+
+* **Vấn đề thực tế xác định được:** Khi tiếp nhận hồ sơ xe từ hình ảnh trong điều kiện thông tin phương tiện chưa đồng bộ hoặc thiếu sót, người giám định và lập báo giá gặp khó khăn trong việc nhận diện toàn diện hư hỏng, đối chiếu đúng biến thể phụ tùng và kiểm soát các hạng mục khuất.
+* **Giải pháp đề xuất:** Xây dựng hệ thống hỗ trợ tạo **dự toán nháp kèm nguồn tham chiếu và trạng thái xác minh rõ ràng**, giúp giảm thiểu thao tác đối chiếu thủ công cho nhân sự.
+* **Quyết định triển khai:** Thử nghiệm áp dụng quy chuẩn kết hợp *Checklist chuẩn hóa kết hợp danh mục phụ tùng* làm cơ sở đối chiếu trước khi tích hợp các mô hình xử lý hình ảnh tự động nâng cao.
+
+---
