@@ -130,7 +130,6 @@ Quy trình nháp hiện tại:
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-> `[...]` = bạn tự điền bằng việc thật trong buổi lab (ai hỏi gì, nhóm sửa gì).
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
