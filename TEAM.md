@@ -43,7 +43,7 @@
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - [Báo cáo cá nhân](report/individual/2A202603945_VuLuongDuy.md).
-- [Báo cáo nhóm, mục 4 — Quy trình trước/sau](report/team/group_report.md).
+- [Báo cáo nhóm, mục 4 — Quy trình trước/sau](CP5)(report/team/group_report.md).
 - [Báo cáo nhóm, mục 5 — Problem Statement v0](report/team/group_report.md).
 
 **Điều mình học được từ phần nhóm:**
