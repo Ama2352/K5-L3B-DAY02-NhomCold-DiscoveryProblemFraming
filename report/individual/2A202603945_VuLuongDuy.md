@@ -192,6 +192,8 @@ Bài học về việc tiếp nhận phản biện và không bảo vệ ý tư�
 
 **6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
 
+Điều khiến tôi bất ngờ là hồ sơ chậm không chỉ do việc xác định hư hỏng. PV02 cho thấy dù thông tin đã đầy đủ, hồ sơ vẫn có thể bị chậm do chờ phê duyệt; PV03 cho thấy hư hỏng khuất vẫn cần kiểm tra trực tiếp. Điều này giúp tôi nhận ra AI không thể giải quyết toàn bộ quy trình. Vì vậy, nhóm nên thử checklist và bảng giá trước, đồng thời đo thời gian thực tế để xác định nhu cầu sử dụng AI.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 Khó xác định chính xác bottleneck và impact.
 
@@ -204,6 +206,7 @@ Xác định Boundary: AI được làm gì, không được làm gì và khi n�
 Liên hệ với 6 lỗ hổng mà AI đã chỉ ra trong Problem Statement v0.
 
 Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 Không thay đổi hướng nghiên cứu nhiều lần nếu chưa đánh giá kỹ problem ban đầu.
 
@@ -214,7 +217,7 @@ Yêu cầu nguồn dữ liệu cụ thể cho từng con số trong Problem Stat
 Phản biện kỹ hơn về tính khả thi của việc thu thập dữ liệu ảnh, hồ sơ đã đóng và bảng giá phụ tùng.
 
 Đặt câu hỏi về hiệu quả của phương án No AI trước khi đề xuất AI.
-**6.7. Hiểu bài:** *(tự viết 5–8 câu, không nhìn tài liệu: problem → quy trình → metric → boundary → mức can thiệp → quyết định)*
+**6.7. Hiểu bài:** 
 Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn nhằm tiết kiệm thời gian và tăng tính nhất quán. AI chỉ đề xuất bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule; mọi kết quả đều do giám định viên xác nhận. Nhóm chọn Workflow vì quy trình có các bước cố định. Do mới có 3 phỏng vấn, chưa đo thời gian thực tế và chưa tiếp cận dữ liệu hồ sơ, nhóm quyết định Not Yet. Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ để đánh giá nhu cầu sử dụng AI.
 
 ## 7. Tài liệu tham khảo
