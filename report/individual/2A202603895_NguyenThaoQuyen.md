@@ -234,13 +234,7 @@ Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ trướ
 ---
 
 ## 7. Tài liệu tham khảo
-
-**Paper**
-
 - Wang, X., Li, W., & Wu, Z. (2023). CarDD: A New Dataset for Vision-Based Car Damage Detection. *IEEE Transactions on Intelligent Transportation Systems*, 24(7), 7202–7214. https://doi.org/10.1109/TITS.2023.3258480 · [arXiv:2211.00945](https://arxiv.org/abs/2211.00945)
-
-**Báo**
-
 - Fortune (02/08/2022). *Behind the scenes, A.I. may now be handling your insurance claim*. https://fortune.com/2022/08/02/insurance-ai-auto-claims-tractable-american-family-subrogation/
 - Insurance Journal (11/05/2020). *Tokio Marine Uses Tractable's Artificial Intelligence Solution for Auto Claims in Japan*. https://www.insurancejournal.com/news/international/2020/05/11/568090.htm
 - Repairer Driven News (09/06/2020). *Tractable shows off more comprehensive AI photo estimating product*. https://www.repairerdrivennews.com/2020/06/09/tractable-shows-off-more-comprehensive-ai-photo-estimating-product/
