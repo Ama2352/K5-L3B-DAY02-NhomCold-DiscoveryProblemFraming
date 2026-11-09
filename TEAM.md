@@ -43,10 +43,10 @@
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - [Báo cáo cá nhân](report/individual/2A202603945_VuLuongDuy.md).
+- [Báo cáo nhóm, mục 2.4 — Candidate được chọn](report/team/group_report.md).
+
 
 **Điều mình học được từ phần nhóm:**
-
-*Bản gợi ý để thành viên tự đối chiếu với trải nghiệm của mình:*
 
 - Hội tụ cần dựa trên actor, quy trình, bằng chứng và khả năng đo tác động; tổng điểm giúp giải thích lựa chọn nhưng không thay thế thảo luận về các giả định còn thiếu.
 - Candidate được chọn chỉ xác định bài toán cần đào sâu, chưa đồng nghĩa với quyết định triển khai. Kết luận Go, Not Yet hoặc No-Go phải nhất quán với bằng chứng và bốn rủi ro.
