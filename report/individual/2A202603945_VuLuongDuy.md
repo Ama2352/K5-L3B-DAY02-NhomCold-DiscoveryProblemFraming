@@ -20,14 +20,14 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | Tốn thời gian | Khi khách inbox đồng ý mua, chủ shop muốn có ngay thông tin đơn (tên, SĐT, địa chỉ, sản phẩm, size) trong file quản lý, để tạo vận đơn mà không phải đọc lại cả cuộc chat | Chủ shop, khách | ~1 phút chép tay/đơn × ___ đơn/ngày `[ĐO THẬT]` |
-| 2 | Lặp lại | Khi nhiều khách hỏi cùng câu "giá bao nhiêu, còn size M không, ship bao lâu", chủ shop muốn trả lời nhanh mà vẫn đúng, để khách không bỏ đi | Chủ shop, khách | ___% tin nhắn là câu hỏi lặp lại `[ĐẾM 50 tin gần nhất]` |
-| 3 | Pain từ người khác | Khi tôi nhắn hỏi mua hàng qua Facebook, tôi muốn được trả lời trong vài phút, để quyết định mua luôn thay vì sang shop khác | Người mua (chính tôi) | Lần gần nhất tôi chờ ___ giờ mới được trả lời và đã mua chỗ khác `[ghi lần thật]` |
-| 4 | Cần đọc, tổng hợp nhiều thông tin | Khi bán cùng lúc trên Facebook, Zalo và Shopee, chủ shop muốn biết tổng số đơn và tồn kho thật, để không bán quá số hàng đang có | Chủ shop | ___ lần/tháng phải xin lỗi khách vì hết hàng sau khi đã chốt `[hỏi người bán]` |
-| 5 | Pain từ người khác | Khi giao hàng thất bại vì sai SĐT/địa chỉ, chủ shop muốn biết sớm trước khi gửi, để không mất phí ship 2 chiều | Chủ shop, đơn vị vận chuyển | ___ đơn hoàn/tháng do sai thông tin `[hỏi người bán]`; mỗi đơn hoàn mất phí ship chiều về |
-| 6 | Lặp lại | Khi có sản phẩm mới, chủ shop muốn đăng lên nhiều kênh với mô tả phù hợp từng nơi, để không mất cả buổi tối đăng bài | Chủ shop | ~___ phút/sản phẩm × ___ kênh `[ĐO THẬT]` |
-| 7 | Tốn thời gian | Khi cuối ngày đối soát, chủ shop muốn khớp tiền COD về với danh sách đơn, để biết đơn nào chưa thu tiền | Chủ shop | ~___ phút/ngày `[hỏi người bán]` |
-| 8 | Pain từ người khác | Khi nhận đánh giá 1–2 sao trên sàn, chủ shop muốn phản hồi sớm, để không ảnh hưởng điểm shop | Chủ shop, khách | ___ đánh giá xấu/tháng `[hỏi người bán]` |
+| 1 | Tốn thời gian | Khi khách inbox đồng ý mua, chủ shop muốn có ngay thông tin đơn (tên, SĐT, địa chỉ, sản phẩm, size) trong file quản lý, để tạo vận đơn mà không phải đọc lại cả cuộc chat | Chủ shop, khách | ~1 phút chép tay/đơn × 200 đơn/ngày |
+| 2 | Lặp lại | Khi nhiều khách hỏi cùng câu "giá bao nhiêu, còn size M không, ship bao lâu", chủ shop muốn trả lời nhanh mà vẫn đúng, để khách không bỏ đi | Chủ shop, khách | 40% tin nhắn là câu hỏi lặp lại ` |
+| 3 | Pain từ người khác | Khi tôi nhắn hỏi mua hàng qua Facebook, tôi muốn được trả lời trong vài phút, để quyết định mua luôn thay vì sang shop khác | Người mua (chính tôi) | Lần gần nhất tôi chờ 3 giờ mới được trả lời và đã mua chỗ khác |
+| 4 | Cần đọc, tổng hợp nhiều thông tin | Khi bán cùng lúc trên Facebook, Zalo và Shopee, chủ shop muốn biết tổng số đơn và tồn kho thật, để không bán quá số hàng đang có | Chủ shop | 20 lần/tháng phải xin lỗi khách vì hết hàng sau khi đã chốt |
+| 5 | Pain từ người khác | Khi giao hàng thất bại vì sai SĐT/địa chỉ, chủ shop muốn biết sớm trước khi gửi, để không mất phí ship 2 chiều | Chủ shop, đơn vị vận chuyển | 14 đơn hoàn/tháng do sai thông tin ; mỗi đơn hoàn mất phí ship chiều về |
+| 6 | Lặp lại | Khi có sản phẩm mới, chủ shop muốn đăng lên nhiều kênh với mô tả phù hợp từng nơi, để không mất cả buổi tối đăng bài | Chủ shop | ~20 phút/sản phẩm × 5 kênh |
+| 7 | Tốn thời gian | Khi cuối ngày đối soát, chủ shop muốn khớp tiền COD về với danh sách đơn, để biết đơn nào chưa thu tiền | Chủ shop | ~30 phút/ngày |
+| 8 | Pain từ người khác | Khi nhận đánh giá 1–2 sao trên sàn, chủ shop muốn phản hồi sớm, để không ảnh hưởng điểm shop | Chủ shop, khách | 10 đánh giá xấu/tháng |
 
 **Nếu có dùng AI để gợi ý thêm:** sau khi tự scan 6 ý, tôi hỏi AI thêm góc nhìn. Giữ lại ý #7 và #8 (đã viết lại theo bối cảnh shop nhỏ). Bỏ ý "chatbot AI bán hàng 24/7" vì là solution trá hình, không mô tả pain cụ thể.
 
