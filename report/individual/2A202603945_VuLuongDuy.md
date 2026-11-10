@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — 2A202603945_VuLuongDuy
 
-> ⚠️ **Trước khi nộp:** mọi chỗ `[ĐO THẬT]` / `___` là số ước tính hoặc ô trống — thay bằng số bạn tự quan sát, hỏi hoặc đếm được (ảnh chụp inbox đã che tên, lịch sử đơn). Mục 4–6 phải tự viết bằng trải nghiệm thật (RULES §2, RUBRIC C4). Xóa khối ghi chú này khi xong.
+
 
 ## 1. Thông tin học viên
 
@@ -48,7 +48,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Trường | Nội dung |
 |---|---|
 | Job Story | Khi khách inbox đồng ý mua, chủ shop muốn có ngay thông tin đơn đầy đủ và đúng trong file quản lý, để tạo vận đơn mà không phải đọc lại cả cuộc chat |
-| Actor | Chủ shop nhỏ (1–3 người), bán thời trang/mỹ phẩm qua Facebook Page và Zalo, ~20–50 tin nhắn/ngày |
+| Actor | Chủ shop nhỏ (1–3 người), bán thời trang/mỹ phẩm qua Facebook Page và Zalo, ~200 đơn/ngày |
 | Thời điểm / bối cảnh | Buổi tối (giờ khách nhắn nhiều nhất) và sau mỗi buổi livestream |
 | Quy trình hiện tại (3–7 bước) | 1. Mở inbox, lọc tin chưa đọc · 2. Trả lời câu hỏi giá/size/ship · 3. Kiểm tồn kho trong Sheet · 4. Xin tên, SĐT, địa chỉ · 5. Chép thông tin đơn sang Sheet/phần mềm vận chuyển · 6. Tạo vận đơn, gửi mã cho khách |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5: đọc lại đoạn chat, chép từng trường sang Sheet, ~1 phút/đơn, dễ chép sai SĐT/địa chỉ |
@@ -61,7 +61,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — 1 đơn, ~6 phút [ĐO THẬT]
+HIỆN TẠI — 1 đơn, ~6 phút
 
 [1 Mở inbox: 0.5'] → [2 Trả lời giá/size/ship: 2'] → [3 Kiểm kho: 0.5']
 → [4 Xin thông tin giao hàng: 1.5'] → [5 Chép đơn sang Sheet: 1'] ← BOTTLENECK (dễ sai)
@@ -123,27 +123,26 @@ Quy trình nháp hiện tại:
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
 | Bước 2 (trả lời câu hỏi) tốn nhiều phút hơn bước 5, sao lại chọn bước 5 là bottleneck? | Đồng ý một phần | Ghi rõ: bước 5 không dài nhất nhưng là bước **gây lỗi tốn tiền** (đơn hoàn); bước 2 đưa vào giả định cần kiểm chứng |
-| Chưa có người bán thật nào xác nhận số liệu | Đồng ý | Đánh dấu mọi số là , lên kế hoạch phỏng vấn 2–3 chủ shop |
+| Chưa có người bán thật nào xác nhận số liệu | Đồng ý | Hỏi lại người bán để thay số ước tính bằng số thật (200 đơn/ngày, 8 đơn hoàn/tháng…) |
 | Gợi ý chatbot tự chốt đơn và tự tạo vận đơn | Không đồng ý | Tạo vận đơn sai = mất tiền thật; giữ bước chủ shop duyệt trước khi lưu |
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-> Tự điền bằng việc thật bạn đã làm trong buổi lab.
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
+| Pitch Problem Card | Lựa chọn pitch Problem Card #1 – Chốt đơn từ inbox trong lĩnh vực kinh doanh online. Tôi trình bày vấn đề chủ shop phải đọc lại hội thoại và nhập thủ công thông tin khách hàng vào Sheet. Đồng thời, tôi đặt câu hỏi: "Bottleneck thật sự nằm ở bước chép đơn hay bước trả lời các câu hỏi lặp lại?" | Card của tôi không được nhóm lựa chọn. Sau khi thảo luận, nhóm thống nhất tập trung vào bài toán giám định tổn thất xe ô tô vì đây là vấn đề có quy trình nghiệp vụ cụ thể, có thể phân tích bottleneck và đánh giá khả năng ứng dụng AI. |
+| Phản biện bài của bạn khác | Tôi quan tâm đến tính xác thực của số liệu và khả năng giải quyết vấn đề thực tế. Đối với bài toán giám định tổn thất xe, những vấn đề cần làm rõ gồm: thời gian 20–40 phút/vụ là số liệu đo thực tế hay ước tính; ảnh ban đầu có thể nhận diện được những hư hỏng nào; AI có thể đánh giá được hư hỏng bên trong xe hay không. | Những câu hỏi này giúp làm rõ giới hạn của việc đánh giá hư hỏng thông qua hình ảnh. Đặc biệt, cần phân biệt hư hỏng bên ngoài có thể quan sát được với hư hỏng ẩn chỉ phát hiện khi tháo dỡ tại garage. |
+| Nhận phản biện | Trong quá trình trình bày Problem Card #1, vấn đề được đặt ra là bước trả lời các câu hỏi về giá, size và vận chuyển có thời gian xử lý dài hơn bước nhập thông tin đơn hàng. Do đó, việc lựa chọn bước nhập liệu làm bottleneck cần có thêm căn cứ. | Tôi nhận ra rằng bottleneck không nhất thiết phải là bước tốn nhiều thời gian nhất. Bước nhập thông tin tuy chỉ mất khoảng 1 phút nhưng có nguy cơ sai SĐT, địa chỉ và gây ra chi phí hoàn hàng. Tôi giữ lại vấn đề này nhưng xác định cần kiểm chứng thêm vai trò của bước trả lời câu hỏi lặp lại. |
+| Gom cluster  |  |  |
+| Chọn candidate problem |  |  |
+| Kiểm chứng / research |  |  |
+| Quy trình nhóm | Phụ trách CP5, xây dựng sơ đồ quy trình hiện tại và tương lai. Quy trình hiện tại gồm 7 bước, xác định bottleneck nằm ở bước 3–5. Với quy trình tương lai, tôi phân chia rõ các công đoạn do Rule, AI và con người thực hiện. | Thời gian thao tác kỳ vọng 40–60' → ~17–20'/vụ; có điều kiện bắt buộc chuyển giám định trực tiếp và phương án quay về |
+| Problem Statement | Viết Problem Statement v0 với 3 metric (thời gian bước 3–5, độ khớp danh sách hư hỏng, sai lệch chi phí); đưa AI phản biện và ghi 6 lỗ hổng | Lỗ hổng "chưa chắc có dữ liệu hồ sơ đã đóng để đo metric" trở thành giả định phải kiểm chứng |
 | Mức can thiệp AI | | |
-| Quyết định | | |
+| Quyết định |  |  |
 
 ---
 
@@ -153,36 +152,62 @@ Quy trình nháp hiện tại:
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý thêm problem sau khi tự scan | Gợi ý đối soát COD, đánh giá xấu | Đưa ý "chatbot bán hàng 24/7" — solution trá hình | Bỏ ý đó |
 | CP2 Problem Card | Đóng vai "PM hoài nghi" phản biện card #1 | Chỉ ra bước 2 tốn nhiều phút hơn bước 5 | Đề xuất chatbot tự tạo vận đơn | Giữ bước chủ shop duyệt |
-| CP4 Research | Gợi ý công cụ có sẵn | Gợi ý Pancake, trả lời tự động của Meta, Shopee | Đưa link trang trợ giúp Meta bị lỗi 404 | Tự mở từng link, chỉ giữ link đã kiểm |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research |  |  |  |  |
+| CP5 Quy trình | Chuyển mô tả quy trình giám định xe sang sơ đồ Mermaid, tách bước Rule / AI / con người | Dựng nhanh sơ đồ và bảng before/after; gợi ý checklist ảnh bắt buộc là bước Rule không cần AI | Màu sơ đồ (nền hồng nhạt) gần như không đọc được ở chế độ tối của GitHub; số phút từng bước chỉ là ước tính, không có nguồn | Yêu cầu đổi màu nền đậm + chữ trắng; đánh dấu các số chưa đo để thay bằng số phỏng vấn |
+| CP5–6 Problem Statement |  |  |  |  |
+| CP6 Mức can thiệp / quyết định |  |  |  |  |
+
 
 ---
 
 ## 6. Reflection (CP7)
 
-> Tự viết, tối thiểu 200 từ cho 6.1–6.6. Không dùng AI viết thay (RUBRIC C4 = 0 nếu vi phạm).
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Qua phần trình bày của các bạn, tôi nhận thấy mỗi người có cách nhìn nhận pain point khác nhau tùy lĩnh vực và trải nghiệm. Một vấn đề tưởng chừng đơn giản nhưng nếu xảy ra thường xuyên vẫn có thể gây ảnh hưởng lớn. Tôi học được cách đánh giá vấn đề dựa trên Actor, tần suất, mức độ ảnh hưởng, bottleneck và khả năng đo lường.
 
 **6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-*(Gợi ý tự soi: lúc đầu có nghĩ ngay tới "chatbot bán hàng" không?)*
+Ban đầu, nhóm từng đề xuất chatbot như một giải pháp mà chưa làm rõ vấn đề thực tế của chủ shop. Sau đó, nhóm sử dụng Job Story và phân tích quy trình hiện tại để xác định pain point và bottleneck. Qua đó, tôi hiểu rằng cần tìm hiểu vấn đề trước khi lựa chọn công nghệ giải quyết.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Ban đầu, tôi cho rằng bước chép thông tin đơn hàng là bottleneck vì dễ gây sai sót và hoàn hàng. Tuy nhiên, sau khi được phản biện, tôi nhận ra việc trả lời các câu hỏi lặp lại có thể tiêu tốn nhiều thời gian hơn. Tôi hiểu rằng cần phân biệt giữa bước tốn nhiều thời gian nhất và bước gây hậu quả nghiêm trọng nhất, đồng thời sẵn sàng điều chỉnh nhận định khi có góc nhìn mới.
 
 **6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
 
+Điều khiến tôi bất ngờ là hồ sơ chậm không chỉ do việc xác định hư hỏng. PV02 cho thấy dù thông tin đã đầy đủ, hồ sơ vẫn có thể bị chậm do chờ phê duyệt; PV03 cho thấy hư hỏng khuất vẫn cần kiểm tra trực tiếp. Điều này giúp tôi nhận ra AI không thể giải quyết toàn bộ quy trình. Vì vậy, nhóm nên thử checklist và bảng giá trước, đồng thời đo thời gian thực tế để xác định nhu cầu sử dụng AI.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó khăn lớn nhất của tôi là xác định chính xác bottleneck và impact khi nhiều số liệu vẫn chỉ là ước tính. Bên cạnh đó, việc xây dựng Success Metrics có baseline, target và cách đo cụ thể cũng không dễ. Tôi còn phải cân nhắc Boundary để xác định rõ vai trò của AI, con người và hiệu quả của phương án No AI trước khi đề xuất giải pháp.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ đánh giá kỹ vấn đề ban đầu và kiểm chứng với người dùng sớm hơn thay vì thay đổi hướng nghiên cứu nhiều lần. Tôi cũng sẽ yêu cầu nguồn dữ liệu cụ thể cho từng số liệu trong Problem Statement, đồng thời phản biện kỹ hơn về khả năng tiếp cận ảnh, hồ sơ đã đóng và bảng giá phụ tùng để đảm bảo tính khả thi của giải pháp.
 
-**6.7. Hiểu bài:** *(tự viết 5–8 câu, không nhìn tài liệu: problem → quy trình → metric → boundary → mức can thiệp → quyết định)*
-
----
-
+**6.7. Hiểu bài:** 
+Nhóm chọn bài toán hỗ trợ giám định viên xác định bộ phận hư hỏng từ ảnh xe tai nạn nhằm giảm thời gian và tăng tính nhất quán. Hiện quy trình xử lý ước tính mất 40–60 phút/hồ sơ, trong đó xác định hư hỏng và tra cứu thông tin chiếm khoảng 20–40 phút. AI chỉ đề xuất bộ phận hư hỏng, còn tra cứu thông tin xe và giá sử dụng Rule; mọi kết quả đều do giám định viên xác nhận. Nhóm chọn Workflow vì quy trình có các bước cố định. Tuy nhiên, dù đã thực hiện 3 cuộc phỏng vấn, nhóm chưa đo thời gian thực tế và chưa tiếp cận dữ liệu hồ sơ nên quyết định Not Yet. Bước tiếp theo là thử checklist và bảng giá trên 5 hồ sơ, với thời gian xử lý mục tiêu dự kiến giảm còn 17–20 phút/hồ sơ, trước khi quyết định có cần tích hợp AI hay không.
 ## 7. Tài liệu tham khảo
 
-- Pancake: https://pancake.vn/
-- Meta Business Suite — About Automated Responses: https://www.facebook.com/business/help/395965998733706
-- Shopee Seller Education Hub — Auto-Reply in Chat Assistant: https://seller.shopee.com.my/edu/article/3719/auto-reply-in-chat-assistant
+### 7.1. Tài liệu của lab
+
+- [README.md](../../README.md), [RULES.md](../../RULES.md), [CHECKPOINTS.md](../../CHECKPOINTS.md), [RUBRIC.md](../../RUBRIC.md) — đề bài, quy định dùng AI, tiêu chí chấm.
+- [docs/01-worksheet.md](../../docs/01-worksheet.md) — template và hướng dẫn từng checkpoint.
+- [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md) — bài mẫu "Báo cáo tuần của PM" (chỉ tham khảo cách làm, không dùng nội dung).
+- [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md) — bản đồ framework theo checkpoint.
+
+### 7.2. Framework đã áp dụng
+
+| Phần trong báo cáo | Framework | Nguồn |
+|---|---|---|
+| Toàn bài (Discover → Define) | Double Diamond — Design Council | https://www.designcouncil.org.uk/resources/framework-for-innovation/ |
+| CP1–CP2: viết problem dạng "Khi… tôi muốn… để…" | Job Story — Intercom | https://www.intercom.com/blog/accidentally-invented-job-stories/ |
+| CP5: Problem Statement không chứa giải pháp | Lean UX — Jeff Gothelf | https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/ |
+| CP5: boundary, người kiểm tra, phương án quay về | Guidelines for Human-AI Interaction — Microsoft Research | https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/ |
+
+### 7.3. Research giải pháp có sẵn (Problem Card #1 — chốt đơn từ inbox)
+
+- Pancake — nền tảng gộp hội thoại và ghi nhận đơn hàng trực tiếp từ hội thoại/livestream: https://pancake.vn/
+- Meta Business Suite — About Automated Responses (trả lời tự động theo từ khóa, tin chào, tin vắng mặt): https://www.facebook.com/business/help/395965998733706
+- Shopee Seller Education Hub — Auto-Reply in Chat Assistant (trả lời tự động mặc định và ngoài giờ): https://seller.shopee.com.my/edu/article/3719/auto-reply-in-chat-assistant
+
+### 7.4. Công cụ AI đã dùng
+
+- Claude Code (Anthropic) — dùng như mô tả ở mục 5: phản biện Problem Card và Problem Statement, dựng sơ đồ Mermaid, kiểm tra link research.
